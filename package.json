@@ -2,21 +2,17 @@
     "name": "countries-geo",
     "version": "1.0.1",
     "private": false,
-  "description": "The React Framework",
+  "description": "Library for fetching Continents, Countries, States and its Cities",
   "license": "MIT",
   "repository": "https://github.com/godfrednanaowusu/countries-geo",
   "bugs": "https://github.com/godfrednanaowusu/countries-geo/issues",
   "homepage": "https://github.com/godfrednanaowusu/countries-geo",
     "keywords": [
-        "react",
-        "framework",
-        "nextjs",
-        "web",
-        "server",
-        "node",
-        "front-end",
-        "backend",
-        "cli",
-        "vercel"
+        "continents",
+        "countries",
+        "states",
+        "cities",
+        "geo data",
+        "countries-geo"
       ]
 }
