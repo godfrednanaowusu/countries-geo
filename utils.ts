@@ -7,17 +7,22 @@ export const continents = (): TContinent[] => data?.map(({ i, n }) => ({iso: i, 
 // Countries
 export const countries = (): TCountry[] => data?.flatMap(continent => continent?.cn?.map(country => ({ iso: country.i, name: country.n })));
 export const countries_by_continent = (iso: string): TCountry[] => {
-    const continent = data?.find(c => c.i === iso);
+  try{  
+  const continent = data?.find(c => c.i === iso);
     if (!continent) return [];
     return continent?.cn?.map(country => ({
       iso: country.i,
       name: country.n
     }));
+  }catch(e){
+    return []
+  }
 };
 
 // States
 export const states = (): TState[] => data.flatMap(continent => continent.cn).map(state => ({ iso: state.i, name: state.n }));
 export const states_by_country = (iso: string) => {
+  try{
     for (const continent of data) {
       const country = continent.cn.find(c => c.i === iso);
       if (country?.s) {
@@ -25,13 +30,20 @@ export const states_by_country = (iso: string) => {
       }
     }
     return [];
+  }catch(e){
+    return []
+  }
 };
   export const states_by_continent = (iso: string) => {
+    try{
     const continent = data.find(c => c.i === iso);
     if (!continent) return [];
     return continent.cn
       .flatMap(country => country.s || [])
       .map(state => ({ iso: state.i, name: state.n }));
+    }catch(e){
+        return []
+      }
 };
 
 
@@ -78,21 +90,29 @@ export const cities_by_state = (iso: string): TCity[] => {
 };
 
 export const cities_by_country = (iso: string): TCity[] => {
+  try{
     return data
     .flatMap(continent => continent.cn)
     .find(country => country.i === iso)
     ?.s?.flatMap(state => state.c || [])
     ?.map(city => ({ iso: city.i, name: city.n })) || [];
+  }catch(e){
+    return []
+  }
 };
 
 export const cities_by_continent = (iso: string): TCity[] => {
-    const continent = data.find(c => c.i === iso);
+  try{
+  const continent = data.find(c => c.i === iso);
   if (!continent) return [];
   
   return continent.cn
     .flatMap(country => country.s || [])
     .flatMap(state => state.c || [])
     .map(city => ({ iso: city.i, name: city.n }));
+  }catch(e){
+    return []
+  }
 };
 
 

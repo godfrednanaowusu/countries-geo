@@ -12,7 +12,7 @@ const getByState = (iso:string) => cities_by_state(iso)
 // Get a country filtered cities
 const getByCountry = (iso:string) => cities_by_country(iso)
 
-// Get a country filtered cities
+// Get a continent filtered cities
 const getByContinent = (iso:string) => cities_by_continent(iso)
 
 export default {
