@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.mdx",
+    // "content_old/_app.tsx",
+    // "content_old/_document.tsx",
+    // "content_old/index.mdx",
+    "next-env.d.ts",
+    "next.config.ts",
+    ".next/types/**/*.ts", 
+    // "content_old/docs/authorization.mdx", 
+    "app/page.tsx", 
+    "app/_meta.js"  
+],
+  "exclude": [
+    "node_modules"
+  ]
+}

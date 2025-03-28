@@ -1,0 +1,92 @@
+---
+title: Countries
+---
+
+import { Steps, Tabs, Tab, Callout } from 'nextra/components'
+import CodeBlock  from '../../../components/code_block'
+ 
+# Countries Data
+
+<Steps>
+### Get All Countries
+
+This gives you an array of all countries.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="countries.ts"
+    import { Countries } from 'countries-geo';  
+
+    console.log(Countries.getAll); 
+    // Logs all Countries (e.g., [{ iso: "GH", name: "Ghana" }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="countries.ts"
+    let Countries = require('countries-geo').Countries;
+
+    console.log(Countries.getAll)
+    // Logs all Countries (e.g., [{ iso: "GH", name: "Ghana" }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+ 
+### Get All Countries sorted by isoCode
+This gives you an array of all countries specifically sorted by isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="countries.ts"
+    import { Countries } from 'countries-geo';  
+
+    console.log(Countries.sortByIsoCode); 
+    // Logs all Countries (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="countries.ts"
+    let Countries = require('countries-geo').Countries;
+
+    console.log(Countries.sortByIsoCode)
+    // Logs all Countries (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by iso.
+
+### Get Countries by Continent
+This gives you an array of all countries filtered by a Continent isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="countries.ts"
+    import { Countries } from 'countries-geo';  
+
+    console.log(Countries.getByContinent('AF')); 
+    // Logs all Countries (e.g., [{ iso: "GH", name: "Ghana" }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="countries.ts"
+    let Countries = require('countries-geo').Countries;
+
+    console.log(Countries.getByContinent('AF'))
+    // Logs all Countries (e.g., [{ iso: "GH", name: "Ghana" }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+</Steps>

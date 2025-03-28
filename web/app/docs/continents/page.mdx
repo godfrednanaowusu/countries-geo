@@ -1,0 +1,65 @@
+---
+title: Continents
+---
+
+import { Steps, Tabs, Tab, Callout } from 'nextra/components'
+import CodeBlock  from '../../../components/code_block'
+ 
+# Continents Data
+
+<Steps>
+### Get All Continents
+
+This gives you an array of all contients.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="continents.ts"
+    import { Continents } from 'countries-geo';  
+
+    console.log(Continents.getAll); 
+    // Logs all continents (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="continents.ts"
+    let Continents = require('countries-geo').Continents;
+
+    console.log(Continents.getAll)
+    // Logs all continents (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+ 
+### Get All Continents sorted by isoCode
+This gives you an array of all contients specifically sorted by isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="continents.ts"
+    import { Continents } from 'countries-geo';  
+
+    console.log(Continents.sortByIsoCode); 
+    // Logs all continents (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="continents.ts"
+    let Continents = require('countries-geo').Continents;
+
+    console.log(Continents.sortByIsoCode)
+    // Logs all continents (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by iso.
+</Steps>

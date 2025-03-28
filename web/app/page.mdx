@@ -1,0 +1,93 @@
+---
+title: Home
+description: Countries Geo.
+---
+
+import { Flex, Card, Heading, Text, Button, Grid } from "@radix-ui/themes";
+import { Cards } from "nextra/components";
+import { Leaf, ArrowRight, Globe } from "lucide-react";
+import Link from "next/link";
+
+<Flex direction={"column"} gap={"5"} py={"9"} my={"9"}>
+  <Heading size={{ initial: "8", md: "8", lg: "9" }} style={{ maxWidth: "800px" }}>Utility to access Continents, Countries, States and Cities</Heading>
+  <Text color={"gray"} style={{ maxWidth: "600px" }}>
+    This utility provide simple functions to improve the ease of accesssing Continents, Countries, States and Cities.
+  </Text>
+  <Flex>
+    <Button radius={"full"} size={"3"} color={'teal'} highContrast asChild>
+      <Link href={"/docs"}>Get Started</Link>
+    </Button>
+  </Flex>
+</Flex>
+
+<Grid columns={{initial:'2', md:'4'}} gap={'5'}>
+<Card size={'3'} >
+<Flex direction={'column'} gap={'4'}>
+<Flex gap={'3'} align={'center'}><Button size={"1"} variant={'soft'}><Globe size={'10'} /></Button><Heading>Continents</Heading></Flex>
+<Text color={'gray'} size={'1'}>
+Continents are the largest landmasses on Earth, typically divided into seven regions: Africa, Antarctica, Asia, Europe, North America, South America, and Australia. These vast areas are distinguished by geographical boundaries, cultural differences, and unique ecosystems.
+</Text>
+<Flex>
+<Button radius={'full'} size={'1'} variant={'soft'} asChild><Link href={'/docs/continents'}>Access Docs. <ArrowRight size={'10'} /> </Link></Button>
+</Flex>
+</Flex>
+</Card>
+
+<Card size={"3"}>
+  <Flex direction={"column"} gap={"4"}>
+    <Flex gap={"3"} align={"center"}>
+      <Button size={"1"} variant={"soft"}>
+        <Globe size={"10"} />
+      </Button>
+      <Heading>Countries</Heading>
+    </Flex>
+    <Text color={"gray"} size={"1"}>
+     Countries are sovereign political entities with defined borders, governments, and populations. Each country has its own laws, currency, and identity, such as the United States, Brazil, or Japan. 
+    </Text>
+    <Flex>
+      <Button radius={"full"} size={"1"} variant={"soft"} asChild>
+        <Link href={"/docs/countries"}>Access Docs <ArrowRight size={"10"} /></Link>
+      </Button>
+    </Flex>
+  </Flex>
+</Card>
+
+<Card size={"3"}>
+  <Flex direction={"column"} gap={"4"}>
+    <Flex gap={"3"} align={"center"}>
+      <Button size={"1"} variant={"soft"}>
+        <Globe size={"10"} />
+      </Button>
+      <Heading>States</Heading>
+    </Flex>
+    <Text color={"gray"} size={"1"}>
+      States/Regions are subdivisions within a country that help with administrative and political organization. For example, the U.S. has 50 states, India has 28 states, and Germany has 16 federal states.
+    </Text>
+    <Flex>
+      <Button radius={"full"} size={"1"} variant={"soft"} asChild>
+        <Link href={"/docs/states"}>Access Docs <ArrowRight size={"10"}/> </Link>
+      </Button>
+    </Flex>
+  </Flex>
+</Card>
+
+<Card size={"3"}>
+  <Flex direction={"column"} gap={"4"}>
+    <Flex gap={"3"} align={"center"}>
+      <Button size={"1"} variant={"soft"}>
+        <Globe size={"10"} />
+      </Button>
+      <Heading>Cities</Heading>
+    </Flex>
+    <Text color={"gray"} size={"1"}>
+      Cities/Towns are populated urban or semi-urban areas within a country, serving as centers for commerce, culture, and governance. 
+    </Text>
+    <Flex>
+      <Button radius={"full"} size={"1"} variant={"soft"} asChild>
+        <Link href={"/docs/cities"}>Access Docs <ArrowRight size={"10"}/> </Link>
+      </Button>
+    </Flex>
+  </Flex>
+</Card>
+
+</Grid>

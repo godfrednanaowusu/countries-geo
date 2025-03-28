@@ -1,0 +1,147 @@
+---
+title: Cities
+---
+
+import { Steps, Tabs, Tab, Callout } from 'nextra/components'
+import CodeBlock  from '../../../components/code_block'
+ 
+# Cities Data
+
+<Steps>
+### Get All Cities
+
+This gives you an array of all cities.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="cities.ts"
+    import { Cities } from 'countries-geo';  
+
+    console.log(Cities.getAll); 
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota" }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="cities.ts"
+    let Cities = require('countries-geo').Cities;
+
+    console.log(Cities.getAll)
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+ 
+### Get All Cities sorted by isoCode
+This gives you an array of all cities specifically sorted by isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="cities.ts"
+    import { Cities } from 'countries-geo';  
+
+    console.log(Cities.sortByIsoCode); 
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="cities.ts"
+    let Cities = require('countries-geo').Cities;
+
+    console.log(Cities.sortByIsoCode)
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by iso.
+
+### Get Cities by State
+This gives you an array of all cities filtered by a State isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="cities.ts"
+    import { Cities } from 'countries-geo';  
+
+    console.log(Cities.getByState('GH-AA')); 
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="cities.ts"
+    let Cities = require('countries-geo').Cities;
+
+    console.log(Cities.getByState('GH-AA'))
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+
+### Get Cities by Country
+This gives you an array of all cities filtered by a Country isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="cities.ts"
+    import { Cities } from 'countries-geo';  
+
+    console.log(Cities.getByCountry('GH')); 
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="cities.ts"
+    let Cities = require('countries-geo').Cities;
+
+    console.log(Cities.getByCountry('GH'))
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+
+### Get Cities by Continent
+This gives you an array of all cities filtered by a Continent isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="cities.ts"
+    import { Cities } from 'countries-geo';  
+
+    console.log(Cities.getByContinent('AF')); 
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="cities.ts"
+    let Cities = require('countries-geo').Cities;
+
+    console.log(Cities.getByContinent('AF'))
+    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+
+</Steps>

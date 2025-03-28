@@ -1,0 +1,120 @@
+---
+title: States
+---
+
+import { Steps, Tabs, Tab, Callout } from 'nextra/components'
+import CodeBlock  from '../../../components/code_block'
+ 
+# States Data
+
+<Steps>
+### Get All States
+
+This gives you an array of all states.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="states.ts"
+    import { States } from 'countries-geo';  
+
+    console.log(States.getAll); 
+    // Logs all States (e.g., [{ iso: "GH-AA", name: "Greater Accra" }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="states.ts"
+    let States = require('countries-geo').States;
+
+    console.log(States.getAll)
+    // Logs all States (e.g., [{ iso: "GH-AA", name: "Greater Accra"  }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+ 
+### Get All States sorted by isoCode
+This gives you an array of all states specifically sorted by isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="states.ts"
+    import { States } from 'countries-geo';  
+
+    console.log(States.sortByIsoCode); 
+    // Logs all States (e.g., [{ iso: "GH-AA", name: "Greater Accra"  }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="states.ts"
+    let States = require('countries-geo').States;
+
+    console.log(States.sortByIsoCode)
+    // Logs all States (e.g., [{ iso: "GH-AA", name: "Greater Accra"  }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by iso.
+
+### Get States by Country
+This gives you an array of all states filtered by a Country isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="states.ts"
+    import { States } from 'countries-geo';  
+
+    console.log(States.getByCountry('GH')); 
+    // Logs all States (e.g., [{ iso: "GH-AA", name: "Greater Accra"  }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="states.ts"
+    let States = require('countries-geo').States;
+
+    console.log(States.getByCountry('GH'))
+    // Logs all States (e.g., [{ iso: "GH-AA", name: "Greater Accra"  }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+
+### Get States by Continent
+This gives you an array of all states filtered by a Continent isoCode.
+
+<Tabs items={['ES6 Module', 'AMD Module']}>
+  <Tabs.Tab>
+    ```ts filename="states.ts"
+    import { States } from 'countries-geo';  
+
+    console.log(States.getByContinent('AF')); 
+    // Logs all States (e.g., [{ iso: "GH-AA", name: "Greater Accra"  }, ...])
+    ```
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+     ```ts filename="states.ts"
+    let States = require('countries-geo').States;
+
+    console.log(States.getByContinent('AF'))
+    // Logs all States (e.g., [{ iso: "GH-AA", name: "Greater Accra"  }, ...])
+    ```
+
+  </Tabs.Tab>
+  
+</Tabs>
+
+> By default this is sorted by name.
+
+</Steps>

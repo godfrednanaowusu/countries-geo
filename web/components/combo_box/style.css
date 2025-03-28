@@ -1,0 +1,10 @@
+.widget_item {
+    background:transparent;
+    border-radius:3px;
+    user-select: pointer;
+
+}
+
+.widget_item:hover {
+    background:rgba(211, 211, 211, 0.237)
+}
