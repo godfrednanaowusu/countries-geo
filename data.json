@@ -445,7 +445,61 @@
         {"i": "SS", "n": "South Sudan", "s": []},
         {"i": "SD", "n": "Sudan", "s": []},
         {"i": "TZ", "n": "Tanzania", "s": []},
-        {"i": "TG", "n": "Togo", "s": []},
+        {"i": "TG", "n": "Togo", "s": [
+          {
+            "i": "MA",
+            "n": "Maritime",
+            "c": [
+              {"i": "LO", "n": "Lomé"},
+              {"i": "AN", "n": "Aného"},
+              {"i": "TS", "n": "Tsévié"},
+              {"i": "VA", "n": "Vogan"},
+              {"i": "TA", "n": "Tabligbo"}
+            ]
+          },
+          {
+            "i": "PL",
+            "n": "Plateaux",
+            "c": [
+              {"i": "AT", "n": "Atakpamé"},
+              {"i": "KP", "n": "Kpalimé"},
+              {"i": "BA", "n": "Badou"},
+              {"i": "NK", "n": "Notsé"},
+              {"i": "SO", "n": "Sotouboua"}
+            ]
+          },
+          {
+            "i": "CE",
+            "n": "Centrale",
+            "c": [
+              {"i": "SO", "n": "Sokodé"},
+              {"i": "TB", "n": "Tchamba"},
+              {"i": "SR", "n": "Sotouboua"},
+              {"i": "BA", "n": "Bafilo"}
+            ]
+          },
+          {
+            "i": "KA",
+            "n": "Kara",
+            "c": [
+              {"i": "KA", "n": "Kara"},
+              {"i": "BA", "n": "Bassar"},
+              {"i": "NA", "n": "Niamtougou"},
+              {"i": "PR", "n": "Pagouda"}
+            ]
+          },
+          {
+            "i": "SA",
+            "n": "Savanes",
+            "c": [
+              {"i": "DA", "n": "Dapaong"},
+              {"i": "MA", "n": "Mango"},
+              {"i": "TI", "n": "Tandjouaré"},
+              {"i": "CE", "n": "Cinkassé"}
+            ]
+          }
+        ]
+      },
         {"i": "TN", "n": "Tunisia", "s": []},
         {"i": "UG", "n": "Uganda", "s": []},
         {"i": "EH", "n": "Western Sahara", "s": []},
