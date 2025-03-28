@@ -1,4 +1,4 @@
-import data from './data.json' assert { type: 'json' };
+import data from './data.json';
 import { TContinent, TCountry, TState, TCity } from './types';
 
 // Continents
@@ -52,37 +52,36 @@ export const cities = (): TCity[] => data.flatMap(continent => continent.cn).fla
 
 export const cities_by_state = (iso: string): TCity[] => {
   try {
-    // return []
       // Validate input format (e.g., 'GH-AA')
-      // if (!iso || typeof iso !== 'string' || iso.split('-').length !== 2) {
-      //     return [];
-      // }
+      if (!iso || typeof iso !== 'string' || iso.split('-').length !== 2) {
+          return [];
+      }
 
-      // const [countryIso, stateIso] = iso.split('-');
+      const [countryIso, stateIso] = iso.split('-');
       
-      // // Safely traverse the data structure
-      // if (!data || !Array.isArray(data)) return [];
+      // Safely traverse the data structure
+      if (!data || !Array.isArray(data)) return [];
       
-      // for (const continent of data) {
-      //     if (!continent.cn || !Array.isArray(continent.cn)) continue;
+      for (const continent of data) {
+          if (!continent.cn || !Array.isArray(continent.cn)) continue;
           
-      //     for (const country of continent.cn) {
-      //         if (country.i === countryIso) {
-      //             // Check if states exist and are iterable
-      //             if (!country.s || !Array.isArray(country.s)) return [];
+          for (const country of continent.cn) {
+              if (country.i === countryIso) {
+                  // Check if states exist and are iterable
+                  if (!country.s || !Array.isArray(country.s)) return [];
                   
-      //             const state = country.s.find(s => s.i === stateIso);
-      //             // Check if cities exist and are iterable
-      //             if (state?.c && Array.isArray(state.c)) {
-      //                 return state.c.map(city => ({
-      //                     iso: `${countryIso}-${stateIso}-${city.i}`,
-      //                     name: city.n
-      //                 }));
-      //             }
-      //             return []; // State found but no cities
-      //         }
-      //     }
-      // }
+                  const state = country.s.find(s => s.i === stateIso);
+                  // Check if cities exist and are iterable
+                  if (state?.c && Array.isArray(state.c)) {
+                      return state.c.map(city => ({
+                          iso: `${countryIso}-${stateIso}-${city.i}`,
+                          name: city.n
+                      }));
+                  }
+                  return []; // State found but no cities
+              }
+          }
+      }
       return []; // No matching country/state found
   } catch (error) {
       console.error('Error in cities_by_state:', error);

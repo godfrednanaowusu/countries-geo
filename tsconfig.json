@@ -1,16 +1,26 @@
 {
+  "compilerOptions": {
+    "target": "es2015",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */
+    "module": "es2020",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+    "strict": true,                           /* Enable all strict type-checking options. */
+    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
+    "outDir": "./lib",
+    "declaration": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "ts-node": {
+    // these options are overrides used only by ts-node
     "compilerOptions": {
-      "target": "ES6", // or higher (ES2020, etc.)
-      "module": "esnext", // CommonJS for Node, ESNext for modern JS
-      "declaration": true, // Generates .d.ts files
-      "declarationMap": true, // Helps with debugging types
-      "outDir": "./dist", // Output directory for compiled JS
-      "rootDir": "./src", // Source directory
-      "strict": true, // Enables strict type checking
-      "esModuleInterop": true, // Better ESM/CJS compatibility
-      "skipLibCheck": true, // Optional: Skips checking 3rd-party types
-      "moduleResolution": "node" // Ensures Node.js-style module resolution
-    },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "**/*.test.ts"]
-  }
+      "module": "commonjs"
+    }
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "__test__",
+    "scripts"
+  ]
+}
