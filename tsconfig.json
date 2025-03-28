@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6", // or higher (ES2020, etc.)
+      "module": "esnext", // CommonJS for Node, ESNext for modern JS
+      "declaration": true, // Generates .d.ts files
+      "declarationMap": true, // Helps with debugging types
+      "outDir": "./dist", // Output directory for compiled JS
+      "rootDir": "./src", // Source directory
+      "strict": true, // Enables strict type checking
+      "esModuleInterop": true, // Better ESM/CJS compatibility
+      "skipLibCheck": true, // Optional: Skips checking 3rd-party types
+      "moduleResolution": "node" // Ensures Node.js-style module resolution
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.test.ts"]
+  }
