@@ -7,10 +7,10 @@ const getAll = states()?.sort((a, b) => a.name.localeCompare(b.name));
 const sortByIsoCode = states()?.sort((a, b) => a.iso.localeCompare(b.iso));
 
 // Get a country filtered states
-const getByCountry = (iso:string) => states_by_country(iso)
+const getByCountry = (iso) => states_by_country(iso)
 
 // Get a continent filtered states
-const getByContinent = (iso:string) => states_by_continent(iso)
+const getByContinent = (iso) => states_by_continent(iso)
 
 export default {
     getAll,

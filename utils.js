@@ -1,12 +1,11 @@
 import data from './data.json';
-import { TContinent, TCountry, TState, TCity } from './types';
 
 // Continents
-export const continents = (): TContinent[] => data?.map(({ i, n }) => ({iso: i, name: n}));
+export const continents = () => data?.map(({ i, n }) => ({iso: i, name: n}));
 
 // Countries
-export const countries = (): TCountry[] => data?.flatMap(continent => continent?.cn?.map(country => ({ iso: country.i, name: country.n })));
-export const countries_by_continent = (iso: string): TCountry[] => {
+export const countries = () => data?.flatMap(continent => continent?.cn?.map(country => ({ iso: country.i, name: country.n })));
+export const countries_by_continent = (iso) => {
   try{  
   const continent = data?.find(c => c.i === iso);
     if (!continent) return [];
@@ -20,8 +19,8 @@ export const countries_by_continent = (iso: string): TCountry[] => {
 };
 
 // States
-export const states = (): TState[] => data.flatMap(continent => continent.cn).map(state => ({ iso: state.i, name: state.n }));
-export const states_by_country = (iso: string) => {
+export const states = () => data.flatMap(continent => continent.cn).map(state => ({ iso: state.i, name: state.n }));
+export const states_by_country = (iso) => {
   try{
     for (const continent of data) {
       const country = continent.cn.find(c => c.i === iso);
@@ -34,7 +33,7 @@ export const states_by_country = (iso: string) => {
     return []
   }
 };
-  export const states_by_continent = (iso: string) => {
+  export const states_by_continent = (iso) => {
     try{
     const continent = data.find(c => c.i === iso);
     if (!continent) return [];
@@ -48,9 +47,9 @@ export const states_by_country = (iso: string) => {
 
 
 // Cities
-export const cities = (): TCity[] => data.flatMap(continent => continent.cn).flatMap(country => country.s || []).flatMap(state => state.c || []).map(city => ({ iso: city.i, name: city.n }));
+export const cities = () => data.flatMap(continent => continent.cn).flatMap(country => country.s || []).flatMap(state => state.c || []).map(city => ({ iso: city.i, name: city.n }));
 
-export const cities_by_state = (iso: string): TCity[] => {
+export const cities_by_state = (iso) => {
   try {
       // Validate input format (e.g., 'GH-AA')
       if (!iso || typeof iso !== 'string' || iso.split('-').length !== 2) {
@@ -89,7 +88,7 @@ export const cities_by_state = (iso: string): TCity[] => {
   }
 };
 
-export const cities_by_country = (iso: string): TCity[] => {
+export const cities_by_country = (iso) => {
   try{
     return data
     .flatMap(continent => continent.cn)
@@ -101,7 +100,7 @@ export const cities_by_country = (iso: string): TCity[] => {
   }
 };
 
-export const cities_by_continent = (iso: string): TCity[] => {
+export const cities_by_continent = (iso) => {
   try{
   const continent = data.find(c => c.i === iso);
   if (!continent) return [];
