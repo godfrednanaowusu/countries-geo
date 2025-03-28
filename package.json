@@ -1,6 +1,6 @@
 {
     "name": "countries-geo",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "private": false,
     "description": "Library for fetching Continents, Countries, States and its Cities",
     "license": "MIT",
