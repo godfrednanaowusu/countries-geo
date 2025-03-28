@@ -14,7 +14,7 @@ This gives you an array of all countries.
 
 <Tabs items={['ES6 Module', 'AMD Module']}>
   <Tabs.Tab>
-    ```ts filename="countries.ts"
+    ```ts filename="countries.ts" showLineNumbers copy
     import { Countries } from 'countries-geo';  
 
     console.log(Countries.getAll); 
@@ -23,7 +23,7 @@ This gives you an array of all countries.
   </Tabs.Tab>
   
   <Tabs.Tab>
-     ```ts filename="countries.ts"
+     ```ts filename="countries.ts" showLineNumbers copy
     let Countries = require('countries-geo').Countries;
 
     console.log(Countries.getAll)
@@ -41,7 +41,7 @@ This gives you an array of all countries specifically sorted by isoCode.
 
 <Tabs items={['ES6 Module', 'AMD Module']}>
   <Tabs.Tab>
-    ```ts filename="countries.ts"
+    ```ts filename="countries.ts" showLineNumbers copy
     import { Countries } from 'countries-geo';  
 
     console.log(Countries.sortByIsoCode); 
@@ -50,7 +50,7 @@ This gives you an array of all countries specifically sorted by isoCode.
   </Tabs.Tab>
   
   <Tabs.Tab>
-     ```ts filename="countries.ts"
+     ```ts filename="countries.ts" showLineNumbers copy
     let Countries = require('countries-geo').Countries;
 
     console.log(Countries.sortByIsoCode)
@@ -68,7 +68,7 @@ This gives you an array of all countries filtered by a Continent isoCode.
 
 <Tabs items={['ES6 Module', 'AMD Module']}>
   <Tabs.Tab>
-    ```ts filename="countries.ts"
+    ```ts filename="countries.ts" showLineNumbers copy
     import { Countries } from 'countries-geo';  
 
     console.log(Countries.getByContinent('AF')); 
@@ -77,7 +77,7 @@ This gives you an array of all countries filtered by a Continent isoCode.
   </Tabs.Tab>
   
   <Tabs.Tab>
-     ```ts filename="countries.ts"
+     ```ts filename="countries.ts" showLineNumbers copy
     let Countries = require('countries-geo').Countries;
 
     console.log(Countries.getByContinent('AF'))

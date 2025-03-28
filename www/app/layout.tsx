@@ -8,7 +8,7 @@ import 'nextra-theme-docs/style.css'
 import { Flex, Heading, Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import { Earth } from 'lucide-react';
-import { SiGitlab } from'react-icons/si';
+// import { SiGitlab } from'react-icons/si';
 
  
 export const metadata = {
@@ -60,6 +60,7 @@ export default async function RootLayout({ children }) {
           footer={footer}
           editLink={'https://github.com'}
           feedback={{content:'Edit feedback'}}
+          
 
           // ... Your additional layout options
         >
