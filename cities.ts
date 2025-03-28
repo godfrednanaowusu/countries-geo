@@ -10,10 +10,10 @@ const sortByIsoCode = cities()?.sort((a, b) => a.iso.localeCompare(b.iso));
 // const getByState = (iso:string) => cities_by_state(iso)
 
 // Get a country filtered cities
-const getByCountry = (iso:string) => cities_by_country(iso)
+const getByCountry = (iso) => cities_by_country(iso)
 
 // Get a continent filtered cities
-const getByContinent = (iso:string) => cities_by_continent(iso)
+const getByContinent = (iso) => cities_by_continent(iso)
 
 export default {
     getAll,
