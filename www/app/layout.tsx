@@ -31,11 +31,11 @@ const navbar = (
   />
 )
 const footer = <Footer>
-  <Flex justify={'between'} align={'center'} width={'100%'}>
+  <Flex justify={'between'} align={'center'} width={'100%'} gap={'5'} wrap={'wrap'}>
     <Flex direction={'column'}>
   MIT {new Date().getFullYear()} © Countries Geo.
   </Flex>
-  <Flex gap={'3'}>
+  <Flex gap={'3'} justify={'end'}>
     <Text >Made by <Link href={'https://github.com/godfrednanaowusu'}><b>Godfred Owusu</b></Link></Text>
   </Flex>
   </Flex>

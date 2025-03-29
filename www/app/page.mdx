@@ -8,7 +8,7 @@ import { Cards } from "nextra/components";
 import { Leaf, ArrowRight, Globe } from "lucide-react";
 import Link from "next/link";
 
-<Flex direction={"column"} gap={"5"} py={"9"} my={"9"}>
+<Flex direction={"column"} gap={"5"} py={{initial:'4', md:'9'}} my={"9"}>
   <Heading size={{ initial: "8", md: "8", lg: "9" }} style={{ maxWidth: "800px" }}>Utility to access Continents, Countries, States and Cities</Heading>
   <Text color={"gray"} style={{ maxWidth: "600px" }}>
     This utility provide simple functions to improve the ease of accesssing Continents, Countries, States and Cities.
@@ -20,7 +20,7 @@ import Link from "next/link";
   </Flex>
 </Flex>
 
-<Grid columns={{initial:'2', md:'4'}} gap={'5'}>
+<Grid columns={{initial:'1', sm:'2', md:'4'}} gap={'5'}>
 <Card size={'3'} >
 <Flex direction={'column'} gap={'4'}>
 <Flex gap={'3'} align={'center'}><Button size={"1"} variant={'soft'}><Globe size={'10'} /></Button><Heading>Continents</Heading></Flex>
