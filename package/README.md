@@ -16,10 +16,9 @@
 
 ## Getting Started
 
-Used by some of the world's largest companies, Countries Geo enables you to create full-stack web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.
+Utility that provide simple functions to improve the ease of fetching Continents, Countries, States and Cities..
 
-- Visit our [Learn Countries Geo](https://countries-geo.vercel.app/learn) course to get started with Countries Geo.
-- Visit the [Countries Geo Showcase](https://countries-geo.vercel.app/showcase) to see more sites built with Countries Geo.
+- Visit our [Site](https://countries-geo.vercel.app) to learn more.
 
 ## Documentation
 
