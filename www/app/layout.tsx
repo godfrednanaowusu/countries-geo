@@ -1,15 +1,12 @@
+import "../styles/globals.css";
+import 'nextra-theme-docs/style.css'
+
 import { Footer, Layout, Navbar } from 'nextra-theme-docs'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
-// import ThemeLayout from "../layouts/ThemeLayout.jsx";
-import "../styles/globals.css";
-import 'nextra-theme-docs/style.css'
-// import ThemeLayout from '../layouts/ThemeLayout.jsx';
 import { Flex, Heading, Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import { Earth } from 'lucide-react';
-// import { SiGitlab } from'react-icons/si';
-
  
 export const metadata = {
   title: {
