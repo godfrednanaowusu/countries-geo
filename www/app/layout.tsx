@@ -11,7 +11,6 @@ import { Earth } from 'lucide-react';
 export const metadata = {
   title: {
     default: 'Countries Geo – Utility for fetching Continents, Countries, States and Cities',
-    // template: '%s | Nextra'
   },
   openGraph: {
     url: 'https://countries-geo.vercel.app',
@@ -25,8 +24,7 @@ const banner = <Banner storageKey="some-key">Version 0.0.1 is released 🎉</Ban
 const navbar = (
   <Navbar
     logo={<Flex gap={'3'} align={'center'}><Earth size={"30"} color={'teal'} /><Heading color={'teal'} weight={'bold'}>Countries Geo</Heading></Flex>}
-    projectLink="https://github.com/shuding/nextra"
-    // projectIcon={<SiGitlab/>}
+    projectLink="https://github.com/godfrednanaowusu/countries-geo"
     
   />
 )
@@ -34,37 +32,20 @@ const footer = <Footer>MIT {new Date().getFullYear()} © Countries Geo.</Footer>
  
 export default async function RootLayout({ children }) {
   return (
-    <html
-      // Not required, but good for SEO
-      lang="en"
-      // Required to be set
-      dir="ltr"
-      // Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
-      suppressHydrationWarning
-    >
-      <Head
-      // ... Your additional head options
-      >
-        {/* Your additional tags should be passed as `children` of `<Head>` element */}
-      </Head>
+    <html lang="en" dir="ltr" suppressHydrationWarning>
+      <Head />
       <body>
       <Theme appearance="inherit" accentColor="gray">
         <Layout
           banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com"
+          docsRepositoryBase="https://github.com/godfrednanaowusu/countries-geo"
           footer={footer}
-          editLink={'https://github.com'}
+          editLink={'https://github.com/godfrednanaowusu/countries-geo'}
           feedback={{content:'Edit feedback'}}
-          
-
-          // ... Your additional layout options
         >
-          
           {children}
-          
-          
         </Layout>
         </Theme>
       </body>

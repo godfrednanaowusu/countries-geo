@@ -19,13 +19,5 @@ export default {
         "typesetting": "article",
         "toc":false
       }
-    },
-
-    "donate": {
-      "title":"Donation",
-      "type": "doc",
-      "href": "https://github.com",
-      
-    }
-  
+    }  
 }
