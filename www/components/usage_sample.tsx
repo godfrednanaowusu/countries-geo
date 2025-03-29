@@ -3,15 +3,15 @@
 import { Flex } from "@radix-ui/themes";
 import { useState } from "react";
 // import {Continents, Countries, States, Cities} from 'countries-geo'
-import ComboBox from "./combo_box/index.jsx";
+import ComboBox from "./combo_box";
 import Flag from "react-world-flags";
 
 
 export default function UsageSample(){
-    // const Continents:any = []
-    // const Countries:any = []
-    // const States:any = []
-    // const Cities:any = []
+    const Continents:any = null
+    const Countries:any = null
+    const States:any = null
+    const Cities:any = null
 
     const [getContinent, setContinent] = useState('')
     const [getCountry, setCountry] = useState('')
@@ -20,7 +20,7 @@ export default function UsageSample(){
     return (
         <Flex gap={'3'} >
             
-             {/* <ComboBox
+             <ComboBox
                                 placeholder="Select Continent"
                                 noItemsText={"All Continents"}
                                 value={getContinent}
@@ -75,7 +75,7 @@ export default function UsageSample(){
                                   value: val.iso,
                                   text: val.name,
                                 }))}
-                              />  */}
+                              /> 
         </Flex>
     )
 }
