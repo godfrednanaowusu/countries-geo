@@ -5,21 +5,21 @@ export type TContinentData = {
   };
   
 export type TContinent = {
-    iso: string;
-    name: string;
+    iso: string;    // Represents ISO code
+    name: string;    // Represents name
 };
 
 export type TCountry = {
-    iso: string;
-    name: string;
+    iso: string;    // Represents ISO code
+    name: string;    // Represents name
 };
 
 export type TState = {
-    iso: string;
-    name: string;
+    iso: string;    // Represents ISO code
+    name: string;    // Represents name
 };
 
 export type TCity = {
-    iso: string;
-    name: string;
+    iso: string;    // Represents ISO code
+    name: string;    // Represents name
 };
