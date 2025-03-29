@@ -1,4 +1,4 @@
-import { cities, cities_by_country, cities_by_state, cities_by_continent } from '../utils';
+import { cities, cities_by_country, cities_by_state, cities_by_continent } from './utils/cities';
 
 // Get a list of all cities.
 const getAll = cities()?.sort((a, b) => a.name.localeCompare(b.name));

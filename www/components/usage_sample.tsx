@@ -2,7 +2,7 @@
 
 import { Flex } from "@radix-ui/themes";
 import { useState } from "react";
-import {Continents, Countries, States, Cities} from '../../package/index'
+import {Continents, Countries, States, Cities} from '../../package/src'
 import ComboBox from "./combo_box";
 import Flag from "react-world-flags";
 
