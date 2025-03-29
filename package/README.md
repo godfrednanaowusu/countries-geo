@@ -24,70 +24,34 @@ Utility that provide simple functions to improve the ease of fetching Continents
 
 Visit [https://countries-geo.vercel.app/docs](https://countries-geo.vercel.app/docs) to view the full documentation.
 
-## Community
-
-The Countries Geo community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions) where you can ask questions, voice ideas, and share your projects with other people.
-
-To chat with other community members you can join the Countries Geo [Discord](https://countries-geo.vercel.app/discord) server.
-
-Do note that our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_CONDUCT.md) applies to all Countries Geo community channels. Users are **highly encouraged** to read and adhere to them to avoid repercussions.
-
 ## Contributing
 
 Contributions to Countries Geo are welcome and highly appreciated. However, before you jump right into it, we would like you to review our [Contribution Guidelines](/contributing.md) to make sure you have a smooth experience contributing to Countries Geo.
 
-### Good First Issues:
-
-We have a list of **[good first issues](https://github.com/vercel/next.js/labels/good%20first%20issue)** that contain bugs that have a relatively limited scope. This is a great place for newcomers and beginners alike to get started, gain experience, and get familiar with our contribution process.
-
 ---
 
-## Security
-
-If you believe you have found a security vulnerability in Countries Geo, we encourage you to **_responsibly disclose this and NOT open a public issue_**. We will investigate all legitimate reports.
-
-Our preference is that you make use of GitHub's private vulnerability reporting feature to disclose potential security vulnerabilities in our Open Source Software. To do this, please visit [https://github.com/vercel/next.js/security](https://github.com/vercel/next.js/security) and click the "Report a vulnerability" button.
-
-
-
-
-
-country-state-city
-==============================
-Basic library for Country, State and City
-
-Data Source:<br>
-https://github.com/dr5hn/countries-states-cities-database<br>
-For any data related issue, you can also raise a Issue [here](https://github.com/dr5hn/countries-states-cities-database/issues/new).
-
 # Install
-`npm i country-state-city`
-
-# Demos - Tree Shaking
-1. Countries Geo
-	- [Repo Link](https://github.com/harpreetkhalsagtbit/next-js-country-state-city-tree-shake-demo)
-	- [Demo](https://next-js-country-state-city-tree-shake-demo.vercel.app) (production build)
-3. React.js
-	- [Repo Link](https://github.com/harpreetkhalsagtbit/react-js-country-state-city-tree-shake-demo)
-	- [Demo](https://react-js-country-state-city-tree-shake-demo.vercel.app) (production build)
+```sh filename="shell" copy
+npm i countries-geo
+````
 
 # Release Info & Documentation
-1. [Release v3.2.0](https://github.com/harpreetkhalsagtbit/country-state-city/tree/hotfix/reduced-city-json-file-size)
+1. [Release v3.2.0](https://github.com/harpreetkhalsagtbit/countries-geo/tree/hotfix/reduced-city-json-file-size)
 	1. To optimize bundle size, the data JSON files have undergone minification. For instance, the `city.json` file, which was originally around 25MB in an unminified state, has now been reduced to approximately 8MB through minification.
 	2. The structure of the `city.json` file has been transformed from an Array of Objects to an Array of Arrays of Strings. Previously, the file contained duplicate property names for each object, resulting in a minified file size of 16MB due to JSON formatting requirements. To further minimize this, the file structure has been converted to an Array of Arrays, astonishingly reducing the size to 8MB.
 	3. To accommodate this updated structure, modifications were made to the `city.ts` file. Importantly, these changes do not affect the functionality of existing code. All existing code will continue to work seamlessly without any breaking changes.
-2. [Release v3.1.0](https://github.com/harpreetkhalsagtbit/country-state-city/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#release--v310)
-    1. [Overview](https://github.com/harpreetkhalsagtbit/country-state-city/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#overview)
+2. [Release v3.1.0](https://github.com/harpreetkhalsagtbit/countries-geo/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#release--v310)
+    1. [Overview](https://github.com/harpreetkhalsagtbit/countries-geo/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#overview)
 	2. [How to contribute to Country, State, City Database, request changes and report issue?
-](https://github.com/harpreetkhalsagtbit/country-state-city/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#how-to-contribute-to-country-state-city-database-request-changes-and-report-issue)
+](https://github.com/harpreetkhalsagtbit/countries-geo/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#how-to-contribute-to-countries-geo-database-request-changes-and-report-issue)
 	3. [How Data will be Released finally?
-](https://github.com/harpreetkhalsagtbit/country-state-city/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#how-data-will-be-released-finally)
-3. [Usage](https://github.com/harpreetkhalsagtbit/country-state-city/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#usage)
+](https://github.com/harpreetkhalsagtbit/countries-geo/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#how-data-will-be-released-finally)
+3. [Usage](https://github.com/harpreetkhalsagtbit/countries-geo/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#usage)
 	1. [Release : v3.0.0 (Major Version Release - Not backward compatible)
-](https://github.com/harpreetkhalsagtbit/country-state-city/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#release--v300-major-version-release---not-backward-compatible)
+](https://github.com/harpreetkhalsagtbit/countries-geo/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#release--v300-major-version-release---not-backward-compatible)
 	2. [For versions below v2.2.0 and above v0.1.8
-](https://github.com/harpreetkhalsagtbit/country-state-city/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#for-versions-below-v220-and-above-v018)
-4. [Docs](https://github.com/harpreetkhalsagtbit/country-state-city/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#docs)
+](https://github.com/harpreetkhalsagtbit/countries-geo/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#for-versions-below-v220-and-above-v018)
+4. [Docs](https://github.com/harpreetkhalsagtbit/countries-geo/tree/hotfix/split-csc-data-for-better-debugging-and-fixing-data#docs)
 
 ## Release : `v3.1.0`
 
@@ -129,20 +93,20 @@ Please follow this [guidelines](/dataUpdateGuide.md)
    
      ```js
 	// Latest version - v3.0.0 with Tree Shaking to reduce bundle size
-	import { Country, State, City }  from 'country-state-city';
+	import { Country, State, City }  from 'countries-geo';
 	console.log(Country.getAllCountries())
 	console.log(State.getAllStates())
 
      // Import Interfaces`
-	 import { ICountry, IState, ICity } from 'country-state-city'
+	 import { ICountry, IState, ICity } from 'countries-geo'
 	 
      ```
   - AMD Module usage
   
     ```js
 	// Latest version - v3.0.0
-	let Country = require('country-state-city').Country;
-	let State = require('country-state-city').State;
+	let Country = require('countries-geo').Country;
+	let State = require('countries-geo').State;
 
 	console.log(Country.getAllCountries())
 	console.log(State.getAllStates())
@@ -155,13 +119,13 @@ Please follow this [guidelines](/dataUpdateGuide.md)
   - ES6 Module usage
    
      ```js
-     import csc from 'country-state-city';
+     import csc from 'countries-geo';
      ```
 
   - AMD Module usage
   
     ```js
-    let csc = require('country-state-city').default;
+    let csc = require('countries-geo').default;
     ```
 
 # Docs
