@@ -1,1 +1,1 @@
-./package/README.md
+./www/README.md
