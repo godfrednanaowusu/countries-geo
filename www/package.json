@@ -16,8 +16,8 @@
     "next": "^15.1.7",
     "nextra": "^4.2.13",
     "nextra-theme-docs": "^4.2.13",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@radix-ui/themes": "latest",
