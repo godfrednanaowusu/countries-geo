@@ -28,8 +28,6 @@ Visit [https://countries-geo.vercel.app/docs](https://countries-geo.vercel.app/d
 
 Contributions to Countries Geo are welcome and highly appreciated. However, before you jump right into it, we would like you to review our [Contribution Guidelines](/contributing.md) to make sure you have a smooth experience contributing to Countries Geo.
 
----
-
 ## Installation
 ```sh filename="shell" copy
 # with Yarn
