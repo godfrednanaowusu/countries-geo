@@ -1,8 +1,8 @@
 <div align="center">
   <a href="https://countries-geo.vercel.app">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/godfrednanaowusu/countries-geo/blob/main/www/public/logo_white.png">
-      <img alt="Countries Geo logo" src="https://github.com/godfrednanaowusu/countries-geo/blob/main/www/public/logo_white.png" height="128">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/godfrednanaowusu/countries-geo/blob/main/www/public/logo.png">
+      <img alt="Countries Geo logo" src="https://github.com/godfrednanaowusu/countries-geo/blob/main/www/public/logo.png" height="128">
     </picture>
   </a>
   <h1>Countries Geo</h1>
