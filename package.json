@@ -4,11 +4,13 @@
     "private": false,
     "scripts": {
       "prepare": "husky install",
+      "www": "pnpm --filter=./countries-geo/www",
       "build": "pnpm --filter=./package/* build",
+      "install-web":"pnpm --filter countries-geo-web install",
       "test": "jest",
       "prepublish": "npm run build",
-      "lint": "eslint index.ts __test__ --fix",
-      "www": "pnpm --filter countries-geo-web dev"
+      "lint": "eslint index.ts __test__ --fix"
+
     },
     "husky": {
       "hooks": {
