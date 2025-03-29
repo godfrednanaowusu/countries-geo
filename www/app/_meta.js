@@ -24,7 +24,7 @@ export default {
     "donate": {
       "title":"Donation",
       "type": "doc",
-      "href": "https://github.com",
+      "href": "https://opencollective.com",
       
     }
   
