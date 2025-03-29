@@ -8,11 +8,6 @@ import Flag from "react-world-flags";
 
 
 export default function UsageSample(){
-    // const Continents:any = null
-    // const Countries:any = null
-    // const States:any = null
-    // const Cities:any = null
-
     const [getContinent, setContinent] = useState('')
     const [getCountry, setCountry] = useState('')
     const [getState, setState] = useState('')
