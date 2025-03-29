@@ -1,4 +1,4 @@
-import data from '../data.json' assert { type: 'json' };
+import data from '../data.json' 
 import { TCity } from './interface';
 
 // Cities

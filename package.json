@@ -2,6 +2,7 @@
     "name": "countries-geo-root",
     "version": "0.0.1",
     "private": false,
+    "workspaces":["www/*", "package/*"],
     "scripts": {
       "prepare": "husky install",
       "www": "pnpm --filter=./countries-geo/www",
