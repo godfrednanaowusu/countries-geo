@@ -4,32 +4,61 @@ title: Showcase
 
 import {Flex, Card, Heading, Text, Button, Grid} from '@radix-ui/themes'
 import {Cards} from 'nextra/components'
+import Link from 'next/link'
 
-<Flex direction={'column'} align={'center'} gap={'5'} py={'5'}>
-<Heading size={'8'} style={{maxWidth:'700px'}}>Platforms using this Service</Heading>
-<Text size={'2'} color={'gray'}  mx={'auto'} style={{maxWidth:'300px', textAlign:'center'}}>Extend your development by leverage on services from the Marketplace</Text>
+<Flex direction={'column'} align={'center'} gap={'3'} py={'5'} mb={'5'}>
+<Heading size={'8'} style={{maxWidth:'700px'}}>Showcase</Heading>
+<Text size={'2'} color={'gray'}  mx={'auto'} style={{maxWidth:'500px', textAlign:'center'}}>A lot of platforms trust and use this utility, these are just a few.</Text>
 
 </Flex>
 
 <Grid columns={{initial:'2', md:'4'}} gap={'5'}>
 <Card size={'3'}>
-<Heading>Website 1</Heading>
-<Text color={'gray'} size={'2'}>Website 1</Text>
+<Card style={{background:'teal', height:'200px'}}></Card>
+<Flex direction={'column'} align={'center'} justify={'center'} mt={'5'}>
+<Heading as={'h2'} size={'7'} >Growforme</Heading>
+<Text color={'gray'} > <Link href={'https://growforme.com'} target={'_blank'}>growforme.com</Link></Text>
+</Flex>
 </Card>
 
 <Card size={'3'}>
-<Heading>Website 2</Heading>
-<Text color={'gray'} size={'2'}>Website 2</Text>
+<Card style={{background:'orange', height:'200px'}}></Card>
+<Flex direction={'column'} align={'center'} justify={'center'} mt={'5'}>
+<Heading as={'h2'} size={'7'} >Afrisaf</Heading>
+<Text color={'gray'} > <Link href={'https://afrisaf.com'} target={'_blank'}>afrisaf.com</Link></Text>
+</Flex>
 </Card>
 
 <Card size={'3'}>
-<Heading>Website 3</Heading>
-<Text color={'gray'} size={'2'}>Website 3</Text>
+<Card style={{background:'violet', height:'200px'}}></Card>
+<Flex direction={'column'} align={'center'} justify={'center'} mt={'5'}>
+<Heading as={'h2'} size={'7'} >Schoolz</Heading>
+<Text color={'gray'} > <Link href={'https://schoolzadmin.com'} target={'_blank'}>schoolzadmin.com</Link></Text>
+</Flex>
 </Card>
 
 <Card size={'3'}>
-<Heading>Website 4</Heading>
-<Text color={'gray'} size={'2'}>Website 4</Text>
+<Card style={{background:'purple', height:'200px'}}></Card>
+<Flex direction={'column'} align={'center'} justify={'center'} mt={'5'}>
+<Heading as={'h2'} size={'7'} >Dabi TV</Heading>
+<Text color={'grat'} > <Link href={'https://dabitv.com'} target={'_blank'}>dabitv.com</Link></Text>
+</Flex>
+</Card>
+
+<Card size={'3'}>
+<Card style={{background:'brown', height:'200px'}}></Card>
+<Flex direction={'column'} align={'center'} justify={'center'} mt={'5'}>
+<Heading as={'h2'} size={'7'} >HAG</Heading>
+<Text color={'gray'} > <Link href={'https://humanitarianawardsglobal.com'} target={'_blank'}>HAG</Link></Text>
+</Flex>
+</Card>
+
+<Card size={'3'}>
+<Card style={{background:'teal', height:'200px'}}></Card>
+<Flex direction={'column'} align={'center'} justify={'center'} mt={'5'}>
+<Heading as={'h2'} size={'7'} >Owners-Key</Heading>
+<Text color={'gray'} > <Link href={'https://owners-key.com'} target={'_blank'}>owners-key.com</Link></Text>
+</Flex>
 </Card>
 
 </Grid>
