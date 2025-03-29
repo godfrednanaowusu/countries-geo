@@ -13,7 +13,7 @@
   "author": "Godfred Nana Owusu <https://github.com/godfrednanaowusu>",
   "license": "MIT",
   "dependencies": {
-    "next": "^15.1.7",
+    "next": "latest",
     "nextra": "^4.2.13",
     "nextra-theme-docs": "^4.2.13",
     "react": "latest",
