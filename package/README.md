@@ -7,7 +7,7 @@
   </a>
   <h1>Countries Geo</h1>
 
-[![Static Badge](https://img.shields.io/badge/minzipped%20size%20-%2014%20KB%20-%20teal)](https://npmjs.com/package/countries-geo)
+[![Static Badge](https://img.shields.io/badge/minzipped%20size%20-%2014%20KB%20-%20blue)](https://npmjs.com/package/countries-geo)
 
 <!-- <a href="https://vercel.com"><img alt="Vercel logo" src="https://img.shields.io/badge/MADE%20BY%20Vercel-000000.svg?style=for-the-badge&logo=Vercel&labelColor=000"></a>
 <a href="https://www.npmjs.com/package/next"><img alt="NPM version" src="https://img.shields.io/npm/v/next.svg?style=for-the-badge&labelColor=000000"></a>
