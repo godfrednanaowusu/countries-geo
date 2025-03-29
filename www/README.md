@@ -8,10 +8,10 @@
   <h1>Countries Geo</h1>
 
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/countries-geo?style=for-the-badge&labelColor=0000FF)](https://npmjs.com/package/countries-geo)
-[![Version](https://img.shields.io/npm/v/countries-geo?icon=npm&style=for-the-badge&labelColor=000000)](https://npmjs.com/package/countries-geo)
-[![License](https://img.shields.io/npm/l/countries-geo?style=for-the-badge&labelColor=000000)](https://npmjs.com/package/countries-geo/license.md)
-[![Downloads](https://img.shields.io/npm/dm/countries-geo?icon=github&style=for-the-badge&labelColor=000000)](https://npmjs.com/package/countries-geo)
-[![GitHub Repo stars](https://img.shields.io/github/stars/godfrednanaowusu/countries-geo?icon=github&style=for-the-badge&logo=github&labelColor=000000)](https://npmjs.com/package/countries-geo)
+[![Version](https://img.shields.io/npm/v/countries-geo?logo=npm&style=for-the-badge&labelColor=000000)](https://npmjs.com/package/countries-geo)
+[![License](https://img.shields.io/npm/l/countries-geo?logo=github&style=for-the-badge&labelColor=000000)](https://npmjs.com/package/countries-geo/license.md)
+[![Downloads](https://img.shields.io/npm/dm/countries-geo?logo=npm&style=for-the-badge&labelColor=000000)](https://npmjs.com/package/countries-geo)
+[![GitHub Repo stars](https://img.shields.io/github/stars/godfrednanaowusu/countries-geo?style=for-the-badge&logo=github&labelColor=000000)](https://npmjs.com/package/countries-geo)
 
 <!-- <a href="https://vercel.com"><img alt="Vercel logo" src="https://img.shields.io/badge/MADE%20BY%20Vercel-000000.svg?style=for-the-badge&logo=Vercel&labelColor=000"></a>
 <a href="https://www.npmjs.com/package/next"><img alt="NPM version" src="https://img.shields.io/npm/v/next.svg?style=for-the-badge&labelColor=000000"></a>
