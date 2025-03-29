@@ -14,11 +14,6 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/godfrednanaowusu/countries-geo?style=for-the-badge&logo=github&labelColor=000000)](https://github.com/godfrednanaowusu/countries-geo)
 [![GitHub Forks](https://img.shields.io/github/forks/godfrednanaowusu/countries-geo?style=for-the-badge&logo=github&labelColor=000000)](https://github.com/godfrednanaowusu/countries-geo)
 
-<!-- <a href="https://vercel.com"><img alt="Vercel logo" src="https://img.shields.io/badge/MADE%20BY%20Vercel-000000.svg?style=for-the-badge&logo=Vercel&labelColor=000"></a>
-<a href="https://www.npmjs.com/package/next"><img alt="NPM version" src="https://img.shields.io/npm/v/next.svg?style=for-the-badge&labelColor=000000"></a>
-<a href="https://github.com/vercel/next.js/blob/canary/license.md"><img alt="License" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000"></a>
-<a href="https://github.com/vercel/next.js/discussions"><img alt="Join the community on GitHub" src="https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&logo=Countries Geo&labelColor=000000&logoWidth=20"></a> -->
-
 </div>
 
 ## Getting Started
@@ -36,17 +31,24 @@ Visit [https://countries-geo.vercel.app/docs](https://countries-geo.vercel.app/d
 Contributions to Countries Geo are welcome and highly appreciated. However, before you jump right into it, we would like you to review our [Contribution Guidelines](/contributing.md) to make sure you have a smooth experience contributing to Countries Geo.
 
 ## Installation
+
+### with Yarn
 ```sh filename="shell" copy
-# with Yarn
 $ yarn add countries-geo
+```
 
-# with npm
+### with npm
+```sh filename="shell" copy
 $ npm i countries-geo
+```
 
-# with pnpm
+### with pnpm
+```sh filename="shell" copy
 $ pnpm add countries-geo
+```
 
-# with Bun
+### with Bun
+```sh filename="shell" copy
 $ bun add countries-geo
 ````
 
