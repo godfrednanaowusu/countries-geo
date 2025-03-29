@@ -1,4 +1,4 @@
-import { continents } from './utils';
+import { continents } from '../utils';
 
 // Get a list of all continents.
 const getAll = continents()?.sort((a, b) => a.name.localeCompare(b.name));

@@ -1,4 +1,4 @@
-import { states, states_by_continent, states_by_country } from './utils';
+import { states, states_by_continent, states_by_country } from '../utils';
 
 // Get a list of all states.
 const getAll = states()?.sort((a, b) => a.name.localeCompare(b.name));
