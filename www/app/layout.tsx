@@ -4,9 +4,11 @@ import 'nextra-theme-docs/style.css'
 import { Footer, Layout, Navbar } from 'nextra-theme-docs'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
-import { Flex, Heading, Theme } from "@radix-ui/themes";
+import { Flex, Heading, Theme, Text } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
-import { Earth } from 'lucide-react';
+import { Earth, Heart } from 'lucide-react';
+import  Flag  from'react-world-flags';
+import Link from "next/link";
  
 export const metadata = {
   title: {
@@ -28,7 +30,16 @@ const navbar = (
     
   />
 )
-const footer = <Footer>MIT {new Date().getFullYear()} © Countries Geo.</Footer>
+const footer = <Footer>
+  <Flex justify={'between'} align={'center'} width={'100%'}>
+    <Flex direction={'column'}>
+  MIT {new Date().getFullYear()} © Countries Geo.
+  </Flex>
+  <Flex gap={'3'}>
+    <Text >Made by <Link href={'https://github.com/godfrednanaowusu'}><b>Godfred Owusu</b></Link></Text>
+  </Flex>
+  </Flex>
+  </Footer>
  
 export default async function RootLayout({ children }) {
   return (
