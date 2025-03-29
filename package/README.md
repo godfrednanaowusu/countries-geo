@@ -8,7 +8,6 @@
   <h1>Countries Geo</h1>
 
 [![Static Badge](https://img.shields.io/bundlephobia/minzip/countries-geo?style=for-the-badge)](https://npmjs.com/package/countries-geo)
-[![Static Badge](https://img.shields.io/badge/MADE%20BY%20Vercel-000000.svg?style=for-the-badge&logo=Vercel&labelColor=000)](https://npmjs.com/package/countries-geo)
 [![Static Badge](https://img.shields.io/npm/v/countries-geo?style=for-the-badge&labelColor=000000)](https://npmjs.com/package/countries-geo)
 [![Static Badge](https://img.shields.io/npm/l/countries-geo?style=for-the-badge&labelColor=000000)](https://npmjs.com/package/countries-geo)
 [![Static Badge](https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&logo=CountriesGeo&labelColor=000000&logoWidth=20)](https://npmjs.com/package/countries-geo)
