@@ -20,7 +20,7 @@
     "react-dom": "latest"
   },
   "devDependencies": {
-    "@radix-ui/themes": "latest",
+    "@radix-ui/themes": "^3.2.1",
     "@types/node": "latest",
     "@types/react": "latest",
     "autoprefixer": "latest",

@@ -13,7 +13,7 @@ export default function UsageSample(){
     const [getState, setState] = useState('')
     const [getCity, setCity] = useState('')
     return (
-        <Flex gap={'3'} >
+        <Flex gap={'3'} wrap={'wrap'}>
             
              <ComboBox
                                 placeholder="Select Continent"
