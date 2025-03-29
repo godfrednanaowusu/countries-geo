@@ -2,16 +2,16 @@
 
 import { Flex } from "@radix-ui/themes";
 import { useState } from "react";
-// import {Continents, Countries, States, Cities} from 'countries-geo'
+import {Continents, Countries, States, Cities} from '../../package/index'
 import ComboBox from "./combo_box";
 import Flag from "react-world-flags";
 
 
 export default function UsageSample(){
-    const Continents:any = null
-    const Countries:any = null
-    const States:any = null
-    const Cities:any = null
+    // const Continents:any = null
+    // const Countries:any = null
+    // const States:any = null
+    // const Cities:any = null
 
     const [getContinent, setContinent] = useState('')
     const [getCountry, setCountry] = useState('')
