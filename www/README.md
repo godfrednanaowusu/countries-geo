@@ -10,7 +10,7 @@
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/countries-geo?style=for-the-badge&labelColor=0000FF)](https://npmjs.com/package/countries-geo)
 [![Version](https://img.shields.io/npm/v/countries-geo?style=for-the-badge&icon=npm&labelColor=000000)](https://npmjs.com/package/countries-geo)
 [![License](https://img.shields.io/npm/l/countries-geo?style=for-the-badge&labelColor=000000)](https://npmjs.com/package/countries-geo/license.md)
-[![Downloads](https://img.shields.io/npm/dm/countries-geo?style=for-the-badge&icon=npmjs&labelColor=000000)](https://npmjs.com/package/countries-geo)
+[![Downloads](https://img.shields.io/npm/dm/countries-geo?style=for-the-badge&icon=github&labelColor=000000)](https://npmjs.com/package/countries-geo)
 [![GitHub Repo stars](https://img.shields.io/github/stars/godfrednanaowusu/countries-geo?icon=github&style=for-the-badge&logo=github&labelColor=000000)](https://npmjs.com/package/countries-geo)
 
 <!-- <a href="https://vercel.com"><img alt="Vercel logo" src="https://img.shields.io/badge/MADE%20BY%20Vercel-000000.svg?style=for-the-badge&logo=Vercel&labelColor=000"></a>
