@@ -2,7 +2,7 @@
   <a href="https://countries-geo.vercel.app">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png">
-      <img alt="Countries Geo logo" src="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png" height="128">
+      <img alt="Countries Geo logo" src="https://github.com/godfrednanaowusu/countries-geo/blob/main/www/public/logo_white.png" height="128">
     </picture>
   </a>
   <h1>Countries Geo</h1>
