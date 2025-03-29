@@ -1,1 +1,1 @@
-[`core` package README](./package/README.md)
+./package/README.md
