@@ -3,6 +3,7 @@ export default {
       "type": "page",
       "display": "hidden",
       "theme": {
+        "timestamp":false,
         "layout": "full",
         "toc": false
       }
