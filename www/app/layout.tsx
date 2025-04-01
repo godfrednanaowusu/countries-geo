@@ -13,7 +13,7 @@ import Link from "next/link";
 import Blob from './components/blob';
 import SVGBackground from "./components/svg_background";
 import ThemeButton from "./components/theme_button";
-
+import { Providers } from "./providers";
 
  
 export const metadata = {
@@ -81,15 +81,15 @@ export default async function RootLayout({ children }) {
     <html lang="en" dir="ltr" suppressHydrationWarning>
       <Head />
       <body>
-      <Theme appearance="inherit" accentColor="gray">
+      <Providers>
         <Layout
           banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
           docsRepositoryBase="https://github.com/godfrednanaowusu/countries-geo"
           footer={footer}
-          editLink={'https://github.com/godfrednanaowusu/countries-geo'}
-          feedback={{content:'Edit feedback'}}
+          editLink={''}
+          feedback={{content:''}}
         >
           <SVGBackground/>
           <FlowerIconSection/>
@@ -97,7 +97,7 @@ export default async function RootLayout({ children }) {
           
           {children}
         </Layout>
-        </Theme>
+        </Providers>
       </body>
     </html>
   )

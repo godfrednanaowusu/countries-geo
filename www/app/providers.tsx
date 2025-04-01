@@ -9,7 +9,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
   const { appTheme } = useConfigStore();
   return (
     <>
-        <Theme accentColor={"purple"} appearance={appTheme} radius="large">
+        <Theme accentColor={"teal"} appearance={appTheme} radius="large">
             {children}
         </Theme>
     </>

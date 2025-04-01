@@ -15,8 +15,8 @@ export default {
 
     "donate": {
       "title":"Donation",
-      "type": "doc",
-      "href": "https://opencollective.com",
+      "type": "page",
+      "href": "https://buymeacoffee.com/godfredowusu",
       
     }
   
