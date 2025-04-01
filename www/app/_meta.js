@@ -12,14 +12,6 @@ export default {
       "type": "page"
     },
    
-    "showcase": {
-      "type": "page",
-      "theme": {
-        "layout": "full",
-        "typesetting": "article",
-        "toc":false
-      }
-    },
 
     "donate": {
       "title":"Donation",

@@ -3,10 +3,39 @@ title: Home
 description: Countries Geo.
 ---
 
-import { Flex, Card, Heading, Text, Button, Grid } from "@radix-ui/themes";
+import { Flex, Card, Heading, Text, Button, Grid, Box } from "@radix-ui/themes";
 import { Cards } from "nextra/components";
-import { Leaf, ArrowRight, Globe } from "lucide-react";
 import Link from "next/link";
+import AnimatedGlobe from "./components/animated_globe"
+import { Row, Col } from "./components/gui"
+import { Leaf, ArrowRight, Globe, Play, Blocks, Plane, ScrollText } from "lucide-react";
+import { FaPlay } from "react-icons/fa6";
+import { SiNpm } from "react-icons/si";
+
+<Row columns={'12'} gap={{initial:'5', md:'9'}} align={'center'}>
+<Col span={{initial:'12', md:'7'}}>
+<Flex direction={"column"} gap={"5"} py={"9"} my={"9"}>
+  <Heading size={{ initial: "8", md: "8", lg: "9" }} style={{ maxWidth: "800px" }}>Utility to access <Text as={'span'} color={'teal'}>Continents</Text>,  <Text as={'span'} color={'teal'}>Countries</Text>, <Text as={'span'} color={'teal'}>States</Text>, and <Text as={'span'} color={'teal'}>Cities</Text>.</Heading>
+  <Text color={"gray"} style={{ maxWidth: "600px" }}>
+    This utility provide simple functions to improve the ease of accesssing Continents, Countries, States and Cities.
+  </Text>
+  <Flex gap={'3'}>
+    <Button radius={"large"} size={"3"} color={'teal'} highContrast asChild>
+      <Link href={"/docs"}>Learn More</Link>
+    </Button>
+    <Button radius={"large"} size={"3"} color={'teal'} variant={'surface'} >
+      <Link href={"https://www.npmjs.com/package/countries-geo"} target={'_blank'}><Flex gap={'3'} align={'center'}><SiNpm /> Get Package</Flex></Link>
+    </Button>
+  </Flex>
+</Flex>
+</Col>
+<Col span={{initial:'12', md:'5'}}>
+<Box display={{initial:'none', md:'block'}}>
+<AnimatedGlobe/>
+
+</Box>
+</Col>
+</Row>
 
 <Flex direction={"column"} gap={"5"} py={{initial:'4', md:'9'}} my={"9"}>
   <Heading size={{ initial: "8", md: "8", lg: "9" }} style={{ maxWidth: "800px" }}>Utility to access Continents, Countries, States and Cities</Heading>
