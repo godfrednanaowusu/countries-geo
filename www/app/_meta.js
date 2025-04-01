@@ -15,7 +15,7 @@ export default {
    
 
     "donate": {
-      "title":"Donation",
+      "title":"Donate",
       "type": "page",
       "href": "https://buymeacoffee.com/godfredowusu",
       
