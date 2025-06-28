@@ -3,6 +3,7 @@ export default {
       "type": "page",
       "display": "hidden",
       "theme": {
+        "timestamp":false,
         "layout": "full",
         "toc": false
       }
@@ -12,19 +13,11 @@ export default {
       "type": "page"
     },
    
-    "showcase": {
-      "type": "page",
-      "theme": {
-        "layout": "full",
-        "typesetting": "article",
-        "toc":false
-      }
-    },
 
     "donate": {
-      "title":"Donation",
-      "type": "doc",
-      "href": "https://opencollective.com",
+      "title":"Donate",
+      "type": "page",
+      "href": "https://buymeacoffee.com/godfredowusu",
       
     }
   
