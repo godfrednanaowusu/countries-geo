@@ -12,6 +12,15 @@ importers:
         specifier: latest
         version: 9.1.7
 
+  package:
+    devDependencies:
+      '@types/node':
+        specifier: latest
+        version: 22.13.15
+      typescript:
+        specifier: latest
+        version: 5.8.2
+
   www:
     dependencies:
       next:
@@ -1296,6 +1305,9 @@ packages:
 
   '@types/node@22.13.14':
     resolution: {integrity: sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==}
+
+  '@types/node@22.13.15':
+    resolution: {integrity: sha512-imAbQEEbVni6i6h6Bd5xkCRwLqFc8hihCsi2GbtDoAtUcAFQ6Zs4pFXTZUUbroTkXdImczWM9AI8eZUuybXE3w==}
 
   '@types/react@19.0.12':
     resolution: {integrity: sha512-V6Ar115dBDrjbtXSrS+/Oruobc+qVbbUxDFC1RSbRqLt5SYvxxyIDrSC85RWml54g+jfNeEMZhEj7wW07ONQhA==}
@@ -4139,6 +4151,10 @@ snapshots:
       '@types/unist': 3.0.3
 
   '@types/node@22.13.14':
+    dependencies:
+      undici-types: 6.20.0
+
+  '@types/node@22.13.15':
     dependencies:
       undici-types: 6.20.0
 
