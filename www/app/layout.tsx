@@ -55,7 +55,7 @@ const AmbientLights = () => {
   )
 }
  
-const banner = <Banner storageKey="some-key">Version 0.0.1 is released 🎉</Banner>
+const banner = <Banner storageKey="some-key">Version 0.0.2 is released 🎉</Banner>
 const navbar = (
   <Navbar
     logo={<Flex gap={'3'} align={'center'}><Earth size={"30"} color={'teal'} /><Heading color={'teal'} weight={'bold'}>Countries Geo</Heading></Flex>}
