@@ -4155,8 +4155,10 @@
               { "i": "AM", "n": "Awaso (Bauxite Mining)" },
               { "i": "JU", "n": "Juaboso" },
               { "i": "BE", "n": "Bodi" },
-              { "i": "SU", "n": "Suhum" },
-              { "i": "KE", "n": "Kenyasi" }
+              { "i": "SH", "n": "Sefwi Bekwai" },
+              { "i": "KA", "n": "Karimenga" },
+              { "i": "AB", "n": "Aboagyekrom" },
+              { "i": "AK", "n": "Akontombra" }
             ]
           },
           {
@@ -4171,7 +4173,9 @@
               { "i": "DU", "n": "Duayaw Nkwanta" },
               { "i": "KE", "n": "Kenyasi (Mining Hub)" },
               { "i": "NK", "n": "Nkasiem" },
-              { "i": "TE", "n": "Terchire" }
+              { "i": "TE", "n": "Terchire" },
+              { "i": "BE", "n": "Bechem" },
+              { "i": "TI", "n": "Tepa" }
             ]
           }
         ]
@@ -4198,38 +4202,407 @@
               { "i": "LOU", "n": "Louba" }
             ]
           },
-          { "i": "BF", "n": "Boffa", "c": [] },
-          { "i": "BK", "n": "Boké", "c": [] },
-          { "i": "CO", "n": "Coyah", "c": [] },
-          { "i": "DB", "n": "Dabola", "c": [] },
-          { "i": "DL", "n": "Dalaba", "c": [] },
-          { "i": "DI", "n": "Dinguiraye", "c": [] },
-          { "i": "DU", "n": "Dubréka", "c": [] },
-          { "i": "FA", "n": "Faranah", "c": [] },
-          { "i": "FO", "n": "Forécariah", "c": [] },
-          { "i": "FR", "n": "Fria", "c": [] },
-          { "i": "GA", "n": "Gaoual", "c": [] },
-          { "i": "GU", "n": "Guéckédou", "c": [] },
-          { "i": "KA", "n": "Kankan", "c": [] },
-          { "i": "KE", "n": "Kérouané", "c": [] },
-          { "i": "KI", "n": "Kindia", "c": [] },
-          { "i": "KO", "n": "Kissidougou", "c": [] },
-          { "i": "KB", "n": "Koubia", "c": [] },
-          { "i": "KD", "n": "Koundara", "c": [] },
-          { "i": "KS", "n": "Kouroussa", "c": [] },
-          { "i": "LA", "n": "Labé", "c": [] },
-          { "i": "LE", "n": "Lélouma", "c": [] },
-          { "i": "LO", "n": "Lola", "c": [] },
-          { "i": "MAC", "n": "Macenta", "c": [] },
-          { "i": "ML", "n": "Mali", "c": [] },
-          { "i": "MM", "n": "Mamou", "c": [] },
-          { "i": "MD", "n": "Mandiana", "c": [] },
-          { "i": "NZ", "n": "Nzérékoré", "c": [] },
-          { "i": "PI", "n": "Pita", "c": [] },
-          { "i": "SI", "n": "Siguiri", "c": [] },
-          { "i": "TE", "n": "Télimélé", "c": [] },
-          { "i": "TO", "n": "Tougué", "c": [] },
-          { "i": "YO", "n": "Yomou", "c": [] },
+          {
+            "i": "BF",
+            "n": "Boffa",
+            "c": [
+              { "i": "BOF1", "n": "Boffa City" },
+              { "i": "TAM", "n": "Tamita" },
+              { "i": "TOU", "n": "Tougnifily" },
+              { "i": "KOL", "n": "Kolaboui" }
+            ]
+          },
+          {
+            "i": "BK",
+            "n": "Boké",
+            "c": [
+              { "i": "KA", "n": "Kamsar" },
+              { "i": "BO", "n": "Boké" },
+              { "i": "SA", "n": "Sangarédi" },
+              { "i": "DA", "n": "Dabiss" },
+              { "i": "KA2", "n": "Kanfarandé" },
+              { "i": "BI", "n": "Bintimodiya" },
+              { "i": "KO", "n": "Kolaboui" },
+              { "i": "MA", "n": "Malapouyah" },
+              { "i": "SA2", "n": "Sansalé" },
+              { "i": "TA", "n": "Tanéné" }
+            ]
+          },
+          {
+            "i": "CO",
+            "n": "Coyah",
+            "c": [
+              { "i": "COY", "n": "Coyah-Centre" },
+              { "i": "KOU", "n": "Kouriah" },
+              { "i": "MAN", "n": "Manéah" },
+              { "i": "WON", "n": "Wonkifong" }
+            ]
+          },
+          {
+            "i": "DB",
+            "n": "Dabola",
+            "c": [
+              { "i": "DA", "n": "Dabola" },
+              { "i": "AR", "n": "Arfamoussaya" },
+              { "i": "BA", "n": "Banko" },
+              { "i": "BI", "n": "Bissikrima" },
+              { "i": "DO", "n": "Dogomet" },
+              { "i": "KA", "n": "Kankama" },
+              { "i": "KI", "n": "Kindoyé" },
+              { "i": "KO", "n": "Konindou" },
+              { "i": "ND", "n": "N'Déma" }
+            ]
+          },
+          {
+            "i": "DL",
+            "n": "Dalaba",
+            "c": [
+              { "i": "DA", "n": "Dalaba" },
+              { "i": "DI", "n": "Ditinn" },
+              { "i": "KO", "n": "Koba" },
+              { "i": "KE", "n": "Kégnéko" },
+              { "i": "KA", "n": "Kankalabé" },
+              { "i": "MI", "n": "Mitty" },
+              { "i": "TO", "n": "Tountouroun" },
+              { "i": "KU", "n": "Kouratongo" },
+              { "i": "MA", "n": "Madina" },
+              { "i": "KO2", "n": "Kourou" }
+            ]
+          },
+          {
+            "i": "DI",
+            "n": "Dinguiraye",
+            "c": [
+              { "i": "DIN", "n": "Dinguiraye" },
+              { "i": "BA", "n": "Banora" },
+              { "i": "DI2", "n": "Dialakoro" },
+              { "i": "GA", "n": "Gagnakaly" },
+              { "i": "KA", "n": "Kalinko" },
+              { "i": "LA", "n": "Lansanaya" },
+              { "i": "SE", "n": "Sélouma" }
+            ]
+          },
+          {
+            "i": "DU",
+            "n": "Dubréka",
+            "c": [
+              { "i": "DU", "n": "Dubréka" },
+              { "i": "BA", "n": "Badi" },
+              { "i": "KH", "n": "Khorira" },
+              { "i": "OU", "n": "Ouassou" },
+              { "i": "TA", "n": "Tanènè" },
+              { "i": "TO", "n": "Tondon" },
+              { "i": "FA", "n": "Falessade" }
+            ]
+          },
+          {
+            "i": "FA",
+            "n": "Faranah",
+            "c": [
+              { "i": "FA", "n": "Faranah" },
+              { "i": "KI", "n": "Kissidougou" },
+              { "i": "DA", "n": "Dabola" },
+              { "i": "DI", "n": "Dinguiraye" },
+              { "i": "AR", "n": "Arfamoussaya" },
+              { "i": "PA", "n": "Passayah" },
+              { "i": "SA", "n": "Sandéniah" },
+              { "i": "SO", "n": "Songoyah" },
+              { "i": "TI", "n": "Tindo" },
+              { "i": "AL", "n": "Albadaria" }
+            ]
+          },
+          {
+            "i": "FO",
+            "n": "Forécariah",
+            "c": [
+              { "i": "FO", "n": "Forécariah" },
+              { "i": "AL", "n": "Alassoya" },
+              { "i": "BE", "n": "Benty" },
+              { "i": "FA", "n": "Farmoriah" },
+              { "i": "KA", "n": "Kaback" },
+              { "i": "KA2", "n": "Kakossa" },
+              { "i": "MA", "n": "Maferinya" },
+              { "i": "MO", "n": "Moussayah" },
+              { "i": "SI", "n": "Sikhourou" },
+              { "i": "TA", "n": "Tanènè" }
+            ]
+          },
+          {
+            "i": "FR",
+            "n": "Fria",
+            "c": [
+              { "i": "FR", "n": "Fria" },
+              { "i": "BA", "n": "Baguinet" },
+              { "i": "TO", "n": "Tormelin" },
+              { "i": "BG", "n": "Banguigny" }
+            ]
+          },
+          {
+            "i": "GA",
+            "n": "Gaoual",
+            "c": [
+              { "i": "GA", "n": "Gaoual" },
+              { "i": "KO", "n": "Koumbia" },
+              { "i": "KA", "n": "Kakony" },
+              { "i": "FO", "n": "Foulamory" },
+              { "i": "KU", "n": "Kounsitel" },
+              { "i": "MA", "n": "Malanta" },
+              { "i": "TO", "n": "Touba" },
+              { "i": "WE", "n": "Wendou M'Bour" }
+            ]
+          },
+          {
+            "i": "GU",
+            "n": "Guéckédou",
+            "c": [
+              { "i": "GU", "n": "Guéckédou" },
+              { "i": "BO", "n": "Bolodou" },
+              { "i": "FA", "n": "Fangamadou" },
+              { "i": "KA", "n": "Kassadou" },
+              { "i": "KO", "n": "Koundou" },
+              { "i": "NO", "n": "Nongoa" },
+              { "i": "OU", "n": "Ouéndé-Kénéma" },
+              { "i": "TE", "n": "Tekoulo" },
+              { "i": "TE2", "n": "Termessadou-Dibo" }
+            ]
+          },
+          {
+            "i": "KA",
+            "n": "Kankan",
+            "c": [
+              { "i": "KA", "n": "Kankan" },
+              { "i": "KE", "n": "Kérouané" },
+              { "i": "KO", "n": "Kouroussa" },
+              { "i": "MA", "n": "Mandiana" },
+              { "i": "SI", "n": "Siguiri" }
+            ]
+          },
+          {
+            "i": "KE",
+            "n": "Kérouané",
+            "c": [
+              { "i": "KE", "n": "Kérouané" },
+              { "i": "BA", "n": "Banankoro" },
+              { "i": "DA", "n": "Damaro" },
+              { "i": "KO", "n": "Komodou" },
+              { "i": "KU", "n": "Kounsankoro" },
+              { "i": "LI", "n": "Linko" },
+              { "i": "SI", "n": "Sibiribaro" },
+              { "i": "SO", "n": "Soromaya" }
+            ]
+          },
+          {
+            "i": "KI",
+            "n": "Kindia",
+            "c": [
+              { "i": "KI", "n": "Kindia" },
+              { "i": "MA", "n": "Mambia" },
+              { "i": "SA", "n": "Samaya" },
+              { "i": "SO", "n": "Souguéta" },
+              { "i": "TE", "n": "Télimélé" }
+            ]
+          },
+          {
+            "i": "KO",
+            "n": "Kissidougou",
+            "c": [
+              { "i": "KO", "n": "Kissidougou" },
+              { "i": "AL", "n": "Albadariah" },
+              { "i": "BA", "n": "Banama" },
+              { "i": "FE", "n": "Fermessadou-Pombo" },
+              { "i": "FI", "n": "Firawa" },
+              { "i": "GB", "n": "Gbangbadou" },
+              { "i": "KO2", "n": "Kondiadou" },
+              { "i": "MA", "n": "Manfran" },
+              { "i": "SA", "n": "Sangardo" },
+              { "i": "YE", "n": "Yendé-Millimou" }
+            ]
+          },
+          {
+            "i": "KB",
+            "n": "Koubia",
+            "c": [{ "i": "KB", "n": "Koubia" }]
+          },
+          {
+            "i": "KD",
+            "n": "Koundara",
+            "c": [
+              { "i": "KD", "n": "Koundara" },
+              { "i": "SA", "n": "Sambailo" },
+              { "i": "YO", "n": "Youkounkoun" },
+              { "i": "TE", "n": "Termesse" }
+            ]
+          },
+          {
+            "i": "KS",
+            "n": "Kouroussa",
+            "c": [
+              { "i": "KS", "n": "Kouroussa" },
+              { "i": "BA", "n": "Babila" },
+              { "i": "BL", "n": "Balato" },
+              { "i": "BF", "n": "Banfélé" },
+              { "i": "BR", "n": "Baro" },
+              { "i": "CI", "n": "Cisséla" },
+              { "i": "DO", "n": "Douako" },
+              { "i": "KI", "n": "Kiniéro" },
+              { "i": "KO", "n": "Komola-Koura" },
+              { "i": "KU", "n": "Koumana" }
+            ]
+          },
+          {
+            "i": "LA",
+            "n": "Labé",
+            "c": [
+              { "i": "LA", "n": "Labé" },
+              { "i": "MA", "n": "Mali" },
+              { "i": "LE", "n": "Lélouma" },
+              { "i": "KO", "n": "Koubia" },
+              { "i": "TO", "n": "Tougué" },
+              { "i": "MA2", "n": "Matakaou" },
+              { "i": "SA", "n": "Salambandé" },
+              { "i": "BA", "n": "Balaki" },
+              { "i": "DO", "n": "Donghol-Sigon" },
+              { "i": "DO2", "n": "Dougountouny" }
+            ]
+          },
+          {
+            "i": "LE",
+            "n": "Lélouma",
+            "c": [
+              { "i": "LE", "n": "Lélouma" },
+              { "i": "BA", "n": "Balaki" },
+              { "i": "DO", "n": "Donghol-Sigon" },
+              { "i": "DO2", "n": "Dougountouny" }
+            ]
+          },
+          {
+            "i": "LO",
+            "n": "Lola",
+            "c": [
+              { "i": "LO", "n": "Lola" },
+              { "i": "GU", "n": "Gueasso" },
+              { "i": "KO", "n": "Kokota" },
+              { "i": "NZ", "n": "N'Zoo" },
+              { "i": "FO", "n": "Foumbadou" },
+              { "i": "TO", "n": "Tounkarata" },
+              { "i": "BO", "n": "Bossou" },
+              { "i": "LA", "n": "Laine" }
+            ]
+          },
+          {
+            "i": "MAC",
+            "n": "Macenta",
+            "c": [
+              { "i": "MAC", "n": "Macenta" },
+              { "i": "BO", "n": "Bonkomadou" },
+              { "i": "KO", "n": "Kouankan" },
+              { "i": "SE", "n": "Sérédou" },
+              { "i": "VA", "n": "Vassérédou" },
+              { "i": "BA", "n": "Balizia" },
+              { "i": "KOY", "n": "Koyama" },
+              { "i": "NZ", "n": "N'Zérékoré" },
+              { "i": "BOF", "n": "Bofossou" },
+              { "i": "KE", "n": "Kéoulenta" }
+            ]
+          },
+          {
+            "i": "ML",
+            "n": "Mali",
+            "c": [
+              { "i": "ML", "n": "Mali" },
+              { "i": "BA", "n": "Balaki" },
+              { "i": "DO", "n": "Donghol-Sigon" },
+              { "i": "DO2", "n": "Dougountouny" }
+            ]
+          },
+          {
+            "i": "MM",
+            "n": "Mamou",
+            "c": [
+              { "i": "MM", "n": "Mamou" },
+              { "i": "DA", "n": "Dalaba" },
+              { "i": "PI", "n": "Pita" },
+              { "i": "TI", "n": "Timbo" }
+            ]
+          },
+          {
+            "i": "MD",
+            "n": "Mandiana",
+            "c": [
+              { "i": "MD", "n": "Mandiana" },
+              { "i": "KO", "n": "Koundian" },
+              { "i": "KI", "n": "Kiniéran" },
+              { "i": "BA", "n": "Balandougouba" },
+              { "i": "FA", "n": "Faralako" },
+              { "i": "KA", "n": "Kantoumanina" },
+              { "i": "MO", "n": "Morodou" },
+              { "i": "NI", "n": "Niantanina" },
+              { "i": "SA", "n": "Sansando" },
+              { "i": "SE", "n": "Sélouma" }
+            ]
+          },
+          {
+            "i": "NZ",
+            "n": "Nzérékoré",
+            "c": [
+              { "i": "NZ", "n": "Nzérékoré" },
+              { "i": "BE", "n": "Beyla" },
+              { "i": "GU", "n": "Guéckédou" },
+              { "i": "MAC", "n": "Macenta" },
+              { "i": "YO", "n": "Yomou" },
+              { "i": "LO", "n": "Lola" }
+            ]
+          },
+          {
+            "i": "PI",
+            "n": "Pita",
+            "c": [
+              { "i": "PI", "n": "Pita" },
+              { "i": "TM", "n": "Timbi Madina" },
+              { "i": "SA", "n": "Sangaréah" },
+              { "i": "LM", "n": "Ley-Miro" }
+            ]
+          },
+          {
+            "i": "SI",
+            "n": "Siguiri",
+            "c": [
+              { "i": "SI", "n": "Siguiri" },
+              { "i": "KI", "n": "Kintinian" },
+              { "i": "DO", "n": "Doko" },
+              { "i": "KO", "n": "Kourémalé" }
+            ]
+          },
+          {
+            "i": "TE",
+            "n": "Télimélé",
+            "c": [
+              { "i": "TE", "n": "Télimélé" },
+              { "i": "GO", "n": "Gougoudjé" },
+              { "i": "MI", "n": "Missira" },
+              { "i": "KO", "n": "Koba" }
+            ]
+          },
+          {
+            "i": "TO",
+            "n": "Tougué",
+            "c": [
+              { "i": "TO", "n": "Tougué" },
+              { "i": "KO", "n": "Kollet" },
+              { "i": "KI", "n": "Koin" },
+              { "i": "TA", "n": "Tangaly" }
+            ]
+          },
+          {
+            "i": "YO",
+            "n": "Yomou",
+            "c": [
+              { "i": "YO", "n": "Yomou" },
+              { "i": "PE", "n": "Péla" },
+              { "i": "BH", "n": "Bheeta" },
+              { "i": "BI", "n": "Bignamou" }
+            ]
+          },
           { "i": "CNK", "n": "Conakry", "c": [] }
         ]
       },
@@ -4237,18 +4610,676 @@
         "i": "GW",
         "n": "Guinea-Bissau",
         "s": [
-          { "i": "BS", "n": "Bissau", "c": [] },
-          { "i": "BA", "n": "Bafatá", "c": [] },
-          { "i": "BM", "n": "Biombo", "c": [] },
-          { "i": "BL", "n": "Bolama", "c": [] },
-          { "i": "CA", "n": "Cacheu", "c": [] },
-          { "i": "GA", "n": "Gabú", "c": [] },
-          { "i": "OI", "n": "Oio", "c": [] },
-          { "i": "QU", "n": "Quinara", "c": [] },
-          { "i": "TO", "n": "Tombali", "c": [] }
+          {
+            "i": "BS",
+            "n": "Bissau",
+            "c": [
+              { "i": "BS", "n": "Bissau" },
+              { "i": "PR", "n": "Prabis" },
+              { "i": "SA", "n": "Safim" }
+            ]
+          },
+          {
+            "i": "BA",
+            "n": "Bafatá",
+            "c": [
+              { "i": "BA", "n": "Bafatá" },
+              { "i": "CO", "n": "Contuboel" },
+              { "i": "GA", "n": "Gamamudo" },
+              { "i": "XI", "n": "Xitole" }
+            ]
+          },
+          {
+            "i": "BM",
+            "n": "Biombo",
+            "c": [
+              { "i": "QU", "n": "Quinhamel" },
+              { "i": "PR", "n": "Prabis" },
+              { "i": "SA", "n": "Safim" }
+            ]
+          },
+          {
+            "i": "BL",
+            "n": "Bolama",
+            "c": [
+              { "i": "BL", "n": "Bolama" },
+              { "i": "BU", "n": "Bubaque" },
+              { "i": "CA", "n": "Caravela" },
+              { "i": "UN", "n": "Uno" }
+            ]
+          },
+          {
+            "i": "CA",
+            "n": "Cacheu",
+            "c": [
+              { "i": "CA", "n": "Cacheu" },
+              { "i": "CAI", "n": "Canchungo" },
+              { "i": "CI", "n": "Caió" },
+              { "i": "BI", "n": "Bigene" }
+            ]
+          },
+          {
+            "i": "GA",
+            "n": "Gabú",
+            "c": [
+              { "i": "GA", "n": "Gabú" },
+              { "i": "PI", "n": "Pirada" },
+              { "i": "SO", "n": "Sonaco" },
+              { "i": "CA", "n": "Canquelifá" }
+            ]
+          },
+          {
+            "i": "OI",
+            "n": "Oio",
+            "c": [
+              { "i": "FA", "n": "Farim" },
+              { "i": "NH", "n": "Nhacra" },
+              { "i": "MA", "n": "Mansôa" },
+              { "i": "BI", "n": "Bissorã" }
+            ]
+          },
+          {
+            "i": "QU",
+            "n": "Quinara",
+            "c": [
+              { "i": "FU", "n": "Fulacunda" },
+              { "i": "BU", "n": "Buba" },
+              { "i": "EM", "n": "Empada" },
+              { "i": "TI", "n": "Tite" }
+            ]
+          },
+          {
+            "i": "TO",
+            "n": "Tombali",
+            "c": [
+              { "i": "CA", "n": "Catió" },
+              { "i": "BE", "n": "Bedanda" },
+              { "i": "QU", "n": "Quebo" },
+              { "i": "KO", "n": "Komo" }
+            ]
+          }
         ]
       },
-      { "i": "KE", "n": "Kenya", "s": [] },
+      {
+        "i": "KE",
+        "n": "Kenya",
+        "s": [
+          {
+            "i": "MO",
+            "n": "Mombasa",
+            "c": [
+              { "i": "MC", "n": "Mombasa City" },
+              { "i": "LI", "n": "Likoni" },
+              { "i": "KI", "n": "Kisauni" },
+              { "i": "NY", "n": "Nyali" },
+              { "i": "CH", "n": "Changamwe" }
+            ]
+          },
+          {
+            "i": "KW",
+            "n": "Kwale",
+            "c": [
+              { "i": "KT", "n": "Kwale Town" },
+              { "i": "DB", "n": "Diani Beach" },
+              { "i": "UK", "n": "Ukunda" },
+              { "i": "MS", "n": "Msambweni" },
+              { "i": "LL", "n": "Lunga Lunga" }
+            ]
+          },
+          {
+            "i": "KI",
+            "n": "Kilifi",
+            "c": [
+              { "i": "KT", "n": "Kilifi Town" },
+              { "i": "MA", "n": "Malindi" },
+              { "i": "WA", "n": "Watamu" },
+              { "i": "MK", "n": "Mariakani" },
+              { "i": "KL", "n": "Kaloleni" }
+            ]
+          },
+          {
+            "i": "TR",
+            "n": "Tana River",
+            "c": [
+              { "i": "HO", "n": "Hola" },
+              { "i": "GA", "n": "Garsen" },
+              { "i": "BU", "n": "Bura" },
+              { "i": "MA", "n": "Madogo" },
+              { "i": "KI", "n": "Kipini" }
+            ]
+          },
+          {
+            "i": "LA",
+            "n": "Lamu",
+            "c": [
+              { "i": "LT", "n": "Lamu Town" },
+              { "i": "MP", "n": "Mpeketoni" },
+              { "i": "FA", "n": "Faza" },
+              { "i": "KI", "n": "Kiunga" },
+              { "i": "MO", "n": "Mokowe" },
+              { "i": "PI", "n": "Pate Island" },
+              { "i": "SH", "n": "Shela" }
+            ]
+          },
+          {
+            "i": "TT",
+            "n": "Taita-Taveta",
+            "c": [
+              { "i": "VO", "n": "Voi" },
+              { "i": "TA", "n": "Taveta" },
+              { "i": "MW", "n": "Mwatate" },
+              { "i": "WU", "n": "Wundanyi" },
+              { "i": "NG", "n": "Ngerenyi" }
+            ]
+          },
+          {
+            "i": "GA",
+            "n": "Garissa",
+            "c": [
+              { "i": "GT", "n": "Garissa Town" },
+              { "i": "DA", "n": "Dadaab" },
+              { "i": "MA", "n": "Masalani" },
+              { "i": "MO", "n": "Modogashe" },
+              { "i": "HU", "n": "Hulugho" }
+            ]
+          },
+          {
+            "i": "WA",
+            "n": "Wajir",
+            "c": [
+              { "i": "WT", "n": "Wajir Town" },
+              { "i": "GR", "n": "Griftu" },
+              { "i": "HA", "n": "Habaswein" },
+              { "i": "BU", "n": "Buna" },
+              { "i": "TA", "n": "Tarbaj" }
+            ]
+          },
+          {
+            "i": "MA",
+            "n": "Mandera",
+            "c": [
+              { "i": "MT", "n": "Mandera Town" },
+              { "i": "EW", "n": "El Wak" },
+              { "i": "RH", "n": "Rhamu" },
+              { "i": "TA", "n": "Takaba" },
+              { "i": "LA", "n": "Lafey" }
+            ]
+          },
+          {
+            "i": "MS",
+            "n": "Marsabit",
+            "c": [
+              { "i": "MT", "n": "Marsabit Town" },
+              { "i": "MO", "n": "Moyale" },
+              { "i": "SO", "n": "Sololo" },
+              { "i": "NH", "n": "North Horr" },
+              { "i": "LA", "n": "Laisamis" }
+            ]
+          },
+          {
+            "i": "IS",
+            "n": "Isiolo",
+            "c": [
+              { "i": "IT", "n": "Isiolo Town" },
+              { "i": "ME", "n": "Merti" },
+              { "i": "GA", "n": "Garbatulla" },
+              { "i": "KI", "n": "Kinna" },
+              { "i": "OL", "n": "Oldonyiro" }
+            ]
+          },
+          {
+            "i": "ME",
+            "n": "Meru",
+            "c": [
+              { "i": "MT", "n": "Meru Town" },
+              { "i": "MA", "n": "Maua" },
+              { "i": "NK", "n": "Nkubu" },
+              { "i": "TI", "n": "Timau" },
+              { "i": "LA", "n": "Laare" }
+            ]
+          },
+          {
+            "i": "TN",
+            "n": "Tharaka-Nithi",
+            "c": [
+              { "i": "CH", "n": "Chuka" },
+              { "i": "CG", "n": "Chogoria" },
+              { "i": "MA", "n": "Marimanti" },
+              { "i": "KA", "n": "Kathwana" },
+              { "i": "GA", "n": "Gatunga" }
+            ]
+          },
+          {
+            "i": "EM",
+            "n": "Embu",
+            "c": [
+              { "i": "ET", "n": "Embu Town" },
+              { "i": "RU", "n": "Runyenjes" },
+              { "i": "SI", "n": "Siakago" },
+              { "i": "KI", "n": "Kiritiri" },
+              { "i": "MB", "n": "Mbeere" }
+            ]
+          },
+          {
+            "i": "KT",
+            "n": "Kitui",
+            "c": [
+              { "i": "KT", "n": "Kitui Town" },
+              { "i": "MW", "n": "Mwingi" },
+              { "i": "MU", "n": "Mutomo" },
+              { "i": "KY", "n": "Kyuso" },
+              { "i": "KA", "n": "Kabati" }
+            ]
+          },
+          {
+            "i": "MC",
+            "n": "Machakos",
+            "c": [
+              { "i": "MT", "n": "Machakos Town" },
+              { "i": "MV", "n": "Mavoko" },
+              { "i": "KA", "n": "Kangundo" },
+              { "i": "KT", "n": "Kathiani" },
+              { "i": "MW", "n": "Mwala" }
+            ]
+          },
+          {
+            "i": "MK",
+            "n": "Makueni",
+            "c": [
+              { "i": "WO", "n": "Wote" },
+              { "i": "MA", "n": "Makindu" },
+              { "i": "KI", "n": "Kibwezi" },
+              { "i": "MT", "n": "Mtito Andei" },
+              { "i": "EM", "n": "Emali" }
+            ]
+          },
+          {
+            "i": "NY",
+            "n": "Nyandarua",
+            "c": [
+              { "i": "OL", "n": "Ol Kalou" },
+              { "i": "NYH", "n": "Nyahururu" },
+              { "i": "EN", "n": "Engineer" },
+              { "i": "MI", "n": "Mirangine" }
+            ]
+          },
+          {
+            "i": "NR",
+            "n": "Nyeri",
+            "c": [
+              { "i": "NY", "n": "Nyeri" },
+              { "i": "KA", "n": "Karatina" },
+              { "i": "OT", "n": "Othaya" },
+              { "i": "MU", "n": "Mukurwe-ini" },
+              { "i": "MW", "n": "Mweiga" },
+              { "i": "NM", "n": "Naro Moru" },
+              { "i": "TE", "n": "Tetu" }
+            ]
+          },
+          {
+            "i": "KR",
+            "n": "Kirinyaga",
+            "c": [
+              { "i": "KE", "n": "Kerugoya" },
+              { "i": "WA", "n": "Wanguru" },
+              { "i": "KI", "n": "Kimbimbi" },
+              { "i": "KB", "n": "Kibingoti" },
+              { "i": "KA", "n": "Kianyaga" }
+            ]
+          },
+          {
+            "i": "MU",
+            "n": "Murang'a",
+            "c": [
+              { "i": "MU", "n": "Murang'a" },
+              { "i": "KA", "n": "Kangema" },
+              { "i": "KE", "n": "Kenol" },
+              { "i": "KD", "n": "Kandara" },
+              { "i": "KB", "n": "Kabati" },
+              { "i": "MK", "n": "Makuyu" },
+              { "i": "MR", "n": "Maragwa" }
+            ]
+          },
+          {
+            "i": "KB",
+            "n": "Kiambu",
+            "c": [
+              { "i": "KI", "n": "Kiambu" },
+              { "i": "TH", "n": "Thika" },
+              { "i": "RU", "n": "Ruiru" },
+              { "i": "KK", "n": "Kikuyu" },
+              { "i": "LI", "n": "Limuru" },
+              { "i": "GA", "n": "Gatundu" },
+              { "i": "GI", "n": "Githunguri" }
+            ]
+          },
+          {
+            "i": "TU",
+            "n": "Turkana",
+            "c": [
+              { "i": "LO", "n": "Lodwar" },
+              { "i": "KA", "n": "Kakuma" },
+              { "i": "LC", "n": "Lokichogio" },
+              { "i": "LK", "n": "Lokichar" },
+              { "i": "KL", "n": "Kalokol" }
+            ]
+          },
+          {
+            "i": "WP",
+            "n": "West Pokot",
+            "c": [
+              { "i": "KP", "n": "Kapenguria" },
+              { "i": "CH", "n": "Chepareria" }
+            ]
+          },
+          {
+            "i": "SA",
+            "n": "Samburu",
+            "c": [
+              { "i": "MA", "n": "Maralal" },
+              { "i": "BA", "n": "Baragoi" },
+              { "i": "WA", "n": "Wamba" },
+              { "i": "AP", "n": "Archers Post" }
+            ]
+          },
+          {
+            "i": "TNZ",
+            "n": "Trans-Nzoia",
+            "c": [
+              { "i": "KI", "n": "Kitale" },
+              { "i": "MA", "n": "Matisi" },
+              { "i": "KM", "n": "Kiminini" },
+              { "i": "MS", "n": "Maili Saba" },
+              { "i": "EN", "n": "Endebess" },
+              { "i": "KA", "n": "Kachibora" }
+            ]
+          },
+          {
+            "i": "UG",
+            "n": "Uasin Gishu",
+            "c": [
+              { "i": "EL", "n": "Eldoret" },
+              { "i": "MB", "n": "Moi's Bridge" },
+              { "i": "MT", "n": "Matunda" },
+              { "i": "BF", "n": "Burnt Forest" }
+            ]
+          },
+          {
+            "i": "EL",
+            "n": "Elgeyo-Marakwet",
+            "c": [
+              { "i": "IT", "n": "Iten" },
+              { "i": "KS", "n": "Kapsowar" },
+              { "i": "TB", "n": "Tambach" },
+              { "i": "CH", "n": "Chebiemit" }
+            ]
+          },
+          {
+            "i": "NA",
+            "n": "Nandi",
+            "c": [
+              { "i": "KA", "n": "Kapsabet" },
+              { "i": "NH", "n": "Nandi Hills" },
+              { "i": "MO", "n": "Mosoriot" },
+              { "i": "KB", "n": "Kabiyet" }
+            ]
+          },
+          {
+            "i": "BA",
+            "n": "Baringo",
+            "c": [
+              { "i": "KA", "n": "Kabarnet" },
+              { "i": "ER", "n": "Eldama Ravine" },
+              { "i": "MA", "n": "Marigat" },
+              { "i": "MO", "n": "Mogotio" }
+            ]
+          },
+          {
+            "i": "LP",
+            "n": "Laikipia",
+            "c": [
+              { "i": "NA", "n": "Nanyuki" },
+              { "i": "NY", "n": "Nyahururu" },
+              { "i": "RU", "n": "Rumuruti" }
+            ]
+          },
+          {
+            "i": "NK",
+            "n": "Nakuru",
+            "c": [
+              { "i": "NA", "n": "Nakuru" },
+              { "i": "NV", "n": "Naivasha" },
+              { "i": "NJ", "n": "Njoro" },
+              { "i": "GI", "n": "Gilgil" }
+            ]
+          },
+          {
+            "i": "NRK",
+            "n": "Narok",
+            "c": [
+              { "i": "NR", "n": "Narok" },
+              { "i": "KG", "n": "Kilgoris" },
+              { "i": "ED", "n": "Emurua Dikirr" }
+            ]
+          },
+          {
+            "i": "KA",
+            "n": "Kajiado",
+            "c": [
+              { "i": "NG", "n": "Ngong" },
+              { "i": "KI", "n": "Kitengela" },
+              { "i": "OR", "n": "Ongata Rongai" },
+              { "i": "KA", "n": "Kajiado" }
+            ]
+          },
+          {
+            "i": "KEC",
+            "n": "Kericho",
+            "c": [
+              { "i": "KE", "n": "Kericho" },
+              { "i": "LI", "n": "Litein" },
+              { "i": "LO", "n": "Londiani" }
+            ]
+          },
+          {
+            "i": "BO",
+            "n": "Bomet",
+            "c": [
+              { "i": "BO", "n": "Bomet" },
+              { "i": "SO", "n": "Sotik" },
+              { "i": "LG", "n": "Longisa" },
+              { "i": "KL", "n": "Kaplong" },
+              { "i": "ND", "n": "Ndanai" },
+              { "i": "MG", "n": "Mogogosiek" },
+              { "i": "SI", "n": "Silibwet" },
+              { "i": "CB", "n": "Chebunyo" },
+              { "i": "SG", "n": "Sigor" },
+              { "i": "SR", "n": "Siongiroi" },
+              { "i": "CC", "n": "Chepchabas" },
+              { "i": "EM", "n": "Embomos" },
+              { "i": "BT", "n": "Boito" },
+              { "i": "KM", "n": "Kimulot" },
+              { "i": "KB", "n": "Kembu" },
+              { "i": "CM", "n": "Chemaner" },
+              { "i": "MR", "n": "Merigi" },
+              { "i": "KR", "n": "Kipreres" },
+              { "i": "NG", "n": "Nyangores" },
+              { "i": "OB", "n": "Olbutyo" }
+            ]
+          },
+          {
+            "i": "KK",
+            "n": "Kakamega",
+            "c": [
+              { "i": "KK", "n": "Kakamega" },
+              { "i": "MU", "n": "Mumias" },
+              { "i": "BU", "n": "Butere" },
+              { "i": "MA", "n": "Malava" },
+              { "i": "KH", "n": "Khayega" },
+              { "i": "LU", "n": "Lumakanda" },
+              { "i": "MT", "n": "Matungu" },
+              { "i": "SH", "n": "Shinyalu" },
+              { "i": "IK", "n": "Ikolomani" },
+              { "i": "KW", "n": "Khwisero" },
+              { "i": "NV", "n": "Navakholo" },
+              { "i": "LI", "n": "Likuyani" },
+              { "i": "LG", "n": "Lugari" }
+            ]
+          },
+          {
+            "i": "VI",
+            "n": "Vihiga",
+            "c": [
+              { "i": "MB", "n": "Mbale" },
+              { "i": "LU", "n": "Luanda" },
+              { "i": "MJ", "n": "Majengo" },
+              { "i": "CH", "n": "Chavakali" },
+              { "i": "HA", "n": "Hamisi" },
+              { "i": "KA", "n": "Kaimosi" },
+              { "i": "SE", "n": "Serem" }
+            ]
+          },
+          {
+            "i": "BU",
+            "n": "Bungoma",
+            "c": [
+              { "i": "BG", "n": "Bungoma" },
+              { "i": "WB", "n": "Webuye" },
+              { "i": "KM", "n": "Kimilili" },
+              { "i": "CH", "n": "Chwele" },
+              { "i": "SR", "n": "Sirisia" },
+              { "i": "BM", "n": "Bumula" },
+              { "i": "NT", "n": "Naitiri" },
+              { "i": "KK", "n": "Kamukuywa" }
+            ]
+          },
+          {
+            "i": "BS",
+            "n": "Busia",
+            "c": [
+              { "i": "BU", "n": "Busia" },
+              { "i": "ML", "n": "Malaba" },
+              { "i": "NB", "n": "Nambale" },
+              { "i": "PV", "n": "Port Victoria" },
+              { "i": "BT", "n": "Butula" },
+              { "i": "BM", "n": "Bumala" },
+              { "i": "FU", "n": "Funyula" },
+              { "i": "BD", "n": "Budalang'i" },
+              { "i": "AM", "n": "Amukura" },
+              { "i": "MY", "n": "Matayos" }
+            ]
+          },
+          {
+            "i": "SI",
+            "n": "Siaya",
+            "c": [
+              { "i": "SI", "n": "Siaya" },
+              { "i": "BO", "n": "Bondo" },
+              { "i": "UG", "n": "Ugunja" },
+              { "i": "UK", "n": "Ukwala" },
+              { "i": "YA", "n": "Yala" },
+              { "i": "US", "n": "Usenge" },
+              { "i": "SE", "n": "Sega" }
+            ]
+          },
+          {
+            "i": "KU",
+            "n": "Kisumu",
+            "c": [
+              { "i": "KU", "n": "Kisumu" },
+              { "i": "AH", "n": "Ahero" },
+              { "i": "MS", "n": "Maseno" },
+              { "i": "MU", "n": "Muhoroni" },
+              { "i": "CH", "n": "Chemelil" },
+              { "i": "AW", "n": "Awasi" },
+              { "i": "KA", "n": "Katito" },
+              { "i": "SD", "n": "Sondu" },
+              { "i": "KO", "n": "Kombewa" },
+              { "i": "KB", "n": "Kibos" }
+            ]
+          },
+          {
+            "i": "HB",
+            "n": "Homa Bay",
+            "c": [
+              { "i": "HB", "n": "Homa Bay" },
+              { "i": "MB", "n": "Mbita" },
+              { "i": "OY", "n": "Oyugis" },
+              { "i": "KE", "n": "Kendu Bay" },
+              { "i": "ND", "n": "Ndhiwa" },
+              { "i": "RK", "n": "Rodi Kopany" },
+              { "i": "RA", "n": "Rangwe" },
+              { "i": "MG", "n": "Magunga" },
+              { "i": "SN", "n": "Sena" },
+              { "i": "NY", "n": "Nyandiwa" }
+            ]
+          },
+          {
+            "i": "MI",
+            "n": "Migori",
+            "c": [
+              { "i": "MI", "n": "Migori" },
+              { "i": "RG", "n": "Rongo" },
+              { "i": "AW", "n": "Awendo" },
+              { "i": "KH", "n": "Kehancha" },
+              { "i": "IS", "n": "Isebania" },
+              { "i": "UR", "n": "Uriri" },
+              { "i": "NT", "n": "Ntimaru" },
+              { "i": "KG", "n": "Kegonga" },
+              { "i": "MC", "n": "Macalder" },
+              { "i": "MB", "n": "Muhuru Bay" }
+            ]
+          },
+          {
+            "i": "KS",
+            "n": "Kisii",
+            "c": [
+              { "i": "KS", "n": "Kisii" },
+              { "i": "OG", "n": "Ogembo" },
+              { "i": "KR", "n": "Keroka" },
+              { "i": "SU", "n": "Suneka" },
+              { "i": "TB", "n": "Tabaka" },
+              { "i": "NY", "n": "Nyamache" },
+              { "i": "KE", "n": "Keumbu" },
+              { "i": "KY", "n": "Kenyenya" },
+              { "i": "ET", "n": "Etago" },
+              { "i": "MS", "n": "Masimba" }
+            ]
+          },
+          {
+            "i": "NYA",
+            "n": "Nyamira",
+            "c": [
+              { "i": "NY", "n": "Nyamira" },
+              { "i": "KR", "n": "Keroka" },
+              { "i": "NS", "n": "Nyansiongo" },
+              { "i": "EK", "n": "Ekerenyo" },
+              { "i": "MG", "n": "Manga" },
+              { "i": "KB", "n": "Kebirigo" },
+              { "i": "GS", "n": "Gesima" },
+              { "i": "MW", "n": "Magwagwa" }
+            ]
+          },
+          {
+            "i": "NBI",
+            "n": "Nairobi City",
+            "c": [
+              { "i": "NA", "n": "Nairobi" },
+              { "i": "WE", "n": "Westlands" },
+              { "i": "EA", "n": "Eastleigh" },
+              { "i": "KA", "n": "Karen" },
+              { "i": "LA", "n": "Lang'ata" },
+              { "i": "EM", "n": "Embakasi" },
+              { "i": "KS", "n": "Kasarani" },
+              { "i": "RY", "n": "Roysambu" },
+              { "i": "DH", "n": "Donholm" },
+              { "i": "UM", "n": "Umoja" },
+              { "i": "RU", "n": "Ruai" },
+              { "i": "DD", "n": "Dandora" }
+            ]
+          }
+        ]
+      },
       { "i": "LS", "n": "Lesotho", "s": [] },
       { "i": "LR", "n": "Liberia", "s": [] },
       { "i": "LY", "n": "Libya", "s": [] },
@@ -4258,10 +5289,539 @@
       { "i": "MR", "n": "Mauritania", "s": [] },
       { "i": "MU", "n": "Mauritius", "s": [] },
       { "i": "YT", "n": "Mayotte", "s": [] },
-      { "i": "MA", "n": "Morocco", "s": [] },
-      { "i": "MZ", "n": "Mozambique", "s": [] },
-      { "i": "NA", "n": "Namibia", "s": [] },
-      { "i": "NE", "n": "Niger", "s": [] },
+      {
+        "i": "MA",
+        "n": "Morocco",
+        "s": [
+          {
+            "i": "TNG",
+            "n": "Tanger-Tétouan-Al Hoceïma",
+            "c": [
+              { "i": "TA", "n": "Tangier" },
+              { "i": "TT", "n": "Tétouan" },
+              { "i": "AH", "n": "Al Hoceïma" },
+              { "i": "LR", "n": "Larache" },
+              { "i": "CF", "n": "Chefchaouen" },
+              { "i": "OZ", "n": "Ouezzane" },
+              { "i": "AS", "n": "Asilah" },
+              { "i": "MT", "n": "Martil" },
+              { "i": "MQ", "n": "M'diq" },
+              { "i": "FD", "n": "Fnideq" },
+              { "i": "KK", "n": "Ksar El Kebir" }
+            ]
+          },
+          {
+            "i": "ORI",
+            "n": "Oriental",
+            "c": [
+              { "i": "OU", "n": "Oujda" },
+              { "i": "ND", "n": "Nador" },
+              { "i": "BK", "n": "Berkane" },
+              { "i": "TR", "n": "Taourirt" },
+              { "i": "JR", "n": "Jerada" },
+              { "i": "DR", "n": "Driouch" },
+              { "i": "FG", "n": "Figuig" },
+              { "i": "GC", "n": "Guercif" },
+              { "i": "AR", "n": "Al Aroui" },
+              { "i": "BE", "n": "Beni Ensar" },
+              { "i": "SA", "n": "Saidia" },
+              { "i": "EA", "n": "El Aioun Sidi Mellouk" }
+            ]
+          },
+          {
+            "i": "FEZ",
+            "n": "Fès-Meknès",
+            "c": [
+              { "i": "FE", "n": "Fès" },
+              { "i": "MK", "n": "Meknès" },
+              { "i": "IF", "n": "Ifrane" },
+              { "i": "AZ", "n": "Azrou" },
+              { "i": "IK", "n": "Imouzzer Kandar" },
+              { "i": "SF", "n": "Sefrou" },
+              { "i": "EH", "n": "El Hajeb" },
+              { "i": "MY", "n": "Moulay Yacoub" },
+              { "i": "TZ", "n": "Taza" },
+              { "i": "TN", "n": "Taounate" },
+              { "i": "BL", "n": "Boulemane" },
+              { "i": "BH", "n": "Bhalil" }
+            ]
+          },
+          {
+            "i": "RBA",
+            "n": "Rabat-Salé-Kénitra",
+            "c": [
+              { "i": "RB", "n": "Rabat" },
+              { "i": "SL", "n": "Salé" },
+              { "i": "KE", "n": "Kénitra" },
+              { "i": "SK", "n": "Skhirat" },
+              { "i": "TM", "n": "Témara" },
+              { "i": "SC", "n": "Sidi Kacem" },
+              { "i": "SS", "n": "Sidi Slimane" },
+              { "i": "KH", "n": "Khémisset" },
+              { "i": "TF", "n": "Tiflet" },
+              { "i": "MD", "n": "Mehdia" }
+            ]
+          },
+          {
+            "i": "BEN",
+            "n": "Béni Mellal-Khénifra",
+            "c": [
+              { "i": "BM", "n": "Béni Mellal" },
+              { "i": "KB", "n": "Khouribga" },
+              { "i": "KH", "n": "Khénifra" },
+              { "i": "AZ", "n": "Azilal" },
+              { "i": "FS", "n": "Fquih Ben Salah" },
+              { "i": "KT", "n": "Kasba Tadla" },
+              { "i": "OZ", "n": "Oued Zem" },
+              { "i": "BJ", "n": "Bejaad" },
+              { "i": "AF", "n": "Afourer" },
+              { "i": "OA", "n": "Oulad Ayad" },
+              { "i": "MT", "n": "Mrirt" },
+              { "i": "EK", "n": "El Ksiba" }
+            ]
+          },
+          {
+            "i": "CAS",
+            "n": "Casablanca-Settat",
+            "c": [
+              { "i": "CA", "n": "Casablanca" },
+              { "i": "ST", "n": "Settat" },
+              { "i": "MO", "n": "Mohammedia" },
+              { "i": "EJ", "n": "El Jadida" },
+              { "i": "BR", "n": "Berrechid" },
+              { "i": "BS", "n": "Benslimane" },
+              { "i": "NO", "n": "Nouaceur" },
+              { "i": "MD", "n": "Mediouna" },
+              { "i": "SB", "n": "Sidi Bennour" },
+              { "i": "AZ", "n": "Azemmour" },
+              { "i": "BJ", "n": "Bir Jdid" }
+            ]
+          },
+          {
+            "i": "MAR",
+            "n": "Marrakech-Safi",
+            "c": [
+              { "i": "MR", "n": "Marrakech" },
+              { "i": "SF", "n": "Safi" },
+              { "i": "ES", "n": "Essaouira" },
+              { "i": "CC", "n": "Chichaoua" },
+              { "i": "TH", "n": "Tahannaout" },
+              { "i": "KS", "n": "Kelaa des Sraghna" },
+              { "i": "BG", "n": "Ben Guerir" },
+              { "i": "YS", "n": "Youssoufia" },
+              { "i": "AO", "n": "Aït Ourir" },
+              { "i": "AM", "n": "Amizmiz" }
+            ]
+          },
+          {
+            "i": "DRT",
+            "n": "Drâa-Tafilalet",
+            "c": [
+              { "i": "ER", "n": "Errachidia" },
+              { "i": "OU", "n": "Ouarzazate" },
+              { "i": "TG", "n": "Tinghir" },
+              { "i": "MD", "n": "Midelt" },
+              { "i": "ZG", "n": "Zagora" },
+              { "i": "RS", "n": "Rissani" },
+              { "i": "EF", "n": "Erfoud" },
+              { "i": "TJ", "n": "Tinejdad" },
+              { "i": "BD", "n": "Boumalne Dades" },
+              { "i": "SK", "n": "Skoura" },
+              { "i": "AG", "n": "Agdz" }
+            ]
+          },
+          {
+            "i": "SOU",
+            "n": "Souss-Massa",
+            "c": [
+              { "i": "AG", "n": "Agadir" },
+              { "i": "IN", "n": "Inezgane" },
+              { "i": "AM", "n": "Aït Melloul" },
+              { "i": "TR", "n": "Taroudant" },
+              { "i": "TZ", "n": "Tiznit" },
+              { "i": "TT", "n": "Tata" },
+              { "i": "CB", "n": "Biougra" },
+              { "i": "DR", "n": "Drarga" },
+              { "i": "TS", "n": "Temsia" },
+              { "i": "AR", "n": "Aourir" },
+              { "i": "TF", "n": "Tafraout" },
+              { "i": "TL", "n": "Taliouine" }
+            ]
+          },
+          {
+            "i": "GEU",
+            "n": "Guelmim-Oued Noun",
+            "c": [
+              { "i": "GU", "n": "Guelmim" },
+              { "i": "TT", "n": "Tan-Tan" },
+              { "i": "SI", "n": "Sidi Ifni" },
+              { "i": "AS", "n": "Assa" },
+              { "i": "ZG", "n": "Zag" },
+              { "i": "EW", "n": "El Ouatia" },
+              { "i": "BZ", "n": "Bouizakarne" },
+              { "i": "AK", "n": "Akhfennir" },
+              { "i": "TG", "n": "Taghjijt" },
+              { "i": "ML", "n": "Mirleft" }
+            ]
+          },
+          {
+            "i": "LAO",
+            "n": "Laâyoune-Sakia El Hamra",
+            "c": [
+              { "i": "LY", "n": "Laâyoune" },
+              { "i": "EM", "n": "El Marsa" },
+              { "i": "TF", "n": "Tarfaya" },
+              { "i": "AK", "n": "Akhfenir" },
+              { "i": "BD", "n": "Boujdour" },
+              { "i": "SM", "n": "Es-Semara" },
+              { "i": "HG", "n": "Hagounia" },
+              { "i": "FO", "n": "Foum El Oued" },
+              { "i": "LM", "n": "Lemsid" },
+              { "i": "DA", "n": "Daoura" }
+            ]
+          },
+          {
+            "i": "DAK",
+            "n": "Dakhla-Oued Ed-Dahab",
+            "c": [
+              { "i": "DK", "n": "Dakhla" },
+              { "i": "AS", "n": "Aousserd" },
+              { "i": "OD", "n": "Oum Dreyga" },
+              { "i": "BA", "n": "Bir Anzarane" },
+              { "i": "EA", "n": "El Argoub" },
+              { "i": "IM", "n": "Imlili" },
+              { "i": "TC", "n": "Tichla" },
+              { "i": "GG", "n": "Guerguerat" },
+              { "i": "BG", "n": "Bir Gandouz" },
+              { "i": "ML", "n": "Mliliha" }
+            ]
+          }
+        ]
+      },
+      {
+        "i": "MZ",
+        "n": "Mozambique",
+        "s": [
+          {
+            "i": "NIA",
+            "n": "Niassa",
+            "c": [
+              { "i": "LI", "n": "Lichinga" },
+              { "i": "CU", "n": "Cuamba" },
+              { "i": "MD", "n": "Mandimba" },
+              { "i": "MR", "n": "Marrupa" },
+              { "i": "ME", "n": "Metangula" },
+              { "i": "LG", "n": "Lago" },
+              { "i": "SG", "n": "Sanga" },
+              { "i": "MJ", "n": "Majune" },
+              { "i": "MU", "n": "Muembe" },
+              { "i": "MC", "n": "Mecanhelas" },
+              { "i": "CH", "n": "Chimbonila" }
+            ]
+          },
+          {
+            "i": "CAB",
+            "n": "Cabo Delgado",
+            "c": [
+              { "i": "PE", "n": "Pemba" },
+              { "i": "MT", "n": "Montepuez" },
+              { "i": "MP", "n": "Mocímboa da Praia" },
+              { "i": "PL", "n": "Palma" },
+              { "i": "MU", "n": "Mueda" },
+              { "i": "MD", "n": "Muidumbe" },
+              { "i": "NG", "n": "Nangade" },
+              { "i": "QS", "n": "Quissanga" },
+              { "i": "MC", "n": "Macomia" },
+              { "i": "CH", "n": "Chiúre" },
+              { "i": "IB", "n": "Ibo" },
+              { "i": "BA", "n": "Balama" }
+            ]
+          },
+          {
+            "i": "NAM",
+            "n": "Nampula",
+            "c": [
+              { "i": "NA", "n": "Nampula" },
+              { "i": "NP", "n": "Nacala-Porto" },
+              { "i": "NV", "n": "Nacala-a-Velha" },
+              { "i": "AN", "n": "Angoche" },
+              { "i": "IM", "n": "Ilha de Moçambique" },
+              { "i": "MN", "n": "Monapo" },
+              { "i": "MM", "n": "Moma" },
+              { "i": "MB", "n": "Memba" },
+              { "i": "MC", "n": "Meconta" },
+              { "i": "MG", "n": "Mogovolas" },
+              { "i": "MU", "n": "Mecubúri" },
+              { "i": "ML", "n": "Malema" }
+            ]
+          },
+          {
+            "i": "ZAM",
+            "n": "Zambezia",
+            "c": [
+              { "i": "QE", "n": "Quelimane" },
+              { "i": "MC", "n": "Mocuba" },
+              { "i": "GU", "n": "Gurúè" },
+              { "i": "AM", "n": "Alto Molócuè" },
+              { "i": "ML", "n": "Milange" },
+              { "i": "MB", "n": "Morrumbala" },
+              { "i": "MG", "n": "Maganja da Costa" },
+              { "i": "NI", "n": "Nicoadala" },
+              { "i": "NA", "n": "Namacurra" },
+              { "i": "PB", "n": "Pebane" },
+              { "i": "IL", "n": "Ile" },
+              { "i": "IH", "n": "Inhassunge" }
+            ]
+          },
+          {
+            "i": "TEL",
+            "n": "Tete",
+            "c": [
+              { "i": "TE", "n": "Tete" },
+              { "i": "MO", "n": "Moatize" },
+              { "i": "AN", "n": "Angónia (Ulongué)" },
+              { "i": "SO", "n": "Songo" },
+              { "i": "MT", "n": "Mutarara" },
+              { "i": "TS", "n": "Tsangano" },
+              { "i": "CG", "n": "Changara" },
+              { "i": "CH", "n": "Chiuta" },
+              { "i": "MV", "n": "Marávia" },
+              { "i": "CF", "n": "Chifunde" },
+              { "i": "MG", "n": "Magoe" },
+              { "i": "DO", "n": "Doa" }
+            ]
+          },
+          {
+            "i": "MAN",
+            "n": "Manica",
+            "c": [
+              { "i": "CH", "n": "Chimoio" },
+              { "i": "MA", "n": "Manica" },
+              { "i": "GO", "n": "Gondola" },
+              { "i": "SU", "n": "Sussundenga" },
+              { "i": "CT", "n": "Catandica" },
+              { "i": "MZ", "n": "Machaze" },
+              { "i": "MS", "n": "Mossurize" },
+              { "i": "MC", "n": "Macate" },
+              { "i": "VA", "n": "Vanduzi" },
+              { "i": "GU", "n": "Guro" },
+              { "i": "TB", "n": "Tambara" }
+            ]
+          },
+          {
+            "i": "SOF",
+            "n": "Sofala",
+            "c": [
+              { "i": "BE", "n": "Beira" },
+              { "i": "DO", "n": "Dondo" },
+              { "i": "NH", "n": "Nhamatanda" },
+              { "i": "BZ", "n": "Buzi" },
+              { "i": "GG", "n": "Gorongosa" },
+              { "i": "CA", "n": "Caia" },
+              { "i": "MR", "n": "Marromeu" },
+              { "i": "CH", "n": "Cheringoma" },
+              { "i": "MU", "n": "Muanza" },
+              { "i": "MA", "n": "Machanga" }
+            ]
+          },
+          {
+            "i": "INY",
+            "n": "Inhambane",
+            "c": [
+              { "i": "IH", "n": "Inhambane" },
+              { "i": "MX", "n": "Maxixe" },
+              { "i": "VL", "n": "Vilankulo" },
+              { "i": "IS", "n": "Inhassoro" },
+              { "i": "MS", "n": "Massinga" },
+              { "i": "MB", "n": "Morrumbene" },
+              { "i": "HM", "n": "Homoíne" },
+              { "i": "JG", "n": "Jangamo" },
+              { "i": "IR", "n": "Inharrime" },
+              { "i": "PD", "n": "Panda" },
+              { "i": "FN", "n": "Funhalouro" },
+              { "i": "GV", "n": "Govuro" },
+              { "i": "MBT", "n": "Mabote" },
+              { "i": "ZV", "n": "Zavala" }
+            ]
+          },
+          {
+            "i": "GAZ",
+            "n": "Gaza",
+            "c": [
+              { "i": "XA", "n": "Xai-Xai" },
+              { "i": "CK", "n": "Chókwè" },
+              { "i": "CB", "n": "Chibuto" },
+              { "i": "MJ", "n": "Manjacaze" },
+              { "i": "MA", "n": "Macia" },
+              { "i": "BL", "n": "Bilene" },
+              { "i": "GJ", "n": "Guijá" },
+              { "i": "CL", "n": "Chicualacuala" },
+              { "i": "MS", "n": "Massingir" },
+              { "i": "MB", "n": "Mabalane" },
+              { "i": "CG", "n": "Chigubo" }
+            ]
+          },
+          {
+            "i": "MAP",
+            "n": "Maputo Province",
+            "c": [
+              { "i": "MT", "n": "Matola" },
+              { "i": "BN", "n": "Boane" },
+              { "i": "NM", "n": "Namaacha" },
+              { "i": "MR", "n": "Marracuene" },
+              { "i": "MB", "n": "Moamba" },
+              { "i": "MTN", "n": "Matutuíne" },
+              { "i": "KT", "n": "Katembe" },
+              { "i": "MC", "n": "Machava" },
+              { "i": "IF", "n": "Infulene" },
+              { "i": "BL", "n": "Beluluane" }
+            ]
+          },
+          {
+            "i": "MPC",
+            "n": "Maputo City",
+            "c": [
+              { "i": "KM", "n": "KaMpfumu" },
+              { "i": "NL", "n": "Nlhamankulu" },
+              { "i": "KX", "n": "KaMaxaquene" },
+              { "i": "KV", "n": "KaMavota" },
+              { "i": "KB", "n": "KaMubukwana" },
+              { "i": "KT", "n": "KaTembe" },
+              { "i": "KN", "n": "KaNyaka (Inhaca)" }
+            ]
+          }
+        ]
+      },
+      {
+        "i": "NA",
+        "n": "Namibia",
+        "s": [
+          {
+            "i": "CA",
+            "n": "Zambezi",
+            "c": [
+              { "i": "KM", "n": "Katima Mulilo" },
+              { "i": "KG", "n": "Kongola" },
+              { "i": "BK", "n": "Bukalo" },
+              { "i": "LY", "n": "Linyanti" },
+              { "i": "SW", "n": "Sangwali" },
+              { "i": "SC", "n": "Schuckmannsburg" },
+              { "i": "NG", "n": "Ngoma" },
+              { "i": "IM", "n": "Impalila" }
+            ]
+          },
+          {
+            "i": "ER",
+            "n": "Erongo",
+            "c": [
+              { "i": "SW", "n": "Swakopmund" },
+              { "i": "WB", "n": "Walvis Bay" },
+              { "i": "HB", "n": "Henties Bay" },
+              { "i": "AR", "n": "Arandis" },
+              { "i": "OM", "n": "Omaruru" },
+              { "i": "KB", "n": "Karibib" },
+              { "i": "US", "n": "Usakos" },
+              { "i": "UI", "n": "Uis" },
+              { "i": "OJ", "n": "Otjimbingwe" },
+              { "i": "OK", "n": "Okombahe" }
+            ]
+          },
+          {
+            "i": "HA",
+            "n": "Hardap",
+            "c": [
+              { "i": "MR", "n": "Mariental" },
+              { "i": "RB", "n": "Rehoboth" },
+              { "i": "GB", "n": "Gibeon" },
+              { "i": "SP", "n": "Stampriet" },
+              { "i": "AR", "n": "Aranos" },
+              { "i": "MH", "n": "Maltahöhe" }
+            ]
+          },
+          {
+            "i": "KA",
+            "n": "Karas",
+            "c": [
+              { "i": "KM", "n": "Keetmanshoop" },
+              { "i": "LD", "n": "Lüderitz" },
+              { "i": "OR", "n": "Oranjemund" },
+              { "i": "KB", "n": "Karasburg" },
+              { "i": "AR", "n": "Aroab" },
+              { "i": "BE", "n": "Bethanie" },
+              { "i": "GR", "n": "Grünau" },
+              { "i": "RP", "n": "Rosh Pinah" }
+            ]
+          },
+          {
+            "i": "KH",
+            "n": "Khomas",
+            "c": [
+              { "i": "WE", "n": "Windhoek East" },
+              { "i": "WW", "n": "Windhoek West" },
+              { "i": "WR", "n": "Windhoek Rural" },
+              { "i": "KN", "n": "Khomasdal North" },
+              { "i": "KC", "n": "Katutura Central" },
+              { "i": "KE", "n": "Katutura East" },
+              { "i": "MG", "n": "Moses //Garoëb" },
+              { "i": "SM", "n": "Samora Machel" },
+              { "i": "TH", "n": "Tobias Hainyeko" },
+              { "i": "JP", "n": "John Pandeni" }
+            ]
+          },
+          {
+            "i": "KU",
+            "n": "Kunene",
+            "c": [
+              { "i": "OP", "n": "Opuwo" },
+              { "i": "KH", "n": "Khorixas" },
+              { "i": "OU", "n": "Outjo" },
+              { "i": "SS", "n": "Sesfontein" },
+              { "i": "PW", "n": "Palmwag" },
+              { "i": "OK", "n": "Okangwati" },
+              { "i": "EP", "n": "Epupa" },
+              { "i": "RC", "n": "Ruacana" }
+            ]
+          },
+          {
+            "i": "OD",
+            "n": "Ohangwena",
+            "c": [
+              { "i": "EE", "n": "Eenhana" },
+              { "i": "HN", "n": "Helao Nafidi" },
+              { "i": "OK", "n": "Okongo" },
+              { "i": "OG", "n": "Ongenga" },
+              { "i": "OSH", "n": "Oshikango" },
+              { "i": "OW", "n": "Omungwelume" },
+              { "i": "EN", "n": "Engela" },
+              { "i": "OD", "n": "Ondobe" },
+              { "i": "OM", "n": "Omafo" },
+              { "i": "EP", "n": "Epembe" },
+              { "i": "ED", "n": "Endola" }
+            ]
+          },
+          { "i": "OE", "n": "Omaheke", "c": [] },
+          { "i": "ON", "n": "Omusati", "c": [] },
+          { "i": "OT", "n": "Oshana", "c": [] },
+          { "i": "OU", "n": "Oshikoto", "c": [] },
+          { "i": "ODJ", "n": "Otjozondjupa", "c": [] },
+          { "i": "ONJ", "n": "Kavango East", "c": [] },
+          { "i": "ONW", "n": "Kavango West", "c": [] }
+        ]
+      },
+      {
+        "i": "NE",
+        "n": "Niger",
+        "s": [
+          { "i": "AG", "n": "Agadez", "c": [] },
+          { "i": "DF", "n": "Diffa", "c": [] },
+          { "i": "DS", "n": "Dosso", "c": [] },
+          { "i": "MR", "n": "Maradi", "c": [] },
+          { "i": "TL", "n": "Tahoua", "c": [] },
+          { "i": "TZ", "n": "Tillabéri", "c": [] },
+          { "i": "ZD", "n": "Zinder", "c": [] },
+          { "i": "NM", "n": "Niamey (Capital District)", "c": [] }
+        ]
+      },
       {
         "i": "NG",
         "n": "Nigeria",
