@@ -13,13 +13,13 @@
   "author": "Godfred Nana Owusu <https://github.com/godfrednanaowusu>",
   "license": "MIT",
   "dependencies": {
-    "cobe": "^0.6.3",
+    "cobe": "latest",
     "next": "latest",
-    "nextra": "^4.2.16",
-    "nextra-theme-docs": "^4.2.16",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "zustand": "^5.0.3"
+    "zustand": "latest"
   },
   "devDependencies": {
     "@radix-ui/themes": "^3.2.1",
@@ -29,7 +29,7 @@
     "lucide-react": "latest",
     "nextra-theme-docs": "latest",
     "pagefind": "latest",
-    "react-icons": "^5.5.0",
+    "react-icons": "latest",
     "react-syntax-highlighter": "latest",
     "react-world-flags": "latest",
     "typescript": "latest"
