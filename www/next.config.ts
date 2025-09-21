@@ -6,13 +6,13 @@ const withNextra = nextra({
 });
 
 export default withNextra({
-    experimental: {
-        turbo: {
-          resolveAlias: {
-            "next/server.js": "next/server",
-            "next/navigation.js": "next/navigation",
-            "next/headers.js": "next/headers",
-          },
-        },
-      }
+    // experimental: {
+    //     turbo: {
+    //       resolveAlias: {
+    //         "next/server.js": "next/server",
+    //         "next/navigation.js": "next/navigation",
+    //         "next/headers.js": "next/headers",
+    //       },
+    //     },
+    //   }
 });
