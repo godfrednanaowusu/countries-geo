@@ -2,7 +2,7 @@ import data from '../data/en.json'
 import { TCity } from './interface';
 
 // Cities
-export const cities = (): TCity[] => data.flatMap((continent:any) => continent.cn).flatMap(country => country.s || []).flatMap(state => state.c || []).map(city => ({ iso: city.i, name: city.n }));
+export const cities = (): TCity[] => data.flatMap((continent:any) => continent.cn).flatMap((country:any) => country.s || []).flatMap((state:any) => state.c || []).filter((city:any) => city.i).map((city:any) => ({ iso: city.i, name: city.n }));
 
 export const cities_by_state = (iso: string): TCity[] => {
   try {
@@ -46,8 +46,9 @@ export const cities_by_state = (iso: string): TCity[] => {
 export const cities_by_country = (iso: string): TCity[] => {
     return data
     .flatMap((continent:any) => continent.cn)
-    .find(country => country.i === iso)
+    .find((country:any) => country.i === iso)
     ?.s?.flatMap((state:any) => state.c || [])
+    ?.filter((city:any) => city.i)
     ?.map((city:any) => ({ iso: city.i, name: city.n })) || [];
 };
 
@@ -58,6 +59,7 @@ export const cities_by_continent = (iso: string): TCity[] => {
   return continent.cn
     .flatMap((country:any) => country.s || [])
     .flatMap((state:any) => state.c || [])
+    .filter((city:any) => city.i)
     .map((city:any) => ({ iso: city.i, name: city.n }));
 };
 
