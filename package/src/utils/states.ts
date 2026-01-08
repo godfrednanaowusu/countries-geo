@@ -1,13 +1,13 @@
-import data from '../data.json'
+import data from '../data/en.json'
 import { TState, TCity } from './interface';
 
 // States
-export const states = (): TState[] => data.flatMap(continent => continent.cn).map(state => ({ iso: state.i, name: state.n }));
+export const states = (): TState[] => data.flatMap((continent:any) => continent.cn.flatMap((country:any) => country.s || [])).map(state => ({ iso: state.i, name: state.n }));
 export const states_by_country = (iso: string) => {
     for (const continent of data) {
       const country = continent.cn.find(c => c.i === iso);
       if (country?.s) {
-        return country.s.map(state => ({ iso: state.i, name: state.n }));
+        return country.s.map((state:any) => ({ iso: state.i, name: state.n }));
       }
     }
     return [];
@@ -16,6 +16,6 @@ export const states_by_country = (iso: string) => {
     const continent = data.find(c => c.i === iso);
     if (!continent) return [];
     return continent.cn
-      .flatMap(country => country.s || [])
+      .flatMap((country:any) => country.s || [])
       .map(state => ({ iso: state.i, name: state.n }));
 };

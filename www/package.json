@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--no-warnings' next dev",
     "build": "next build",
     "start": "next start",
-    "turbo": "next --turbopack",
+    "turbo": "next dev --turbo",
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind"
   },
   "type": "module",
@@ -14,11 +14,11 @@
   "license": "MIT",
   "dependencies": {
     "cobe": "latest",
-    "next": "latest",
-    "nextra": "latest",
-    "nextra-theme-docs": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "next": "16.1.1",
+    "nextra": "^4.6.1",
+    "nextra-theme-docs": "^4.6.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "zustand": "latest"
   },
   "devDependencies": {
@@ -27,7 +27,6 @@
     "@types/react": "latest",
     "autoprefixer": "latest",
     "lucide-react": "latest",
-    "nextra-theme-docs": "latest",
     "pagefind": "latest",
     "react-icons": "latest",
     "react-syntax-highlighter": "latest",
