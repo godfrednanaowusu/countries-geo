@@ -1,17 +1,18 @@
 "use client";
 
 import React from "react";
-// import { SessionProvider } from "next-auth/react";
-import { Theme } from "@radix-ui/themes";
-import { useConfigStore } from "@/zustand/store";
+import { ThemeProvider } from "next-themes";
 
 export function Providers({ children }: { children: React.ReactNode }) {
-  const { appTheme } = useConfigStore();
   return (
-    <>
-        <Theme accentColor={"teal"} appearance={appTheme} radius="large">
-            {children}
-        </Theme>
-    </>
+    <ThemeProvider
+      attribute="class"
+      defaultTheme="system"
+      enableSystem
+      disableTransitionOnChange={false}
+      storageKey="countries-geo-theme"
+    >
+      {children}
+    </ThemeProvider>
   );
 }

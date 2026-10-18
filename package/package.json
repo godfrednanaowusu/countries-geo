@@ -1,32 +1,62 @@
 {
   "name": "countries-geo",
-  "version": "0.0.2",
+  "version": "1.1.0",
   "private": false,
-  "description": "Library for fetching Continents, Countries, States and its Cities",
+  "description": "Continents, countries, states and cities with ISO codes, geographic centre coordinates, IANA time zones and translations. Tree-shakable, with lazily loaded per-country city data.",
   "license": "MIT",
   "repository": "https://github.com/godfrednanaowusu/countries-geo",
   "bugs": "https://github.com/godfrednanaowusu/countries-geo/issues",
   "homepage": "https://countries-geo.vercel.app",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist/**/*"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "fetch-data": "python3 -I scripts/build-data/fetch.py",
+    "build-data": "python3 -I scripts/build-data/build.py",
+    "audit": "python3 -I scripts/build-data/audit.py",
+    "validate-additions": "python3 -I scripts/build-data/validate_additions.py",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && node scripts/emit-data.mjs && tsc -p tsconfig.json && tsc -p tsconfig.cjs.json && node scripts/finalize-dist.mjs",
+    "test": "node --test test/*.test.mjs test/*.test.cjs",
+    "prepublishOnly": "npm run build && npm test"
   },
   "devDependencies": {
     "@types/node": "latest",
     "typescript": "latest"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "keywords": [
-    "continents",
-    "countries",
-    "states",
     "cities",
+    "continents",
+    "coordinates",
+    "countries",
+    "countries-geo",
     "geo data",
-    "countries-geo"
+    "geonames",
+    "i18n",
+    "iso 3166",
+    "iso 3166-2",
+    "states",
+    "timezones"
   ],
   "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }

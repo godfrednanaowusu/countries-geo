@@ -1,9 +1,9 @@
-import Continents from './continents';
-import Countries from './countries';
-import States from './states';
-import Cities from './cities';
+import Cities from './cities.js';
+import Continents from './continents.js';
+import Countries from './countries.js';
+import States from './states.js';
+import Timezones from './timezones.js';
 
-export { Continents };
-export { Countries };
-export { States };
-export { Cities };
+export { Continents, Countries, States, Cities, Timezones };
+export { loadLanguage, isLanguageLoaded, supportedLanguages } from './internal/i18n.js';
+export type { City, Continent, Coordinates, Country, Language, Options, State } from './types.js';

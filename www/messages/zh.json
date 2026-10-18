@@ -1,0 +1,247 @@
+{
+  "banner": {
+    "released": "版本 {version} 已发布 🎉"
+  },
+  "nav": {
+    "documentation": "文档",
+    "donate": "捐助",
+    "language": "语言"
+  },
+  "footer": {
+    "madeBy": "作者"
+  },
+  "search": {
+    "placeholder": "搜索文档…",
+    "emptyResult": "未找到结果。",
+    "errorText": "无法加载搜索索引。",
+    "loading": "加载中…"
+  },
+  "toc": {
+    "title": "本页目录",
+    "backToTop": "回到顶部"
+  },
+  "docsNav": {
+    "introduction": "简介",
+    "continents": "大洲",
+    "countries": "国家",
+    "states": "州/省",
+    "cities": "城市",
+    "roadmap": "路线图"
+  },
+  "home": {
+    "title": "访问<hl>大洲</hl>、<hl>国家</hl>、<hl>州/省</hl>和<hl>城市</hl>的实用工具。",
+    "subtitle": "此工具提供简单的函数，让访问大洲、国家、州/省和城市变得轻松。",
+    "learnMore": "了解更多",
+    "getPackage": "获取软件包",
+    "explore": "探索",
+    "continents": {
+      "title": "大洲",
+      "description": "{count, number} 个大洲，含 ISO 代码、中心坐标和时区。"
+    },
+    "countries": {
+      "title": "国家",
+      "description": "{count, number} 个国家，含 ISO 3166 代码、电话区号、坐标和时区。"
+    },
+    "states": {
+      "title": "州/省",
+      "description": "{count, number} 个州/省，含 ISO 3166-2 代码、类型和时区。"
+    },
+    "cities": {
+      "title": "城市",
+      "description": "{count, number} 座城市，含坐标和时区，按国家按需加载。"
+    },
+    "copy": "复制",
+    "copied": "已复制",
+    "stats": {
+      "continents": "大洲",
+      "countries": "国家",
+      "states": "州/省",
+      "cities": "城市",
+      "languages": "语言",
+      "timezones": "时区"
+    },
+    "example": {
+      "title": "试一试",
+      "description": "通过 ISO 代码查询任意国家，名称会以你加载的语言返回。",
+      "output": "输出"
+    }
+  },
+  "usage": {
+    "dataLanguage": "数据语言",
+    "search": "搜索",
+    "selectContinent": "选择大洲",
+    "allContinents": "所有大洲",
+    "selectCountry": "选择国家",
+    "allCountries": "所有国家",
+    "selectState": "选择州/省",
+    "allStates": "所有州/省",
+    "selectCity": "选择城市",
+    "allCities": "所有城市",
+    "report": "找不到某个地点？报告一下"
+  },
+  "notFound": {
+    "description": "抱歉，找不到您要访问的页面。",
+    "title": "页面未找到",
+    "goHome": "返回首页"
+  },
+  "page": {
+    "feedback": "有疑问？欢迎反馈",
+    "editPage": "编辑此页",
+    "lastUpdated": "最后更新于"
+  },
+  "docs": {
+    "common": {
+      "es6": "ES6 模块",
+      "amd": "AMD 模块",
+      "sortedByName": "默认按名称排序。",
+      "sortedByIso": "默认按 iso 排序。",
+      "enhancedFeatures": "使用增强功能"
+    },
+    "intro": {
+      "welcome": "欢迎阅读 <b>Countries Geo</b> 文档——一站式获取大洲、国家、州/省和城市信息的解决方案。",
+      "installation": "安装",
+      "availableInfo": "可用信息",
+      "availableInfoDesc": "了解可访问的各类增强数据，包括 ISO2/ISO3 代码、电话区号、坐标及多语言支持：",
+      "feature": "功能",
+      "description": "说明",
+      "continent": "大洲",
+      "continentDesc": "大洲是地球上最大的陆地，通常分为七个区域：非洲、南极洲、亚洲、欧洲、北美洲、南美洲和大洋洲。这些广袤的区域以地理边界、文化差异和独特的生态系统相区分。",
+      "continentNew": "现已包含 ISO2/ISO3 代码、坐标和多语言名称。",
+      "countries": "国家",
+      "countriesDesc": "国家是拥有明确边界、政府和人口的主权政治实体。每个国家都有自己的法律、货币和身份认同，例如美国、巴西或日本。",
+      "countriesNew": "现已包含 ISO2/ISO3 代码、电话区号、坐标和多语言名称。",
+      "states": "州/省",
+      "statesDesc": "州/地区是国家内部的下级行政区划，用于行政和政治管理。例如，美国有 50 个州，印度有 28 个邦，德国有 16 个联邦州。",
+      "statesNew": "现已包含坐标和多语言名称。",
+      "cities": "城市",
+      "citiesDesc": "城市/城镇是国家内部有人口聚居的城市或半城市地区，是商业、文化和治理的中心。",
+      "citiesNew": "现已包含坐标和多语言名称。",
+      "whyChoose": "为什么选择 Countries Geo？",
+      "why": {
+        "dataLabel": "增强的数据结构",
+        "dataText": "提供 ISO2/ISO3 代码、电话区号、坐标和多语言名称，地理数据全面完整",
+        "docsLabel": "完善的文档",
+        "docsText": "详尽的指南和参考资料，助您轻松集成我们的服务。",
+        "scaleLabel": "可扩展性",
+        "scaleText": "构建随业务增长而扩展的应用，从小型项目到大型企业级解决方案均可胜任。",
+        "securityLabel": "安全性",
+        "securityText": "可靠的安全机制，确保您的集成和数据始终受到保护，让您安心无忧。"
+      },
+      "newFeatures": "新功能",
+      "enhancedStructure": "增强的数据结构",
+      "allInclude": "所有地理实体现均包含：",
+      "include": {
+        "isoLabel": "ISO2/ISO3 代码",
+        "isoText": "标准国际代码，兼容性更佳",
+        "telLabel": "电话区号",
+        "telText": "各国的国际拨号代码",
+        "coorLabel": "坐标",
+        "coorText": "经纬度，精确定位地理位置",
+        "namesLabel": "多语言名称",
+        "namesText": "支持多种语言的名称"
+      },
+      "backwardCompat": "向后兼容",
+      "backwardCompatDesc": "本库在提供增强功能的同时，保持完全的向后兼容：",
+      "closing": "无论您是经验丰富的开发者还是刚刚入门，本文档都能帮助您清楚地了解如何使用这一实用工具。",
+      "faq": "常见问题",
+      "faqIntro": "Countries Geo 常见问题汇集了关于本项目的实用问答。如果您的问题未在此列出，请<discussions>发起讨论</discussions>。",
+      "q1": "我可以在我的 JavaScript 项目中使用 Countries Geo 吗？",
+      "a1": "只要是基于 node 的 JavaScript 项目，都可以使用 Countries Geo。",
+      "q2": "使用此服务需要付费吗？",
+      "a2": "Countries Geo 是开源项目，可免费用于任何类型的项目：",
+      "a2Point1": "目前及将来都没有对此服务收费的计划。",
+      "a2Point2": "不过，将来可能会为希望捐助支持的个人或公司提供相应渠道",
+      "q3": "如何建议补充缺失的数据？",
+      "a3": "请在 GitHub 上使用<report>缺失或错误地点表单</report>。附上 GeoNames 或 Wikidata 链接可帮助我们快速核实并添加该地点。"
+    },
+    "continents": {
+      "title": "大洲数据",
+      "getAll": "获取所有大洲",
+      "getAllDesc": "返回包含所有大洲的数组，附带增强数据，包括 ISO2/ISO3 代码、坐标和多语言名称。",
+      "sortByIso": "获取按 isoCode 排序的所有大洲",
+      "sortByIsoDesc": "返回按 isoCode 排序的所有大洲数组。",
+      "enhancedDesc": "您可以使用 ISO3 代码、坐标和多语言名称等增强功能："
+    },
+    "countries": {
+      "title": "国家数据",
+      "getAll": "获取所有国家",
+      "getAllDesc": "返回包含所有国家的数组，附带增强数据，包括 ISO2/ISO3 代码、电话区号、坐标和多语言名称。",
+      "sortByIso": "获取按 isoCode 排序的所有国家",
+      "sortByIsoDesc": "返回按 isoCode 排序的所有国家数组。",
+      "enhancedDesc": "您可以使用 ISO3 代码、电话区号、坐标和多语言名称等增强功能：",
+      "byContinent": "按大洲获取国家",
+      "byContinentDesc": "返回按大洲 isoCode 筛选的所有国家数组。"
+    },
+    "states": {
+      "title": "州/省数据",
+      "getAll": "获取所有州/省",
+      "getAllDesc": "返回包含所有州/省的数组，附带增强数据，包括坐标和多语言名称。",
+      "sortByIso": "获取按 isoCode 排序的所有州/省",
+      "sortByIsoDesc": "返回按 isoCode 排序的所有州/省数组。",
+      "enhancedDesc": "您可以使用坐标和多语言名称等增强功能：",
+      "byCountry": "按国家获取州/省",
+      "byCountryDesc": "返回按国家 isoCode 筛选的所有州/省数组。",
+      "byContinent": "按大洲获取州/省",
+      "byContinentDesc": "返回按大洲 isoCode 筛选的所有州/省数组。"
+    },
+    "cities": {
+      "title": "城市数据",
+      "getAll": "获取所有城市",
+      "getAllDesc": "返回包含所有城市的数组，附带增强数据，包括坐标和多语言名称。",
+      "sortByIso": "获取按 isoCode 排序的所有城市",
+      "sortByIsoDesc": "返回按 isoCode 排序的所有城市数组。",
+      "enhancedDesc": "您可以使用坐标和多语言名称等增强功能：",
+      "byState": "按州/省获取城市",
+      "byStateDesc": "返回按州/省 isoCode 筛选的所有城市数组。",
+      "byCountry": "按国家获取城市",
+      "byCountryDesc": "返回按国家 isoCode 筛选的所有城市数组。",
+      "byContinent": "按大洲获取城市",
+      "byContinentDesc": "返回按大洲 isoCode 筛选的所有城市数组。"
+    },
+    "roadmap": {
+      "title": "我们的路线图",
+      "search": "按名称搜索",
+      "searchDesc": "按名称查找大洲、国家、州/省和城市，忽略重音和大小写，支持任何已加载的语言。",
+      "currencies": "货币和语言",
+      "currenciesDesc": "为每个国家添加 ISO 4217 货币和 ISO 639 官方语言。",
+      "flags": "国旗",
+      "flagsDesc": "为每个国家提供国旗表情符号，并可单独引入 SVG 国旗。",
+      "borders": "邻国",
+      "bordersDesc": "列出与指定国家有陆地边界的国家。",
+      "nearestCity": "最近的城市",
+      "nearestCityDesc": "利用数据集中已有的坐标，查找距离给定经纬度最近的城市。",
+      "population": "人口和面积",
+      "populationDesc": "添加国家和城市的人口数据，以及国家的陆地面积。",
+      "cityNames": "更多城市翻译",
+      "cityNamesDesc": "翻译更多城市名称，目前覆盖范围因语言和国家而异。"
+    }
+  },
+  "code": {
+    "logsAllCitiesWithEnhancedData": "输出所有城市（含增强数据）",
+    "legacyFields": "旧版字段",
+    "multilanguageNames": "多语言名称",
+    "metadata": "元数据",
+    "coordinates": "坐标",
+    "logsAllCitiesSortedByIsoCode": "输出按 ISO 代码排序的所有城市",
+    "logsAllCitiesInGreaterAccraWithEnhancedData": "输出大阿克拉省所有城市（含增强数据）",
+    "logsAllGhanaianCitiesWithEnhancedData": "输出加纳所有城市（含增强数据）",
+    "logsAllAfricanCitiesWithEnhancedData": "输出非洲所有城市（含增强数据）",
+    "accessCoordinates": "访问坐标",
+    "accessMultilanguageNames": "访问多语言名称",
+    "logsAllContinentsWithEnhancedData": "输出所有大洲（含增强数据）",
+    "enhancedIsoCodes": "增强的 ISO 代码",
+    "logsAllContinentsSortedByIso2Code": "输出按 ISO2 代码排序的所有大洲",
+    "accessIso3Code": "访问 ISO3 代码",
+    "logsAllCountriesWithEnhancedData": "输出所有国家（含增强数据）",
+    "telephoneCode": "电话区号",
+    "logsAllCountriesSortedByIso2Code": "输出按 ISO2 代码排序的所有国家",
+    "logsAllAfricanCountriesWithEnhancedData": "输出非洲所有国家（含增强数据）",
+    "accessTelephoneCode": "访问电话区号",
+    "legacyFormatStillWorks": "旧版格式（仍可使用）",
+    "enhancedFormat": "增强格式",
+    "logsAllStatesWithEnhancedData": "输出所有州/省（含增强数据）",
+    "logsAllStatesSortedByIsoCode": "输出按 ISO 代码排序的所有州/省",
+    "logsAllGhanaianStatesWithEnhancedData": "输出加纳所有州/省（含增强数据）",
+    "logsAllAfricanStatesWithEnhancedData": "输出非洲所有州/省（含增强数据）"
+  }
+}

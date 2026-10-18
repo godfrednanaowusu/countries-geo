@@ -1,18 +1,15 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import {
-  Flex,
-  TextField,
-  Text,
-  ScrollArea,
-  Popover,
-  Button,
-  Badge,
-} from "@radix-ui/themes";
+import { useEffect, useState } from "react";
 import { ChevronsUpDown, Search } from "lucide-react";
-import "./style.css";
 import { IoMdClose } from "react-icons/io";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Badge } from "@/components/ui/badge";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+
+// MIGRATED: Radix UI Themes imports removed
+import "./style.css";
 
 export default function ComboBox({
   type = "text",
@@ -21,6 +18,7 @@ export default function ComboBox({
   placeholder,
   items,
   noItemsText = "No",
+  searchPlaceholder = "Search",
   isMulti = false,
   width = "100%",
   ...rest
@@ -43,7 +41,7 @@ export default function ComboBox({
           flat_value = new_value?.map((item:any)=>item?.hasOwnProperty('identifier')?item?.identifier:item?.hasOwnProperty('value')?item?.value:item) || []
           flat_old_value = value || []
           
-        }else{
+        } else {
           new_value = value?.map((item:any) => ({value:item?.hasOwnProperty('identifier')?item?.identifier:item?.value, text:item?.hasOwnProperty('name')?item?.name:item?.label}))
           flat_value = new_value?.map((item:any)=>item?.hasOwnProperty('identifier')?item?.identifier:item?.hasOwnProperty('value')?item?.value:item)
           flat_old_value = value?.map((item:any)=>item?.hasOwnProperty('identifier')?item?.identifier:item?.hasOwnProperty('value')?item?.value:item) || []
@@ -66,7 +64,7 @@ export default function ComboBox({
           onValueChange(flat_value?.map((item:any)=>item?.hasOwnProperty('identifier')?item?.identifier:item?.hasOwnProperty('value')?item?.value:item))
         }
       
-      }else{
+      } else {
         setValue(value)
       }
     }
@@ -113,7 +111,35 @@ export default function ComboBox({
         
       }
 
+      // console.log('getValue: ', getValue)
+      // console.log('Value: ', value)
+      // let new_value:any = []
 
+      //   if (typeof getValue[0] === "string") {
+      //     new_value = getValue?.map((item:any) => ({value:item, text:items?.some((itm:any)=>itm.identifier == item).name}))
+          
+      //   }else{
+      //     new_value = getValue?.map((item:any) => ({value:item?.hasOwnProperty('identifier')?item?.identifier:item?.value, text:item?.hasOwnProperty('name')?item?.name:item?.label}))
+          
+      //   }
+
+      // const flat_value = getValue?.map((item:any)=>item?.hasOwnProperty('identifier')?item?.identifier:item?.hasOwnProperty('value')?item?.value:item)
+      //   // console.log('flat value: ', flat_value)
+      //   const flat_new_value = new_value?.map((item:any)=>item.value)
+      //   console.log('flat new value: ', flat_new_value)
+
+      //   const areEqual = JSON.stringify(flat_value) === JSON.stringify(flat_new_value);
+      //   console.log('are equal: ', areEqual)
+      //   if(!areEqual){
+      //     // onValueChange(getValue?.map((item:any)=>item.value));
+      //   }
+
+      // // if ((isMulti && Array.isArray(getValue))){
+      // //   console.log(JSON.stringify(getValue))
+      // // onValueChange(getValue?.map((item:any) => item?.value))
+      // // }else{
+      // //   onValueChange(getValue);
+      // // }
     }
   }, [getValue]);
 
@@ -134,28 +160,31 @@ export default function ComboBox({
     if (!isMulti) {
       
       setValue(item?.value);
-      onValueChange(item?.value)
+      onValueChange(item?.value);
       setOpen(false);
     } else {
       if (!getValue?.includes(item)) {
         setValue([...getValue || [], {value:item.value, text:item.label}]);
-        onValueChange([...getValue || [], {value:item.value, text:item.label}]?.map(item => item.value))
+        onValueChange([...getValue || [], {value:item.value, text:item.label}]?.map(item => item.value));
       }
       setOpen(false);
     }
   };
 
   const handleRemoveItem = (val: any) => {
-    setValue(getValue.filter((item: any) => item !== val));
+    const newValue = getValue.filter((item: any) => item !== val);
+    setValue(newValue);
+    if (onValueChange) {
+      onValueChange(newValue?.map((item: any) => item.value));
+    }
   };
 
   return (
     <>
       {/* {JSON.stringify(getValue)} */}
-      <Popover.Root open={open} onOpenChange={setOpen}>
-        <Popover.Trigger>
+      <Popover open={open} onOpenChange={setOpen}>
+        <PopoverTrigger>
           <Button
-            variant={"outline"}
             style={{
               width: width,
               height: "auto",
@@ -166,9 +195,9 @@ export default function ComboBox({
             }}
             {...rest}
           >
-            <Flex wrap={"wrap"} gap={"2"}>
+            <div>
               {!isMulti && (
-                <Text
+                <p
                   style={{
                     display: "-webkit-box",
                     WebkitBoxOrient: "vertical",
@@ -181,14 +210,14 @@ export default function ComboBox({
                 >
                   {items?.find((item: any) => item.value === getValue)?.text ||
                     placeholder}
-                </Text>
+                </p>
               )}
               {isMulti && (
                 <>
                   {getValue?.length > 0 ? (
                     <>
                       {getValue?.map((val: any, ind: any) => (
-                        <Badge key={ind} variant="soft" highContrast>
+                        <Badge key={ind}  >
                           {/* {JSON.stringify(val)} -  */}
                           {/* {JSON.stringify(items)} */}
                           {items?.find((item: any) => item?.value === val?.value)?.text}
@@ -200,7 +229,7 @@ export default function ComboBox({
                       ))}
                     </>
                   ) : (
-                    <Text
+                    <p
                       style={{
                         display: "-webkit-box",
                         WebkitBoxOrient: "vertical",
@@ -211,89 +240,73 @@ export default function ComboBox({
                       }}
                     >
                       {placeholder}
-                    </Text>
+                    </p>
                   )}
                 </>
               )}
-            </Flex>
+            </div>
             <ChevronsUpDown size={"12"} />
           </Button>
-        </Popover.Trigger>
-        <Popover.Content
-          maxWidth={"250px"}
+        </PopoverTrigger>
+        <PopoverContent
           style={{ padding: 5, marginTop: 3 }}
         >
-          <Flex direction="column" p="1" gap={"2"}>
-            <TextField.Root
-              placeholder="Search"
-              value={getSearchText}
-              onChange={(e) => {
-                setSearchText(e.target.value);
-              }}
-              // onKeyDown={(e) => { e.stopPropagation(); if (e.key === 'Enter') { e.preventDefault(); } }}
-            >
-              <TextField.Slot side="left">
-                <Search size={16} />
-              </TextField.Slot>
-              <TextField.Slot side="right" pr={"1"}>
-                <Button
-                  size={"1"}
-                  variant={"soft"}
-                  color={"red"}
-                  highContrast
-                  onClick={() => {
-                    setSearchText("");
-                    setOpen(false);
-                  }}
-                >
-                  <IoMdClose />
-                </Button>
-              </TextField.Slot>
-            </TextField.Root>
-
-            <ScrollArea
-              type="auto"
-              scrollbars="vertical"
-              style={{ height: "200px" }}
-            >
-              <Flex
-                align="center"
-                gap="2"
-                className={"widget_item"}
-                p={"2"}
+          <div className="flex flex-col p-1 space-y-2">
+            <div className="relative">
+              <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                placeholder={searchPlaceholder}
+                value={getSearchText}
+                onChange={(e) => {
+                  setSearchText(e.target.value);
+                }}
+                className="pl-9 pr-9"
+              />
+              <Button
+                variant="ghost"
+                size="icon"
+                className="absolute right-1 top-1/2 -translate-y-1/2 h-7 w-7"
                 onClick={() => {
-                  setValue(isMulti ? [] : "");
+                  setSearchText("");
                   setOpen(false);
                 }}
               >
-                <Text size={"2"} color={"gray"} style={{ userSelect: "none" }}>
+                <IoMdClose size={16} />
+              </Button>
+            </div>
+
+            <div className="max-h-[200px] overflow-y-auto space-y-1">
+              <div 
+                className="flex items-center gap-2 p-2 hover:bg-accent rounded cursor-pointer"
+                onClick={() => {
+                  const newValue = isMulti ? [] : "";
+                  setValue(newValue);
+                  if (onValueChange) {
+                    onValueChange(newValue);
+                  }
+                  setOpen(false);
+                }}
+              >
+                <p className="text-muted-foreground select-none">
                   {noItemsText}
-                </Text>
-              </Flex>
-              {/* {items?.length} */}
+                </p>
+              </div>
               {getSortedItems?.map((item: any, ind: any) => (
-                <Flex
-                  align="center"
-                  gap="2"
-                  className={"widget_item"}
+                <div 
+                  className="flex items-center gap-2 p-2 hover:bg-accent rounded cursor-pointer"
                   key={ind}
-                  p={"2"}
                   onClick={() => handleSelectItem(item)}
                 >
                   {item?.icon}
-                  <Text
-                    size={"2"}
-                    color={"gray"}
-                    style={{ userSelect: "none" }}
-                  >
+                  <p className="text-foreground select-none">
                     {item.text}
-                  </Text>
-                </Flex>
+                  </p>
+                </div>
               ))}
-            </ScrollArea>
-          </Flex>
-        </Popover.Content>
-      </Popover.Root>
+            </div>
+          </div>
+        </PopoverContent>
+      </Popover>
     </>
   );
 }

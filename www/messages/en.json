@@ -1,0 +1,247 @@
+{
+  "banner": {
+    "released": "Version {version} is released 🎉"
+  },
+  "nav": {
+    "documentation": "Documentation",
+    "donate": "Donate",
+    "language": "Language"
+  },
+  "footer": {
+    "madeBy": "Made by"
+  },
+  "search": {
+    "placeholder": "Search documentation…",
+    "emptyResult": "No results found.",
+    "errorText": "Failed to load search index.",
+    "loading": "Loading…"
+  },
+  "toc": {
+    "title": "On This Page",
+    "backToTop": "Scroll to top"
+  },
+  "docsNav": {
+    "introduction": "Introduction",
+    "continents": "Continents",
+    "countries": "Countries",
+    "states": "States",
+    "cities": "Cities",
+    "roadmap": "Roadmap"
+  },
+  "home": {
+    "title": "Utility to access <hl>Continents</hl>, <hl>Countries</hl>, <hl>States</hl>, and <hl>Cities</hl>.",
+    "subtitle": "This utility provides simple functions to make accessing Continents, Countries, States and Cities easy.",
+    "learnMore": "Learn More",
+    "getPackage": "Get Package",
+    "explore": "Explore",
+    "continents": {
+      "title": "Continents",
+      "description": "{count, number} continents with ISO codes, centre coordinates and time zones."
+    },
+    "countries": {
+      "title": "Countries",
+      "description": "{count, number} countries with ISO 3166 codes, dialling codes, coordinates and time zones."
+    },
+    "states": {
+      "title": "States",
+      "description": "{count, number} states and provinces with ISO 3166-2 codes, types and time zones."
+    },
+    "cities": {
+      "title": "Cities",
+      "description": "{count, number} cities with coordinates and time zones, loaded per country on demand."
+    },
+    "copy": "Copy",
+    "copied": "Copied",
+    "stats": {
+      "continents": "Continents",
+      "countries": "Countries",
+      "states": "States & provinces",
+      "cities": "Cities",
+      "languages": "Languages",
+      "timezones": "Time zones"
+    },
+    "example": {
+      "title": "Try it",
+      "description": "Look up any country by its ISO code. Names come back in whichever language you load.",
+      "output": "Output"
+    }
+  },
+  "usage": {
+    "dataLanguage": "Data language",
+    "search": "Search",
+    "selectContinent": "Select Continent",
+    "allContinents": "All Continents",
+    "selectCountry": "Select Country",
+    "allCountries": "All Countries",
+    "selectState": "Select State",
+    "allStates": "All States",
+    "selectCity": "Select City",
+    "allCities": "All Cities",
+    "report": "Can't find a place? Report it"
+  },
+  "notFound": {
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "title": "Page not found",
+    "goHome": "Go Home"
+  },
+  "page": {
+    "feedback": "Question? Give us feedback",
+    "editPage": "Edit this page",
+    "lastUpdated": "Last updated on"
+  },
+  "docs": {
+    "common": {
+      "es6": "ES6 Module",
+      "amd": "AMD Module",
+      "sortedByName": "By default this is sorted by name.",
+      "sortedByIso": "By default this is sorted by iso.",
+      "enhancedFeatures": "Access Enhanced Features"
+    },
+    "intro": {
+      "welcome": "Welcome to the <b>Countries Geo</b> documentation, your one-stop solution for accessing continents, countries, states and cities information.",
+      "installation": "Installation",
+      "availableInfo": "Available Info",
+      "availableInfoDesc": "Explore the different areas you can access with enhanced data including ISO2/ISO3 codes, telephone codes, coordinates, and multi-language support:",
+      "feature": "Feature",
+      "description": "Description",
+      "continent": "Continent",
+      "continentDesc": "Continents are the largest landmasses on Earth, typically divided into seven regions: Africa, Antarctica, Asia, Europe, North America, South America, and Australia. These vast areas are distinguished by geographical boundaries, cultural differences, and unique ecosystems.",
+      "continentNew": "Now includes ISO2/ISO3 codes, coordinates, and multi-language names.",
+      "countries": "Countries",
+      "countriesDesc": "Countries are sovereign political entities with defined borders, governments, and populations. Each country has its own laws, currency, and identity, such as the United States, Brazil, or Japan.",
+      "countriesNew": "Now includes ISO2/ISO3 codes, telephone codes, coordinates, and multi-language names.",
+      "states": "States",
+      "statesDesc": "States/Regions are subdivisions within a country that help with administrative and political organization. For example, the U.S. has 50 states, India has 28 states, and Germany has 16 federal states.",
+      "statesNew": "Now includes coordinates and multi-language names.",
+      "cities": "Cities",
+      "citiesDesc": "Cities/Towns are populated urban or semi-urban areas within a country, serving as centers for commerce, culture, and governance.",
+      "citiesNew": "Now includes coordinates and multi-language names.",
+      "whyChoose": "Why Choose Countries Geo?",
+      "why": {
+        "dataLabel": "Enhanced Data Structure",
+        "dataText": "ISO2/ISO3 codes, telephone codes, coordinates, and multi-language names for comprehensive geographic data",
+        "docsLabel": "Comprehensive Documentation",
+        "docsText": "Detailed guides and reference material to help you integrate with our services effortlessly.",
+        "scaleLabel": "Scalability",
+        "scaleText": "Build applications that scale with your business, from small projects to large enterprise solutions.",
+        "securityLabel": "Security",
+        "securityText": "Rest assured with our robust security protocols, ensuring your integrations and data are always protected."
+      },
+      "newFeatures": "New Features",
+      "enhancedStructure": "Enhanced Data Structure",
+      "allInclude": "All geographic entities now include:",
+      "include": {
+        "isoLabel": "ISO2/ISO3 Codes",
+        "isoText": "Standard international codes for better compatibility",
+        "telLabel": "Telephone Codes",
+        "telText": "International dialing codes for countries",
+        "coorLabel": "Coordinates",
+        "coorText": "Latitude and longitude for precise geographic location",
+        "namesLabel": "Multi-language Names",
+        "namesText": "Support for names in multiple languages"
+      },
+      "backwardCompat": "Backward Compatibility",
+      "backwardCompatDesc": "The library maintains full backward compatibility while providing access to enhanced features:",
+      "closing": "Whether you're a seasoned developer or just starting out, this is designed to provide a clear understanding of how to use this utility tool.",
+      "faq": "FAQ",
+      "faqIntro": "The Countries Geo FAQ is a collection of useful questions and answers about the project. If you have a question that isn't answered here, please <discussions>open a discussion</discussions>.",
+      "q1": "Can I use Countries Geo with my Javascript Project?",
+      "a1": "Countries Geo would work on any javascript project so far as its node based.",
+      "q2": "Do I have to pay for this service?",
+      "a2": "Countries Geo is open-source and free to use for any kind of project:",
+      "a2Point1": "There is currently no plan now or in the future to charge for this service.",
+      "a2Point2": "Though a channel could be provided in the future for individuals or companies that would want to support with a donation",
+      "q3": "How do I suggest the addition of missing data?",
+      "a3": "Use the <report>missing or wrong place form</report> on GitHub. A GeoNames or Wikidata link helps us verify and add the place quickly."
+    },
+    "continents": {
+      "title": "Continents Data",
+      "getAll": "Get All Continents",
+      "getAllDesc": "This gives you an array of all continents with enhanced data including ISO2/ISO3 codes, coordinates, and multi-language names.",
+      "sortByIso": "Get All Continents sorted by isoCode",
+      "sortByIsoDesc": "This gives you an array of all continents specifically sorted by isoCode.",
+      "enhancedDesc": "You can access the enhanced features like ISO3 codes, coordinates, and multi-language names:"
+    },
+    "countries": {
+      "title": "Countries Data",
+      "getAll": "Get All Countries",
+      "getAllDesc": "This gives you an array of all countries with enhanced data including ISO2/ISO3 codes, telephone codes, coordinates, and multi-language names.",
+      "sortByIso": "Get All Countries sorted by isoCode",
+      "sortByIsoDesc": "This gives you an array of all countries specifically sorted by isoCode.",
+      "enhancedDesc": "You can access the enhanced features like ISO3 codes, telephone codes, coordinates, and multi-language names:",
+      "byContinent": "Get Countries by Continent",
+      "byContinentDesc": "This gives you an array of all countries filtered by a Continent isoCode."
+    },
+    "states": {
+      "title": "States Data",
+      "getAll": "Get All States",
+      "getAllDesc": "This gives you an array of all states with enhanced data including coordinates and multi-language names.",
+      "sortByIso": "Get All States sorted by isoCode",
+      "sortByIsoDesc": "This gives you an array of all states specifically sorted by isoCode.",
+      "enhancedDesc": "You can access the enhanced features like coordinates and multi-language names:",
+      "byCountry": "Get States by Country",
+      "byCountryDesc": "This gives you an array of all states filtered by a Country isoCode.",
+      "byContinent": "Get States by Continent",
+      "byContinentDesc": "This gives you an array of all states filtered by a Continent isoCode."
+    },
+    "cities": {
+      "title": "Cities Data",
+      "getAll": "Get All Cities",
+      "getAllDesc": "This gives you an array of all cities with enhanced data including coordinates and multi-language names.",
+      "sortByIso": "Get All Cities sorted by isoCode",
+      "sortByIsoDesc": "This gives you an array of all cities specifically sorted by isoCode.",
+      "enhancedDesc": "You can access the enhanced features like coordinates and multi-language names:",
+      "byState": "Get Cities by State",
+      "byStateDesc": "This gives you an array of all cities filtered by a State isoCode.",
+      "byCountry": "Get Cities by Country",
+      "byCountryDesc": "This gives you an array of all cities filtered by a Country isoCode.",
+      "byContinent": "Get Cities by Continent",
+      "byContinentDesc": "This gives you an array of all cities filtered by a Continent isoCode."
+    },
+    "roadmap": {
+      "title": "Our Roadmap",
+      "search": "Search by name",
+      "searchDesc": "Find continents, countries, states and cities by name, ignoring accents and case, in any loaded language.",
+      "currencies": "Currencies and languages",
+      "currenciesDesc": "Add each country's ISO 4217 currencies and ISO 639 official languages.",
+      "flags": "Flags",
+      "flagsDesc": "Ship a flag emoji for every country, with SVG flags as an optional separate import.",
+      "borders": "Neighbouring countries",
+      "bordersDesc": "List the countries that share a land border with a given country.",
+      "nearestCity": "Nearest city",
+      "nearestCityDesc": "Find the closest city to a latitude and longitude, using the coordinates already in the dataset.",
+      "population": "Population and area",
+      "populationDesc": "Add population figures for countries and cities, and land area for countries.",
+      "cityNames": "More city translations",
+      "cityNamesDesc": "Translate more city names, since coverage currently varies by language and country."
+    }
+  },
+  "code": {
+    "logsAllCitiesWithEnhancedData": "Logs all cities with enhanced data",
+    "legacyFields": "Legacy fields",
+    "multilanguageNames": "Multi-language names",
+    "metadata": "Metadata",
+    "coordinates": "Coordinates",
+    "logsAllCitiesSortedByIsoCode": "Logs all cities sorted by ISO code",
+    "logsAllCitiesInGreaterAccraWithEnhancedData": "Logs all cities in Greater Accra with enhanced data",
+    "logsAllGhanaianCitiesWithEnhancedData": "Logs all Ghanaian cities with enhanced data",
+    "logsAllAfricanCitiesWithEnhancedData": "Logs all African cities with enhanced data",
+    "accessCoordinates": "Access coordinates",
+    "accessMultilanguageNames": "Access multi-language names",
+    "logsAllContinentsWithEnhancedData": "Logs all continents with enhanced data",
+    "enhancedIsoCodes": "Enhanced ISO codes",
+    "logsAllContinentsSortedByIso2Code": "Logs all continents sorted by ISO2 code",
+    "accessIso3Code": "Access ISO3 code",
+    "logsAllCountriesWithEnhancedData": "Logs all countries with enhanced data",
+    "telephoneCode": "Telephone code",
+    "logsAllCountriesSortedByIso2Code": "Logs all countries sorted by ISO2 code",
+    "logsAllAfricanCountriesWithEnhancedData": "Logs all African countries with enhanced data",
+    "accessTelephoneCode": "Access telephone code",
+    "legacyFormatStillWorks": "Legacy format (still works)",
+    "enhancedFormat": "Enhanced format",
+    "logsAllStatesWithEnhancedData": "Logs all states with enhanced data",
+    "logsAllStatesSortedByIsoCode": "Logs all states sorted by ISO code",
+    "logsAllGhanaianStatesWithEnhancedData": "Logs all Ghanaian states with enhanced data",
+    "logsAllAfricanStatesWithEnhancedData": "Logs all African states with enhanced data"
+  }
+}

@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { Copy, Check } from 'lucide-react';
 
-const CopyButton = ({ text }) => {
+interface CopyButtonProps {
+  text: string;
+}
+
+const CopyButton = ({ text }: CopyButtonProps) => {
   const [copied, setCopied] = useState(false);
 
   const copyToClipboard = async () => {
@@ -25,7 +29,12 @@ const CopyButton = ({ text }) => {
   );
 };
 
-export const Tabs = ({ items, children }) => {
+interface TabsProps {
+  items: string[];
+  children: React.ReactNode;
+}
+
+export const Tabs = ({ items, children }: TabsProps) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
@@ -50,7 +59,11 @@ export const Tabs = ({ items, children }) => {
   );
 };
 
-export const Tab = ({ children }) => {
+interface TabProps {
+  children: React.ReactNode;
+}
+
+export const Tab = ({ children }: TabProps) => {
   const codeContent = React.Children.toArray(children).find(
     (child): child is React.ReactElement => React.isValidElement(child) && child.type === 'pre'
   );

@@ -1,0 +1,82 @@
+name: Missing or wrong place
+description: Report a continent, country, state or city that is missing, misplaced or misnamed.
+title: "[Data]: "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the data. A link to the place on [GeoNames](https://www.geonames.org) or [Wikidata](https://www.wikidata.org) lets us verify it in seconds.
+        Most places come from those sources, so a fix there also reaches everyone on the next data refresh.
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong?
+      options:
+        - The place is missing
+        - The place is in the wrong state or country
+        - The name or a translation is wrong
+        - Coordinates or time zone are wrong
+        - Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of place
+      options:
+        - City or town
+        - State, region or province
+        - Country
+        - Continent
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Place name
+      description: As it is commonly written in English, plus the local spelling if different.
+      placeholder: "Ilishan-Remo (Ilisan-Remo)"
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country code
+      description: ISO 3166-1 alpha-2, e.g. GH, NG, US.
+      placeholder: "NG"
+    validations:
+      required: true
+  - type: input
+    id: state
+    attributes:
+      label: State code
+      description: ISO 3166-2, e.g. NG-OG. Leave empty if you are not sure.
+      placeholder: "NG-OG"
+  - type: input
+    id: coordinates
+    attributes:
+      label: Coordinates
+      description: Latitude, longitude of the centre (right-click the place in Google Maps or OpenStreetMap to copy them).
+      placeholder: "6.895, 3.714"
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: GeoNames or Wikidata page, an official source, or Wikipedia.
+      placeholder: "https://www.geonames.org/2337693"
+  - type: input
+    id: population
+    attributes:
+      label: Approximate population
+      placeholder: "29000"
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: For a wrong name or translation, give the language and the correct spelling. For anything else, what should change?
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: "1.0.0"

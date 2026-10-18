@@ -3,21 +3,32 @@ title: Cities
 ---
 
 import { Steps, Tabs, Tab, Callout } from 'nextra/components'
+import { T } from '../../components/locale_provider'
  
-# Cities Data
+# <T k="docs.cities.title" />
 
 <Steps>
-### Get All Cities
+### <T k="docs.cities.getAll" /> [#get-all-cities]
 
-This gives you an array of all cities.
+<T k="docs.cities.getAllDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="cities.ts" showLineNumbers copy
     import { Cities } from 'countries-geo';  
 
     console.log(Cities.getAll); 
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota" }, ...])
+    // Logs all cities with enhanced data:
+    // [{
+    //   iso: "GH-AA-ACH", name: "Achimota", // Legacy fields
+    //   ns: {                                 // Multi-language names
+    //     en: "Achimota",
+    //     fr: "Achimota"
+    //   },
+    //   mtd: {                                 // Metadata
+    //     coor: { lat: 5.6, lng: -0.2 }        // Coordinates
+    //   }
+    // }, ...]
     ```
   </Tabs.Tab>
   
@@ -26,25 +37,25 @@ This gives you an array of all cities.
     let Cities = require('countries-geo').Cities;
 
     console.log(Cities.getAll)
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    // Logs all cities with enhanced data
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by name.
+> <T k="docs.common.sortedByName" />
  
-### Get All Cities sorted by isoCode
-This gives you an array of all cities specifically sorted by isoCode.
+### <T k="docs.cities.sortByIso" /> [#get-all-cities-sorted-by-isocode]
+<T k="docs.cities.sortByIsoDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="cities.ts" showLineNumbers copy
     import { Cities } from 'countries-geo';  
 
     console.log(Cities.sortByIsoCode); 
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    // Logs all cities sorted by ISO code
     ```
   </Tabs.Tab>
   
@@ -53,25 +64,25 @@ This gives you an array of all cities specifically sorted by isoCode.
     let Cities = require('countries-geo').Cities;
 
     console.log(Cities.sortByIsoCode)
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    // Logs all cities sorted by ISO code
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by iso.
+> <T k="docs.common.sortedByIso" />
 
-### Get Cities by State
-This gives you an array of all cities filtered by a State isoCode.
+### <T k="docs.cities.byState" /> [#get-cities-by-state]
+<T k="docs.cities.byStateDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="cities.ts" showLineNumbers copy
     import { Cities } from 'countries-geo';  
 
     console.log(Cities.getByState('GH-AA')); 
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    // Logs all cities in Greater Accra with enhanced data
     ```
   </Tabs.Tab>
   
@@ -80,25 +91,25 @@ This gives you an array of all cities filtered by a State isoCode.
     let Cities = require('countries-geo').Cities;
 
     console.log(Cities.getByState('GH-AA'))
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    // Logs all cities in Greater Accra with enhanced data
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by name.
+> <T k="docs.common.sortedByName" />
 
-### Get Cities by Country
-This gives you an array of all cities filtered by a Country isoCode.
+### <T k="docs.cities.byCountry" /> [#get-cities-by-country]
+<T k="docs.cities.byCountryDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="cities.ts" showLineNumbers copy
     import { Cities } from 'countries-geo';  
 
     console.log(Cities.getByCountry('GH')); 
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    // Logs all Ghanaian cities with enhanced data
     ```
   </Tabs.Tab>
   
@@ -107,25 +118,25 @@ This gives you an array of all cities filtered by a Country isoCode.
     let Cities = require('countries-geo').Cities;
 
     console.log(Cities.getByCountry('GH'))
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    // Logs all Ghanaian cities with enhanced data
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by name.
+> <T k="docs.common.sortedByName" />
 
-### Get Cities by Continent
-This gives you an array of all cities filtered by a Continent isoCode.
+### <T k="docs.cities.byContinent" /> [#get-cities-by-continent]
+<T k="docs.cities.byContinentDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="cities.ts" showLineNumbers copy
     import { Cities } from 'countries-geo';  
 
     console.log(Cities.getByContinent('AF')); 
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    // Logs all African cities with enhanced data
     ```
   </Tabs.Tab>
   
@@ -134,13 +145,29 @@ This gives you an array of all cities filtered by a Continent isoCode.
     let Cities = require('countries-geo').Cities;
 
     console.log(Cities.getByContinent('AF'))
-    // Logs all Cities (e.g., [{ iso: "GH-AA-ACH", name: "Achimota"  }, ...])
+    // Logs all African cities with enhanced data
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by name.
+> <T k="docs.common.sortedByName" />
+
+### <T k="docs.common.enhancedFeatures" /> [#access-enhanced-features]
+
+<T k="docs.cities.enhancedDesc" />
+
+```ts filename="enhanced-cities.ts" showLineNumbers copy
+import { Cities } from 'countries-geo';
+
+const city = Cities.getAll[0];
+
+// Access coordinates
+console.log(city.mtd?.coor); // { lat: 5.6, lng: -0.2 }
+
+// Access multi-language names
+console.log(city.ns.fr); // "Achimota"
+```
 
 </Steps>

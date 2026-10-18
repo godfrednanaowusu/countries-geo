@@ -1,0 +1,18 @@
+name: Validate data additions
+
+on:
+  pull_request:
+    paths:
+      - package/scripts/build-data/cities.additions.json
+      - package/scripts/build-data/validate_additions.py
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate cities.additions.json
+        run: python3 -I package/scripts/build-data/validate_additions.py

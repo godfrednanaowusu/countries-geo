@@ -1,5 +1,5 @@
 // 'use client'
-import {Card, Grid, Box} from '@radix-ui/themes'
+import {Card} from '@/components/ui/card'
 // import { useEffect, useState } from 'react'
 
 
@@ -12,7 +12,7 @@ export default GUI
 export const GBox = (props: any) => {
     // const gBoxBorder = 'gray.100'
     return (
-        <Card size={'4'} {...props}>
+        <Card className="p-4" {...props}>
             {props.children}
         </Card>
     )
@@ -20,9 +20,9 @@ export const GBox = (props: any) => {
 
 export const Row = ({columns='12', children, ...rest}: any) => {
     return (
-    <Grid columns={columns}  {...rest} >
+    <div className="grid grid-cols-12" {...rest} >
       {children}
-    </Grid>)
+    </div>)
 }
 
 export const Col = ({ size='6', span='6', children, ...rest }:any) => {
@@ -34,7 +34,7 @@ export const Col = ({ size='6', span='6', children, ...rest }:any) => {
       sm: span?.sm || size?.sm || span?.xs || size?.xs || span?.initial || size?.initial || 12,
       md: span?.md || size?.md || span?.sm || size?.sm || span?.xs || size?.xs || span?.initial || size?.initial || 12,
       lg: span?.lg || size?.lg || span?.md || size?.md || span?.sm || size?.sm || span?.xs || size?.xs || span?.initial || size?.initial || 12,
-      xl: span?.xl || size?.xl || span?.lg || size?.lg || span?.md || size?.md || span?.sm || size?.sm || span?.xs || size?.xs || span?.initial || size?.initial || 12,
+      xl: span?.xl || size?.xl || span?.lg || span?.lg || span?.md || size?.md || span?.sm || size?.sm || span?.xs || size?.xs || span?.initial || size?.initial || 12,
     };
     return spans;
   };
@@ -42,11 +42,11 @@ export const Col = ({ size='6', span='6', children, ...rest }:any) => {
   const spanClass = getColumnClass(span || size);
 
   return (
-    <Box
-      className={`col-span-${spanClass.initial} col-span-xs-${spanClass.xs} col-span-sm-${spanClass.sm} col-span-md-${spanClass.md} col-span-lg-${spanClass.lg} col-span-xl-${spanClass.xl}`}
+    <div
+      className={`col-span-${spanClass.initial} xs:col-span-${spanClass.xs} sm:col-span-${spanClass.sm} md:col-span-${spanClass.md} lg:col-span-${spanClass.lg} xl:col-span-${spanClass.xl}`}
       {...rest}
     >
       {children}
-    </Box>
+    </div>
   );
 };
