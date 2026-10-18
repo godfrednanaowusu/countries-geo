@@ -460,9 +460,9 @@
   }
  ],
  "city_coordinates": {
-  "cities": 231129,
+  "cities": 231300,
   "vs_wikidata_same_entity_km": {
-   "n": 38492,
+   "n": 38493,
    "median": 0.32,
    "p90": 1.55,
    "p95": 2.3,
@@ -634,10 +634,10 @@
    "admin": 222090,
    "country-without-states": 830,
    "forced": 495,
-   "nearest": 158,
-   "polygon": 6783,
+   "nearest": 162,
+   "polygon": 6949,
    "polygon-override": 201,
-   "unknown": 572
+   "unknown": 573
   },
   "admin_vs_polygon_agreement": "98.86%",
   "compared": 219640,
@@ -1087,7 +1087,7 @@
   "fr": {
    "countries": 175,
    "states": 1757,
-   "cities": 4390
+   "cities": 4393
   },
   "de": {
    "countries": 150,
@@ -1097,35 +1097,35 @@
   "es": {
    "countries": 163,
    "states": 2624,
-   "cities": 4469
+   "cities": 4472
   },
   "pt": {
    "countries": 190,
    "states": 1798,
-   "cities": 2622
+   "cities": 2623
   },
   "ru": {
    "countries": 246,
    "states": 3659,
-   "cities": 74418,
+   "cities": 74419,
    "expected_script_rate": "99.67%"
   },
   "zh": {
    "countries": 246,
    "states": 3647,
-   "cities": 42096,
+   "cities": 42097,
    "expected_script_rate": "100.00%"
   },
   "ja": {
    "countries": 246,
    "states": 3620,
-   "cities": 18654,
+   "cities": 18656,
    "expected_script_rate": "99.95%"
   },
   "ar": {
    "countries": 246,
    "states": 3423,
-   "cities": 22931,
+   "cities": 22933,
    "expected_script_rate": "99.82%"
   },
   "hi": {
@@ -1286,8 +1286,8 @@
   ],
   "cities_by_source": {
    "geonames": 225508,
-   "manual": 1,
-   "wikidata": 5620
+   "manual": 174,
+   "wikidata": 5618
   },
   "lowest_cities_per_million": [
    [
@@ -1331,11 +1331,6 @@
     34
    ],
    [
-    3.1,
-    "MZ",
-    109
-   ],
-   [
     3.2,
     "PK",
     810
@@ -1344,6 +1339,11 @@
     3.8,
     "TD",
     79
+   ],
+   [
+    4.0,
+    "MZ",
+    141
    ],
    [
     4.1,
@@ -1383,7 +1383,6 @@
    "ER",
    "ET",
    "GH",
-   "GN",
    "IN",
    "IQ",
    "KE",
@@ -1431,15 +1430,15 @@
   "new": {
    "countries": 246,
    "states": 3728,
-   "cities": 231129,
+   "cities": 231300,
    "states_with_valid_iso3166_2_code": "100.00%",
    "countries_with_states": 199
   },
   "old_city_coordinates_error_km": {
-   "n": 12603,
-   "median": 352.72,
-   "p90": 1016.12,
-   "p95": 1383.71,
+   "n": 12610,
+   "median": 352.74,
+   "p90": 1015.57,
+   "p95": 1383.66,
    "max": 5949.78
   },
   "old_country_coordinates_distance_to_new_centre_km": {
@@ -1491,10 +1490,10 @@
      130.7
     ]
    ],
-   "all_countries_total": 2733.7,
+   "all_countries_total": 2735.8,
    "GH": 3.0,
    "NG": 15.4,
-   "KE": 4.6,
+   "KE": 5.4,
    "DE": 129.0,
    "IN": 99.2
   },

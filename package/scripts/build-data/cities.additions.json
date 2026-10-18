@@ -7,5 +7,1652 @@
     "lng": 3.71425,
     "population": 29000,
     "note": "Ilisan-Remo, Ikenne LGA, Ogun State (Babcock University). In GeoNames without a population, so below the cities1000 bar. Reported by a user; population approximate."
+  },
+  {
+    "id": 2299733,
+    "name": "Katanga",
+    "country": "GH",
+    "lat": 9.26749,
+    "lng": -1.22839,
+    "note": "Contributed in PR #3 as \"Katanga\" (Savannah); verified in GeoNames: https://www.geonames.org/2299733"
+  },
+  {
+    "id": 2298152,
+    "name": "Masaka",
+    "country": "GH",
+    "lat": 8.64517,
+    "lng": -0.52422,
+    "note": "Contributed in PR #3 as \"Masaka\" (Savannah); verified in GeoNames: https://www.geonames.org/2298152"
+  },
+  {
+    "id": 12168734,
+    "name": "Aboagyekrom",
+    "country": "GH",
+    "lat": 6.45711,
+    "lng": -2.66113,
+    "note": "Contributed in PR #3 as \"Aboagyekrom\" (Western North); verified in GeoNames: https://www.geonames.org/12168734"
+  },
+  {
+    "id": 7648743,
+    "name": "Sefwi Akontombra",
+    "country": "GH",
+    "lat": 6.04183,
+    "lng": -2.87517,
+    "note": "Contributed in PR #3 as \"Akontombra\" (Western North); verified in GeoNames: https://www.geonames.org/7648743"
+  },
+  {
+    "id": 2295476,
+    "name": "Sefwi Bekwai",
+    "country": "GH",
+    "lat": 6.19583,
+    "lng": -2.32106,
+    "note": "Contributed in PR #3 as \"Sefwi Bekwai\" (Western North); verified in GeoNames: https://www.geonames.org/2295476"
+  },
+  {
+    "id": 7669280,
+    "name": "Dabiss",
+    "country": "GN",
+    "lat": 11.2,
+    "lng": -14.5,
+    "note": "Contributed in PR #3 as \"Dabiss\" (Boké); verified in GeoNames: https://www.geonames.org/7669280"
+  },
+  {
+    "id": 2420022,
+    "name": "Kanfarandé",
+    "country": "GN",
+    "lat": 10.83333,
+    "lng": -14.55,
+    "note": "Contributed in PR #3 as \"Kanfarandé\" (Boké); verified in GeoNames: https://www.geonames.org/2420022"
+  },
+  {
+    "id": 2414329,
+    "name": "Wonkifon",
+    "country": "GN",
+    "lat": 9.6579,
+    "lng": -13.3856,
+    "note": "Contributed in PR #3 as \"Wonkifong\" (Coyah); verified in GeoNames: https://www.geonames.org/2414329"
+  },
+  {
+    "id": 2418949,
+    "name": "Konindou",
+    "country": "GN",
+    "lat": 10.7,
+    "lng": -10.85,
+    "note": "Contributed in PR #3 as \"Konindou\" (Dabola); verified in GeoNames: https://www.geonames.org/2418949"
+  },
+  {
+    "id": 2421822,
+    "name": "Ditinn",
+    "country": "GN",
+    "lat": 10.88333,
+    "lng": -12.18333,
+    "note": "Contributed in PR #3 as \"Ditinn\" (Dalaba); verified in GeoNames: https://www.geonames.org/2421822"
+  },
+  {
+    "id": 2419998,
+    "name": "Kankalabé",
+    "country": "GN",
+    "lat": 11.18333,
+    "lng": -11.98333,
+    "note": "Contributed in PR #3 as \"Kankalabé\" (Dalaba); verified in GeoNames: https://www.geonames.org/2419998"
+  },
+  {
+    "id": 2418480,
+    "name": "Kourou",
+    "country": "GN",
+    "lat": 11.46667,
+    "lng": -9.21667,
+    "note": "Contributed in PR #3 as \"Kourou\" (Dalaba); verified in GeoNames: https://www.geonames.org/2418480"
+  },
+  {
+    "id": 2421428,
+    "name": "Falissadé",
+    "country": "GN",
+    "lat": 10.13333,
+    "lng": -13.3,
+    "note": "Contributed in PR #3 as \"Falessade\" (Dubréka); verified in GeoNames: https://www.geonames.org/2421428"
+  },
+  {
+    "id": 2423969,
+    "name": "Albadéria",
+    "country": "GN",
+    "lat": 9.55,
+    "lng": -10.1,
+    "population": 17147,
+    "note": "Contributed in PR #3 as \"Albadaria\" (Faranah); verified in GeoNames: https://www.geonames.org/2423969"
+  },
+  {
+    "id": 2414750,
+    "name": "Tindo",
+    "country": "GN",
+    "lat": 9.96667,
+    "lng": -10.7,
+    "note": "Contributed in PR #3 as \"Tindo\" (Faranah); verified in GeoNames: https://www.geonames.org/2414750"
+  },
+  {
+    "id": 2423181,
+    "name": "Benti",
+    "country": "GN",
+    "lat": 9.17528,
+    "lng": -13.23361,
+    "note": "Contributed in PR #3 as \"Benty\" (Forécariah); verified in GeoNames: https://www.geonames.org/2423181"
+  },
+  {
+    "id": 10376551,
+    "name": "Kakossa",
+    "country": "GN",
+    "lat": 9.43333,
+    "lng": -13.31667,
+    "note": "Contributed in PR #3 as \"Kakossa\" (Forécariah); verified in GeoNames: https://www.geonames.org/10376551"
+  },
+  {
+    "id": 2592786,
+    "name": "Maférinya",
+    "country": "GN",
+    "lat": 9.545,
+    "lng": -13.28028,
+    "note": "Contributed in PR #3 as \"Maferinya\" (Forécariah); verified in GeoNames: https://www.geonames.org/2592786"
+  },
+  {
+    "id": 2417389,
+    "name": "Moussaya",
+    "country": "GN",
+    "lat": 9.46667,
+    "lng": -12.85,
+    "note": "Contributed in PR #3 as \"Moussayah\" (Forécariah); verified in GeoNames: https://www.geonames.org/2417389"
+  },
+  {
+    "id": 2414576,
+    "name": "Toromélun",
+    "country": "GN",
+    "lat": 10.3,
+    "lng": -13.71667,
+    "note": "Contributed in PR #3 as \"Tormelin\" (Fria); verified in GeoNames: https://www.geonames.org/2414576"
+  },
+  {
+    "id": 2420926,
+    "name": "Foula Mori",
+    "country": "GN",
+    "lat": 12.16667,
+    "lng": -13.85,
+    "note": "Contributed in PR #3 as \"Foulamory\" (Gaoual); verified in GeoNames: https://www.geonames.org/2420926"
+  },
+  {
+    "id": 2422875,
+    "name": "Bolodou",
+    "country": "GN",
+    "lat": 8.84917,
+    "lng": -10.33889,
+    "note": "Contributed in PR #3 as \"Bolodou\" (Guéckédou); verified in GeoNames: https://www.geonames.org/2422875"
+  },
+  {
+    "id": 2423591,
+    "name": "Banama",
+    "country": "GN",
+    "lat": 9.06667,
+    "lng": -9.75,
+    "note": "Contributed in PR #3 as \"Banama\" (Kissidougou); verified in GeoNames: https://www.geonames.org/2423591"
+  },
+  {
+    "id": 2421073,
+    "name": "Firawa",
+    "country": "GN",
+    "lat": 9.21667,
+    "lng": -9.78333,
+    "note": "Contributed in PR #3 as \"Firawa\" (Kissidougou); verified in GeoNames: https://www.geonames.org/2421073"
+  },
+  {
+    "id": 2416089,
+    "name": "Sangardo",
+    "country": "GN",
+    "lat": 9.56667,
+    "lng": -10.15,
+    "note": "Contributed in PR #3 as \"Sangardo\" (Kissidougou); verified in GeoNames: https://www.geonames.org/2416089"
+  },
+  {
+    "id": 2416193,
+    "name": "Sambailo",
+    "country": "GN",
+    "lat": 12.57836,
+    "lng": -13.3707,
+    "note": "Contributed in PR #3 as \"Sambailo\" (Koundara); verified in GeoNames: https://www.geonames.org/2416193"
+  },
+  {
+    "id": 2414881,
+    "name": "Termessé",
+    "country": "GN",
+    "lat": 12.3152,
+    "lng": -12.7843,
+    "note": "Contributed in PR #3 as \"Termesse\" (Koundara); verified in GeoNames: https://www.geonames.org/2414881"
+  },
+  {
+    "id": 2423357,
+    "name": "Baro",
+    "country": "GN",
+    "lat": 10.61667,
+    "lng": -9.7,
+    "note": "Contributed in PR #3 as \"Baro\" (Kouroussa); verified in GeoNames: https://www.geonames.org/2423357"
+  },
+  {
+    "id": 2415529,
+    "name": "Cisséla",
+    "country": "GN",
+    "lat": 10.81667,
+    "lng": -10.61667,
+    "note": "Contributed in PR #3 as \"Cisséla\" (Kouroussa); verified in GeoNames: https://www.geonames.org/2415529"
+  },
+  {
+    "id": 2422331,
+    "name": "Damaro",
+    "country": "GN",
+    "lat": 9.13333,
+    "lng": -8.9,
+    "note": "Contributed in PR #3 as \"Damaro\" (Kérouané); verified in GeoNames: https://www.geonames.org/2422331"
+  },
+  {
+    "id": 2415358,
+    "name": "Soromaya",
+    "country": "GN",
+    "lat": 9.33333,
+    "lng": -9.45,
+    "note": "Contributed in PR #3 as \"Soromaya\" (Kérouané); verified in GeoNames: https://www.geonames.org/2415358"
+  },
+  {
+    "id": 2423756,
+    "name": "Balaki",
+    "country": "GN",
+    "lat": 12.14834,
+    "lng": -11.83214,
+    "note": "Contributed in PR #3 as \"Balaki\" (Labé); verified in GeoNames: https://www.geonames.org/2423756"
+  },
+  {
+    "id": 2416241,
+    "name": "Salambandé",
+    "country": "GN",
+    "lat": 11.83333,
+    "lng": -11.88333,
+    "note": "Contributed in PR #3 as \"Salambandé\" (Labé); verified in GeoNames: https://www.geonames.org/2416241"
+  },
+  {
+    "id": 2422741,
+    "name": "Bossou",
+    "country": "GN",
+    "lat": 7.645,
+    "lng": -8.50972,
+    "note": "Contributed in PR #3 as \"Bossou\" (Lola); verified in GeoNames: https://www.geonames.org/2422741"
+  },
+  {
+    "id": 2420915,
+    "name": "Foumbadou",
+    "country": "GN",
+    "lat": 8.2,
+    "lng": -8.41667,
+    "note": "Contributed in PR #3 as \"Foumbadou\" (Lola); verified in GeoNames: https://www.geonames.org/2420915"
+  },
+  {
+    "id": 2420564,
+    "name": "Guéasso",
+    "country": "GN",
+    "lat": 8.01667,
+    "lng": -8.23333,
+    "note": "Contributed in PR #3 as \"Gueasso\" (Lola); verified in GeoNames: https://www.geonames.org/2420564"
+  },
+  {
+    "id": 2419306,
+    "name": "Kogota",
+    "country": "GN",
+    "lat": 7.91167,
+    "lng": -8.49833,
+    "note": "Contributed in PR #3 as \"Kokota\" (Lola); verified in GeoNames: https://www.geonames.org/2419306"
+  },
+  {
+    "id": 2418342,
+    "name": "Laïné",
+    "country": "GN",
+    "lat": 8.08333,
+    "lng": -8.48333,
+    "note": "Contributed in PR #3 as \"Laine\" (Lola); verified in GeoNames: https://www.geonames.org/2418342"
+  },
+  {
+    "id": 2422962,
+    "name": "Bofossou",
+    "country": "GN",
+    "lat": 8.66528,
+    "lng": -9.70222,
+    "note": "Contributed in PR #3 as \"Bofossou\" (Macenta); verified in GeoNames: https://www.geonames.org/2422962"
+  },
+  {
+    "id": 2418778,
+    "name": "Kouankan",
+    "country": "GN",
+    "lat": 8.44222,
+    "lng": -9.13861,
+    "note": "Contributed in PR #3 as \"Kouankan\" (Macenta); verified in GeoNames: https://www.geonames.org/2418778"
+  },
+  {
+    "id": 2418397,
+    "name": "Koyama",
+    "country": "GN",
+    "lat": 7.90306,
+    "lng": -9.35944,
+    "note": "Contributed in PR #3 as \"Koyama\" (Macenta); verified in GeoNames: https://www.geonames.org/2418397"
+  },
+  {
+    "id": 2414425,
+    "name": "Vasserédou",
+    "country": "GN",
+    "lat": 8.69361,
+    "lng": -9.22028,
+    "note": "Contributed in PR #3 as \"Vassérédou\" (Macenta); verified in GeoNames: https://www.geonames.org/2414425"
+  },
+  {
+    "id": 2423725,
+    "name": "Balandougouba",
+    "country": "GN",
+    "lat": 11.31667,
+    "lng": -8.41667,
+    "note": "Contributed in PR #3 as \"Balandougouba\" (Mandiana); verified in GeoNames: https://www.geonames.org/2423725"
+  },
+  {
+    "id": 2421280,
+    "name": "Faralako",
+    "country": "GN",
+    "lat": 10.66667,
+    "lng": -8.7,
+    "note": "Contributed in PR #3 as \"Faralako\" (Mandiana); verified in GeoNames: https://www.geonames.org/2421280"
+  },
+  {
+    "id": 2419917,
+    "name": "Kantoumanina",
+    "country": "GN",
+    "lat": 10.48333,
+    "lng": -8.65,
+    "note": "Contributed in PR #3 as \"Kantoumanina\" (Mandiana); verified in GeoNames: https://www.geonames.org/2419917"
+  },
+  {
+    "id": 2417206,
+    "name": "Nialé Toumanina",
+    "country": "GN",
+    "lat": 10.96667,
+    "lng": -8.33333,
+    "note": "Contributed in PR #3 as \"Niantanina\" (Mandiana); verified in GeoNames: https://www.geonames.org/2417206"
+  },
+  {
+    "id": 2414760,
+    "name": "Timbi Madina",
+    "country": "GN",
+    "lat": 11.2,
+    "lng": -12.53333,
+    "note": "Contributed in PR #3 as \"Timbi Madina\" (Pita); verified in GeoNames: https://www.geonames.org/2414760"
+  },
+  {
+    "id": 2419293,
+    "name": "Koïn",
+    "country": "GN",
+    "lat": 11.21667,
+    "lng": -11.81667,
+    "note": "Contributed in PR #3 as \"Koin\" (Tougué); verified in GeoNames: https://www.geonames.org/2419293"
+  },
+  {
+    "id": 2415028,
+    "name": "Tangali",
+    "country": "GN",
+    "lat": 11.35,
+    "lng": -11.93333,
+    "note": "Contributed in PR #3 as \"Tangaly\" (Tougué); verified in GeoNames: https://www.geonames.org/2415028"
+  },
+  {
+    "id": 7669278,
+    "name": "Gougoudje",
+    "country": "GN",
+    "lat": 10.49,
+    "lng": -13.0,
+    "note": "Contributed in PR #3 as \"Gougoudjé\" (Télimélé); verified in GeoNames: https://www.geonames.org/7669278"
+  },
+  {
+    "id": 2416512,
+    "name": "Péla",
+    "country": "GN",
+    "lat": 7.61889,
+    "lng": -9.12111,
+    "note": "Contributed in PR #3 as \"Péla\" (Yomou); verified in GeoNames: https://www.geonames.org/2416512"
+  },
+  {
+    "id": 2374138,
+    "name": "Gamamudo",
+    "country": "GW",
+    "lat": 12.26667,
+    "lng": -14.73333,
+    "note": "Contributed in PR #3 as \"Gamamudo\" (Bafatá); verified in GeoNames: https://www.geonames.org/2374138"
+  },
+  {
+    "id": 7902189,
+    "name": "Caravela",
+    "country": "GW",
+    "lat": 11.56667,
+    "lng": -16.26667,
+    "note": "Contributed in PR #3 as \"Caravela\" (Bolama); verified in GeoNames: https://www.geonames.org/7902189"
+  },
+  {
+    "id": 2374885,
+    "name": "Bigene",
+    "country": "GW",
+    "lat": 12.44,
+    "lng": -15.54167,
+    "note": "Contributed in PR #3 as \"Bigene\" (Cacheu); verified in GeoNames: https://www.geonames.org/2374885"
+  },
+  {
+    "id": 199720,
+    "name": "Chebunyo",
+    "country": "KE",
+    "lat": -0.96664,
+    "lng": 35.1909,
+    "note": "Contributed in PR #3 as \"Chebunyo\" (Bomet); verified in GeoNames: https://www.geonames.org/199720"
+  },
+  {
+    "id": 199682,
+    "name": "Chemaner",
+    "country": "KE",
+    "lat": -0.80263,
+    "lng": 35.48508,
+    "note": "Contributed in PR #3 as \"Chemaner\" (Bomet); verified in GeoNames: https://www.geonames.org/199682"
+  },
+  {
+    "id": 11964467,
+    "name": "Embomos",
+    "country": "KE",
+    "lat": -0.53791,
+    "lng": 35.3613,
+    "note": "Contributed in PR #3 as \"Embomos\" (Bomet); verified in GeoNames: https://www.geonames.org/11964467"
+  },
+  {
+    "id": 194061,
+    "name": "Kaplong",
+    "country": "KE",
+    "lat": -0.67816,
+    "lng": 35.13915,
+    "note": "Contributed in PR #3 as \"Kaplong\" (Bomet); verified in GeoNames: https://www.geonames.org/194061"
+  },
+  {
+    "id": 192990,
+    "name": "Kembu",
+    "country": "KE",
+    "lat": -0.83259,
+    "lng": 35.43951,
+    "note": "Contributed in PR #3 as \"Kembu\" (Bomet); verified in GeoNames: https://www.geonames.org/192990"
+  },
+  {
+    "id": 191871,
+    "name": "Kimulot",
+    "country": "KE",
+    "lat": -0.51471,
+    "lng": 35.23023,
+    "note": "Contributed in PR #3 as \"Kimulot\" (Bomet); verified in GeoNames: https://www.geonames.org/191871"
+  },
+  {
+    "id": 188959,
+    "name": "Longisa",
+    "country": "KE",
+    "lat": -0.85931,
+    "lng": 35.39331,
+    "note": "Contributed in PR #3 as \"Longisa\" (Bomet); verified in GeoNames: https://www.geonames.org/188959"
+  },
+  {
+    "id": 186843,
+    "name": "Merigi",
+    "country": "KE",
+    "lat": -0.78406,
+    "lng": 35.40226,
+    "note": "Contributed in PR #3 as \"Merigi\" (Bomet); verified in GeoNames: https://www.geonames.org/186843"
+  },
+  {
+    "id": 186375,
+    "name": "Mogogosiek",
+    "country": "KE",
+    "lat": -0.6186,
+    "lng": 35.27217,
+    "note": "Contributed in PR #3 as \"Mogogosiek\" (Bomet); verified in GeoNames: https://www.geonames.org/186375"
+  },
+  {
+    "id": 184228,
+    "name": "Ndanai",
+    "country": "KE",
+    "lat": -0.83951,
+    "lng": 35.09536,
+    "note": "Contributed in PR #3 as \"Ndanai\" (Bomet); verified in GeoNames: https://www.geonames.org/184228"
+  },
+  {
+    "id": 11964446,
+    "name": "Olbutyo",
+    "country": "KE",
+    "lat": -0.85392,
+    "lng": 35.27247,
+    "note": "Contributed in PR #3 as \"Olbutyo\" (Bomet); verified in GeoNames: https://www.geonames.org/11964446"
+  },
+  {
+    "id": 180262,
+    "name": "Sigor",
+    "country": "KE",
+    "lat": -0.91907,
+    "lng": 35.29931,
+    "note": "Contributed in PR #3 as \"Sigor\" (Bomet); verified in GeoNames: https://www.geonames.org/180262"
+  },
+  {
+    "id": 180220,
+    "name": "Silibwet",
+    "country": "KE",
+    "lat": -0.73034,
+    "lng": 35.34609,
+    "note": "Contributed in PR #3 as \"Silibwet\" (Bomet); verified in GeoNames: https://www.geonames.org/180220"
+  },
+  {
+    "id": 180126,
+    "name": "Siongiroi",
+    "country": "KE",
+    "lat": -0.89532,
+    "lng": 35.21134,
+    "note": "Contributed in PR #3 as \"Siongiroi\" (Bomet); verified in GeoNames: https://www.geonames.org/180126"
+  },
+  {
+    "id": 201062,
+    "name": "Amukura",
+    "country": "KE",
+    "lat": 0.56627,
+    "lng": 34.27314,
+    "note": "Contributed in PR #3 as \"Amukura\" (Busia); verified in GeoNames: https://www.geonames.org/201062"
+  },
+  {
+    "id": 200092,
+    "name": "Bumala",
+    "country": "KE",
+    "lat": 0.30433,
+    "lng": 34.20146,
+    "note": "Contributed in PR #3 as \"Bumala\" (Busia); verified in GeoNames: https://www.geonames.org/200092"
+  },
+  {
+    "id": 187406,
+    "name": "Matayo",
+    "country": "KE",
+    "lat": 0.35958,
+    "lng": 34.17005,
+    "note": "Contributed in PR #3 as \"Matayos\" (Busia); verified in GeoNames: https://www.geonames.org/187406"
+  },
+  {
+    "id": 184546,
+    "name": "Nambare",
+    "country": "KE",
+    "lat": 0.45813,
+    "lng": 34.25353,
+    "population": 3993,
+    "note": "Contributed in PR #3 as \"Nambale\" (Busia); verified in GeoNames: https://www.geonames.org/184546"
+  },
+  {
+    "id": 199771,
+    "name": "Chebiemit",
+    "country": "KE",
+    "lat": 0.85269,
+    "lng": 35.5008,
+    "note": "Contributed in PR #3 as \"Chebiemit\" (Elgeyo-Marakwet); verified in GeoNames: https://www.geonames.org/199771"
+  },
+  {
+    "id": 179606,
+    "name": "Tambach",
+    "country": "KE",
+    "lat": 0.59103,
+    "lng": 35.52166,
+    "note": "Contributed in PR #3 as \"Tambach\" (Elgeyo-Marakwet); verified in GeoNames: https://www.geonames.org/179606"
+  },
+  {
+    "id": 191410,
+    "name": "Kiritiri",
+    "country": "KE",
+    "lat": -0.68766,
+    "lng": 37.64805,
+    "note": "Contributed in PR #3 as \"Kiritiri\" (Embu); verified in GeoNames: https://www.geonames.org/191410"
+  },
+  {
+    "id": 188333,
+    "name": "Magunga",
+    "country": "KE",
+    "lat": -0.68848,
+    "lng": 34.15153,
+    "note": "Contributed in PR #3 as \"Magunga\" (Homa Bay); verified in GeoNames: https://www.geonames.org/188333"
+  },
+  {
+    "id": 181350,
+    "name": "Rangwe",
+    "country": "KE",
+    "lat": -0.60032,
+    "lng": 34.58353,
+    "note": "Contributed in PR #3 as \"Rangwe\" (Homa Bay); verified in GeoNames: https://www.geonames.org/181350"
+  },
+  {
+    "id": 180587,
+    "name": "Sena",
+    "country": "KE",
+    "lat": -0.47263,
+    "lng": 34.06805,
+    "note": "Contributed in PR #3 as \"Sena\" (Homa Bay); verified in GeoNames: https://www.geonames.org/180587"
+  },
+  {
+    "id": 187251,
+    "name": "Matungu",
+    "country": "KE",
+    "lat": 0.39048,
+    "lng": 34.46921,
+    "note": "Contributed in PR #3 as \"Matungu\" (Kakamega); verified in GeoNames: https://www.geonames.org/187251"
+  },
+  {
+    "id": 184276,
+    "name": "Navakholo",
+    "country": "KE",
+    "lat": 0.41403,
+    "lng": 34.68217,
+    "note": "Contributed in PR #3 as \"Navakholo\" (Kakamega); verified in GeoNames: https://www.geonames.org/184276"
+  },
+  {
+    "id": 180379,
+    "name": "Shinyalu",
+    "country": "KE",
+    "lat": 0.22396,
+    "lng": 34.80807,
+    "note": "Contributed in PR #3 as \"Shinyalu\" (Kakamega); verified in GeoNames: https://www.geonames.org/180379"
+  },
+  {
+    "id": 192465,
+    "name": "Kibingoti",
+    "country": "KE",
+    "lat": -0.56667,
+    "lng": 37.18333,
+    "note": "Contributed in PR #3 as \"Kibingoti\" (Kirinyaga); verified in GeoNames: https://www.geonames.org/192465"
+  },
+  {
+    "id": 11287033,
+    "name": "Keumbu",
+    "country": "KE",
+    "lat": -0.73503,
+    "lng": 34.84037,
+    "note": "Contributed in PR #3 as \"Keumbu\" (Kisii); verified in GeoNames: https://www.geonames.org/11287033"
+  },
+  {
+    "id": 187481,
+    "name": "Masimba",
+    "country": "KE",
+    "lat": -0.86079,
+    "lng": 34.94006,
+    "note": "Contributed in PR #3 as \"Masimba\" (Kisii); verified in GeoNames: https://www.geonames.org/187481"
+  },
+  {
+    "id": 182945,
+    "name": "Nyamache",
+    "country": "KE",
+    "lat": -0.85508,
+    "lng": 34.82852,
+    "note": "Contributed in PR #3 as \"Nyamache\" (Kisii); verified in GeoNames: https://www.geonames.org/182945"
+  },
+  {
+    "id": 182894,
+    "name": "Nyambunwa",
+    "country": "KE",
+    "lat": -0.67783,
+    "lng": 34.70722,
+    "population": 13405,
+    "note": "Contributed in PR #3 as \"Suneka\" (Kisii); verified in GeoNames: https://www.geonames.org/182894"
+  },
+  {
+    "id": 11964394,
+    "name": "Chemelil",
+    "country": "KE",
+    "lat": -0.10718,
+    "lng": 35.11033,
+    "note": "Contributed in PR #3 as \"Chemelil\" (Kisumu); verified in GeoNames: https://www.geonames.org/11964394"
+  },
+  {
+    "id": 192409,
+    "name": "Kibos",
+    "country": "KE",
+    "lat": -0.07198,
+    "lng": 34.81151,
+    "note": "Contributed in PR #3 as \"Kibos\" (Kisumu); verified in GeoNames: https://www.geonames.org/192409"
+  },
+  {
+    "id": 195808,
+    "name": "Kavati",
+    "country": "KE",
+    "lat": -1.23403,
+    "lng": 37.91571,
+    "population": 2420,
+    "note": "Contributed in PR #3 as \"Kabati\" (Kitui); verified in GeoNames: https://www.geonames.org/195808"
+  },
+  {
+    "id": 189827,
+    "name": "Kyuso",
+    "country": "KE",
+    "lat": -0.55641,
+    "lng": 38.21257,
+    "note": "Contributed in PR #3 as \"Kyuso\" (Kitui); verified in GeoNames: https://www.geonames.org/189827"
+  },
+  {
+    "id": 185298,
+    "name": "Mutomo",
+    "country": "KE",
+    "lat": -1.84752,
+    "lng": 38.20836,
+    "note": "Contributed in PR #3 as \"Mutomo\" (Kitui); verified in GeoNames: https://www.geonames.org/185298"
+  },
+  {
+    "id": 8199180,
+    "name": "Diani Beach",
+    "country": "KE",
+    "lat": -4.27774,
+    "lng": 39.59413,
+    "note": "Contributed in PR #3 as \"Diani Beach\" (Kwale); verified in GeoNames: https://www.geonames.org/8199180"
+  },
+  {
+    "id": 190954,
+    "name": "Kiunga",
+    "country": "KE",
+    "lat": -1.74544,
+    "lng": 41.49081,
+    "note": "Contributed in PR #3 as \"Kiunga\" (Lamu); verified in GeoNames: https://www.geonames.org/190954"
+  },
+  {
+    "id": 180445,
+    "name": "Shela",
+    "country": "KE",
+    "lat": -2.29292,
+    "lng": 40.91415,
+    "note": "Contributed in PR #3 as \"Shela\" (Lamu); verified in GeoNames: https://www.geonames.org/180445"
+  },
+  {
+    "id": 193338,
+    "name": "Kathiani",
+    "country": "KE",
+    "lat": -0.61195,
+    "lng": 38.03197,
+    "note": "Contributed in PR #3 as \"Kathiani\" (Machakos); verified in GeoNames: https://www.geonames.org/193338"
+  },
+  {
+    "id": 193021,
+    "name": "Kegonga",
+    "country": "KE",
+    "lat": -1.26201,
+    "lng": 34.65345,
+    "note": "Contributed in PR #3 as \"Kegonga\" (Migori); verified in GeoNames: https://www.geonames.org/193021"
+  },
+  {
+    "id": 191837,
+    "name": "Kihancha",
+    "country": "KE",
+    "lat": -1.19347,
+    "lng": 34.61967,
+    "population": 22194,
+    "note": "Contributed in PR #3 as \"Kehancha\" (Migori); verified in GeoNames: https://www.geonames.org/191837"
+  },
+  {
+    "id": 8605140,
+    "name": "Macalder",
+    "country": "KE",
+    "lat": -0.96815,
+    "lng": 34.28764,
+    "note": "Contributed in PR #3 as \"Macalder\" (Migori); verified in GeoNames: https://www.geonames.org/8605140"
+  },
+  {
+    "id": 183137,
+    "name": "Ntimaru",
+    "country": "KE",
+    "lat": -1.34057,
+    "lng": 34.68777,
+    "note": "Contributed in PR #3 as \"Ntimaru\" (Migori); verified in GeoNames: https://www.geonames.org/183137"
+  },
+  {
+    "id": 178693,
+    "name": "Uriri",
+    "country": "KE",
+    "lat": -0.95543,
+    "lng": 34.5119,
+    "note": "Contributed in PR #3 as \"Uriri\" (Migori); verified in GeoNames: https://www.geonames.org/178693"
+  },
+  {
+    "id": 199850,
+    "name": "Changamwe",
+    "country": "KE",
+    "lat": -4.01659,
+    "lng": 39.62893,
+    "note": "Contributed in PR #3 as \"Changamwe\" (Mombasa); verified in GeoNames: https://www.geonames.org/199850"
+  },
+  {
+    "id": 191332,
+    "name": "Kisauni",
+    "country": "KE",
+    "lat": -4.03287,
+    "lng": 39.68574,
+    "note": "Contributed in PR #3 as \"Kisauni\" (Mombasa); verified in GeoNames: https://www.geonames.org/191332"
+  },
+  {
+    "id": 189400,
+    "name": "Likoni",
+    "country": "KE",
+    "lat": -4.08394,
+    "lng": 39.66161,
+    "note": "Contributed in PR #3 as \"Likoni\" (Mombasa); verified in GeoNames: https://www.geonames.org/189400"
+  },
+  {
+    "id": 182954,
+    "name": "Nyali",
+    "country": "KE",
+    "lat": -4.05246,
+    "lng": 39.69541,
+    "note": "Contributed in PR #3 as \"Nyali\" (Mombasa); verified in GeoNames: https://www.geonames.org/182954"
+  },
+  {
+    "id": 195805,
+    "name": "Kabati",
+    "country": "KE",
+    "lat": -0.95241,
+    "lng": 37.10704,
+    "note": "Contributed in PR #3 as \"Kabati\" (Murang'a); verified in GeoNames: https://www.geonames.org/195805"
+  },
+  {
+    "id": 188039,
+    "name": "Makuyu",
+    "country": "KE",
+    "lat": -0.90622,
+    "lng": 37.1743,
+    "population": 191,
+    "note": "Contributed in PR #3 as \"Makuyu\" (Murang'a); verified in GeoNames: https://www.geonames.org/188039"
+  },
+  {
+    "id": 187733,
+    "name": "Maragua",
+    "country": "KE",
+    "lat": -0.79602,
+    "lng": 37.13292,
+    "population": 8597,
+    "note": "Contributed in PR #3 as \"Maragwa\" (Murang'a); verified in GeoNames: https://www.geonames.org/187733"
+  },
+  {
+    "id": 198766,
+    "name": "Eastleigh",
+    "country": "KE",
+    "lat": -1.27335,
+    "lng": 36.84706,
+    "note": "Contributed in PR #3 as \"Eastleigh\" (Nairobi City); verified in GeoNames: https://www.geonames.org/198766"
+  },
+  {
+    "id": 8477691,
+    "name": "Karen",
+    "country": "KE",
+    "lat": -1.33308,
+    "lng": 36.71624,
+    "note": "Contributed in PR #3 as \"Karen\" (Nairobi City); verified in GeoNames: https://www.geonames.org/8477691"
+  },
+  {
+    "id": 8693323,
+    "name": "Kasarani",
+    "country": "KE",
+    "lat": -1.21743,
+    "lng": 36.89759,
+    "note": "Contributed in PR #3 as \"Kasarani\" (Nairobi City); verified in GeoNames: https://www.geonames.org/8693323"
+  },
+  {
+    "id": 8449763,
+    "name": "Lang'ata",
+    "country": "KE",
+    "lat": -1.3666,
+    "lng": 36.73324,
+    "population": 172569,
+    "note": "Contributed in PR #3 as \"Lang'ata\" (Nairobi City); verified in GeoNames: https://www.geonames.org/8449763"
+  },
+  {
+    "id": 8477623,
+    "name": "Roysambu",
+    "country": "KE",
+    "lat": -1.21411,
+    "lng": 36.88335,
+    "note": "Contributed in PR #3 as \"Roysambu\" (Nairobi City); verified in GeoNames: https://www.geonames.org/8477623"
+  },
+  {
+    "id": 11049282,
+    "name": "Ruai",
+    "country": "KE",
+    "lat": -1.25513,
+    "lng": 36.92748,
+    "note": "Contributed in PR #3 as \"Ruai\" (Nairobi City); verified in GeoNames: https://www.geonames.org/11049282"
+  },
+  {
+    "id": 178147,
+    "name": "Westlands",
+    "country": "KE",
+    "lat": -1.26683,
+    "lng": 36.80806,
+    "note": "Contributed in PR #3 as \"Westlands\" (Nairobi City); verified in GeoNames: https://www.geonames.org/178147"
+  },
+  {
+    "id": 11280828,
+    "name": "Ekerenyo",
+    "country": "KE",
+    "lat": -0.52955,
+    "lng": 34.98983,
+    "note": "Contributed in PR #3 as \"Ekerenyo\" (Nyamira); verified in GeoNames: https://www.geonames.org/11280828"
+  },
+  {
+    "id": 197456,
+    "name": "Gesima",
+    "country": "KE",
+    "lat": -0.71072,
+    "lng": 34.9889,
+    "note": "Contributed in PR #3 as \"Gesima\" (Nyamira); verified in GeoNames: https://www.geonames.org/197456"
+  },
+  {
+    "id": 188320,
+    "name": "Magwagwa",
+    "country": "KE",
+    "lat": -0.48257,
+    "lng": 35.02205,
+    "note": "Contributed in PR #3 as \"Magwagwa\" (Nyamira); verified in GeoNames: https://www.geonames.org/188320"
+  },
+  {
+    "id": 178814,
+    "name": "Ogunja",
+    "country": "KE",
+    "lat": 0.19019,
+    "lng": 34.29916,
+    "population": 7060,
+    "note": "Contributed in PR #3 as \"Ugunja\" (Siaya); verified in GeoNames: https://www.geonames.org/178814"
+  },
+  {
+    "id": 178791,
+    "name": "Ukwala",
+    "country": "KE",
+    "lat": 0.1926,
+    "lng": 34.18723,
+    "note": "Contributed in PR #3 as \"Ukwala\" (Siaya); verified in GeoNames: https://www.geonames.org/178791"
+  },
+  {
+    "id": 183732,
+    "name": "Ngerenyi",
+    "country": "KE",
+    "lat": -3.41877,
+    "lng": 38.33108,
+    "note": "Contributed in PR #3 as \"Ngerenyi\" (Taita-Taveta); verified in GeoNames: https://www.geonames.org/183732"
+  },
+  {
+    "id": 197549,
+    "name": "Gatunga",
+    "country": "KE",
+    "lat": -0.09981,
+    "lng": 38.01195,
+    "note": "Contributed in PR #3 as \"Gatunga\" (Tharaka-Nithi); verified in GeoNames: https://www.geonames.org/197549"
+  },
+  {
+    "id": 198356,
+    "name": "Endebess",
+    "country": "KE",
+    "lat": 1.07959,
+    "lng": 34.85651,
+    "note": "Contributed in PR #3 as \"Endebess\" (Trans-Nzoia); verified in GeoNames: https://www.geonames.org/198356"
+  },
+  {
+    "id": 187305,
+    "name": "Matisi",
+    "country": "KE",
+    "lat": 0.6227,
+    "lng": 34.69309,
+    "note": "Contributed in PR #3 as \"Matisi\" (Trans-Nzoia); verified in GeoNames: https://www.geonames.org/187305"
+  },
+  {
+    "id": 189189,
+    "name": "Lokichokio",
+    "country": "KE",
+    "lat": 4.20771,
+    "lng": 34.35378,
+    "population": 11626,
+    "note": "Contributed in PR #3 as \"Lokichogio\" (Turkana); verified in GeoNames: https://www.geonames.org/189189"
+  },
+  {
+    "id": 196761,
+    "name": "Moi‘s Bridge",
+    "country": "KE",
+    "lat": 0.87178,
+    "lng": 35.12213,
+    "population": 16355,
+    "note": "Contributed in PR #3 as \"Moi's Bridge\" (Uasin Gishu); verified in GeoNames: https://www.geonames.org/196761"
+  },
+  {
+    "id": 200074,
+    "name": "Buna",
+    "country": "KE",
+    "lat": 2.78921,
+    "lng": 39.50038,
+    "note": "Contributed in PR #3 as \"Buna\" (Wajir); verified in GeoNames: https://www.geonames.org/200074"
+  },
+  {
+    "id": 2548830,
+    "name": "Al Fqih Ben Çalah",
+    "country": "MA",
+    "lat": 32.50213,
+    "lng": -6.68771,
+    "population": 111402,
+    "note": "Contributed in PR #3 as \"Fquih Ben Salah\" (Béni Mellal-Khénifra); verified in GeoNames: https://www.geonames.org/2548830"
+  },
+  {
+    "id": 8542188,
+    "name": "Dakhla",
+    "country": "MA",
+    "lat": 30.41145,
+    "lng": -9.55344,
+    "population": 55618,
+    "note": "Contributed in PR #3 as \"Dakhla\" (Dakhla-Oued Ed-Dahab); verified in GeoNames: https://www.geonames.org/8542188"
+  },
+  {
+    "id": 2462002,
+    "name": "Oum Dreyga",
+    "country": "MA",
+    "lat": 24.16667,
+    "lng": -13.25,
+    "note": "Contributed in PR #3 as \"Oum Dreyga\" (Dakhla-Oued Ed-Dahab); verified in GeoNames: https://www.geonames.org/2462002"
+  },
+  {
+    "id": 2549356,
+    "name": "Arfoud",
+    "country": "MA",
+    "lat": 31.4353,
+    "lng": -4.23258,
+    "population": 31971,
+    "note": "Contributed in PR #3 as \"Erfoud\" (Drâa-Tafilalet); verified in GeoNames: https://www.geonames.org/2549356"
+  },
+  {
+    "id": 2538027,
+    "name": "Reçani",
+    "country": "MA",
+    "lat": 31.28318,
+    "lng": -4.26565,
+    "population": 20469,
+    "note": "Contributed in PR #3 as \"Rissani\" (Drâa-Tafilalet); verified in GeoNames: https://www.geonames.org/2538027"
+  },
+  {
+    "id": 2527925,
+    "name": "Tinajdad",
+    "country": "MA",
+    "lat": 31.50764,
+    "lng": -5.03293,
+    "population": 9764,
+    "note": "Contributed in PR #3 as \"Tinejdad\" (Drâa-Tafilalet); verified in GeoNames: https://www.geonames.org/2527925"
+  },
+  {
+    "id": 2553073,
+    "name": "Daoura",
+    "country": "MA",
+    "lat": 35.23803,
+    "lng": -5.80094,
+    "note": "Contributed in PR #3 as \"Daoura\" (Laâyoune-Sakia El Hamra); verified in GeoNames: https://www.geonames.org/2553073"
+  },
+  {
+    "id": 2549684,
+    "name": "El Marsa",
+    "country": "MA",
+    "lat": 33.35249,
+    "lng": -3.7715,
+    "note": "Contributed in PR #3 as \"El Marsa\" (Laâyoune-Sakia El Hamra); verified in GeoNames: https://www.geonames.org/2549684"
+  },
+  {
+    "id": 2461874,
+    "name": "Smara",
+    "country": "MA",
+    "lat": 26.73841,
+    "lng": -11.67194,
+    "population": 42056,
+    "note": "Contributed in PR #3 as \"Es-Semara\" (Laâyoune-Sakia El Hamra); verified in GeoNames: https://www.geonames.org/2461874"
+  },
+  {
+    "id": 2596572,
+    "name": "Foum el Oued",
+    "country": "MA",
+    "lat": 30.35,
+    "lng": -6.84,
+    "note": "Contributed in PR #3 as \"Foum El Oued\" (Laâyoune-Sakia El Hamra); verified in GeoNames: https://www.geonames.org/2596572"
+  },
+  {
+    "id": 2542997,
+    "name": "Marrakesh",
+    "country": "MA",
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "population": 995871,
+    "note": "Contributed in PR #3 as \"Marrakech\" (Marrakech-Safi); verified in GeoNames: https://www.geonames.org/2542997"
+  },
+  {
+    "id": 2531432,
+    "name": "Tahannout",
+    "country": "MA",
+    "lat": 31.35236,
+    "lng": -7.95012,
+    "population": 13215,
+    "note": "Contributed in PR #3 as \"Tahannaout\" (Marrakech-Safi); verified in GeoNames: https://www.geonames.org/2531432"
+  },
+  {
+    "id": 2555882,
+    "name": "Beni Enzar",
+    "country": "MA",
+    "lat": 35.26,
+    "lng": -2.93,
+    "population": 61786,
+    "note": "Contributed in PR #3 as \"Beni Ensar\" (Oriental); verified in GeoNames: https://www.geonames.org/2555882"
+  },
+  {
+    "id": 2550806,
+    "name": "El Aïoun",
+    "country": "MA",
+    "lat": 34.58319,
+    "lng": -2.50612,
+    "population": 45679,
+    "note": "Contributed in PR #3 as \"El Aioun Sidi Mellouk\" (Oriental); verified in GeoNames: https://www.geonames.org/2550806"
+  },
+  {
+    "id": 2542768,
+    "name": "Mehdya",
+    "country": "MA",
+    "lat": 34.25596,
+    "lng": -6.67345,
+    "population": 31269,
+    "note": "Contributed in PR #3 as \"Mehdia\" (Rabat-Salé-Kénitra); verified in GeoNames: https://www.geonames.org/2542768"
+  },
+  {
+    "id": 2562055,
+    "name": "Skhirate",
+    "country": "MA",
+    "lat": 33.8527,
+    "lng": -7.03171,
+    "population": 65272,
+    "note": "Contributed in PR #3 as \"Skhirat\" (Rabat-Salé-Kénitra); verified in GeoNames: https://www.geonames.org/2562055"
+  },
+  {
+    "id": 10375138,
+    "name": "Oadar Temsia",
+    "country": "MA",
+    "lat": 30.36531,
+    "lng": -9.41044,
+    "population": 30526,
+    "note": "Contributed in PR #3 as \"Temsia\" (Souss-Massa); verified in GeoNames: https://www.geonames.org/10375138"
+  },
+  {
+    "id": 2548818,
+    "name": "Fnidek",
+    "country": "MA",
+    "lat": 35.84906,
+    "lng": -5.35747,
+    "population": 84558,
+    "note": "Contributed in PR #3 as \"Fnideq\" (Tanger-Tétouan-Al Hoceïma); verified in GeoNames: https://www.geonames.org/2548818"
+  },
+  {
+    "id": 1052623,
+    "name": "Balama",
+    "country": "MZ",
+    "lat": -13.34478,
+    "lng": 38.56939,
+    "note": "Contributed in PR #3 as \"Balama\" (Cabo Delgado); verified in GeoNames: https://www.geonames.org/1052623"
+  },
+  {
+    "id": 1033128,
+    "name": "Nangade",
+    "country": "MZ",
+    "lat": -11.07722,
+    "lng": 39.67444,
+    "note": "Contributed in PR #3 as \"Nangade\" (Cabo Delgado); verified in GeoNames: https://www.geonames.org/1033128"
+  },
+  {
+    "id": 1028318,
+    "name": "Quissanga",
+    "country": "MZ",
+    "lat": -12.43306,
+    "lng": 40.4875,
+    "note": "Contributed in PR #3 as \"Quissanga\" (Cabo Delgado); verified in GeoNames: https://www.geonames.org/1028318"
+  },
+  {
+    "id": 1049629,
+    "name": "Vila Eduardo Mondlane",
+    "country": "MZ",
+    "lat": -22.07917,
+    "lng": 31.67861,
+    "population": 9665,
+    "note": "Contributed in PR #3 as \"Chicualacuala\" (Gaza); verified in GeoNames: https://www.geonames.org/1049629"
+  },
+  {
+    "id": 1049426,
+    "name": "Chigubo",
+    "country": "MZ",
+    "lat": -22.82917,
+    "lng": 33.52389,
+    "note": "Contributed in PR #3 as \"Chigubo\" (Gaza); verified in GeoNames: https://www.geonames.org/1049426"
+  },
+  {
+    "id": 1045628,
+    "name": "Vila Alferes Chamusca",
+    "country": "MZ",
+    "lat": -24.4975,
+    "lng": 33.01333,
+    "note": "Contributed in PR #3 as \"Guijá\" (Gaza); verified in GeoNames: https://www.geonames.org/1045628"
+  },
+  {
+    "id": 1024250,
+    "name": "Regedor Zavala",
+    "country": "MZ",
+    "lat": -24.68278,
+    "lng": 34.66861,
+    "note": "Contributed in PR #3 as \"Zavala\" (Inhambane); verified in GeoNames: https://www.geonames.org/1024250"
+  },
+  {
+    "id": 1045514,
+    "name": "Guro",
+    "country": "MZ",
+    "lat": -17.42167,
+    "lng": 33.35444,
+    "note": "Contributed in PR #3 as \"Guro\" (Manica); verified in GeoNames: https://www.geonames.org/1045514"
+  },
+  {
+    "id": 1096302,
+    "name": "Macate",
+    "country": "MZ",
+    "lat": -19.49,
+    "lng": 33.51194,
+    "note": "Contributed in PR #3 as \"Macate\" (Manica); verified in GeoNames: https://www.geonames.org/1096302"
+  },
+  {
+    "id": 1096284,
+    "name": "Sussundenga",
+    "country": "MZ",
+    "lat": -19.40389,
+    "lng": 33.29028,
+    "note": "Contributed in PR #3 as \"Sussundenga\" (Manica); verified in GeoNames: https://www.geonames.org/1096284"
+  },
+  {
+    "id": 7874623,
+    "name": "Tambara",
+    "country": "MZ",
+    "lat": -16.72385,
+    "lng": 34.2505,
+    "note": "Contributed in PR #3 as \"Tambara\" (Manica); verified in GeoNames: https://www.geonames.org/7874623"
+  },
+  {
+    "id": 1029533,
+    "name": "Vanduzi",
+    "country": "MZ",
+    "lat": -18.95111,
+    "lng": 33.26861,
+    "note": "Contributed in PR #3 as \"Vanduzi\" (Manica); verified in GeoNames: https://www.geonames.org/1029533"
+  },
+  {
+    "id": 1052356,
+    "name": "Beluluane",
+    "country": "MZ",
+    "lat": -25.91083,
+    "lng": 32.40639,
+    "note": "Contributed in PR #3 as \"Beluluane\" (Maputo Province); verified in GeoNames: https://www.geonames.org/1052356"
+  },
+  {
+    "id": 1045253,
+    "name": "Infulene",
+    "country": "MZ",
+    "lat": -25.81056,
+    "lng": 32.57361,
+    "note": "Contributed in PR #3 as \"Infulene\" (Maputo Province); verified in GeoNames: https://www.geonames.org/1045253"
+  },
+  {
+    "id": 1037390,
+    "name": "Mozambique",
+    "country": "MZ",
+    "lat": -15.03466,
+    "lng": 40.73447,
+    "population": 55829,
+    "note": "Contributed in PR #3 as \"Ilha de Moçambique\" (Nampula); verified in GeoNames: https://www.geonames.org/1037390"
+  },
+  {
+    "id": 1037333,
+    "name": "Mecubúri",
+    "country": "MZ",
+    "lat": -14.65583,
+    "lng": 38.89083,
+    "note": "Contributed in PR #3 as \"Mecubúri\" (Nampula); verified in GeoNames: https://www.geonames.org/1037333"
+  },
+  {
+    "id": 1038882,
+    "name": "Memba",
+    "country": "MZ",
+    "lat": -14.18111,
+    "lng": 40.52583,
+    "note": "Contributed in PR #3 as \"Memba\" (Nampula); verified in GeoNames: https://www.geonames.org/1038882"
+  },
+  {
+    "id": 1037225,
+    "name": "Moma",
+    "country": "MZ",
+    "lat": -16.75944,
+    "lng": 39.22222,
+    "note": "Contributed in PR #3 as \"Moma\" (Nampula); verified in GeoNames: https://www.geonames.org/1037225"
+  },
+  {
+    "id": 1035025,
+    "name": "Nacala",
+    "country": "MZ",
+    "lat": -14.56257,
+    "lng": 40.68538,
+    "population": 239808,
+    "note": "Contributed in PR #3 as \"Nacala-Porto\" (Nampula); verified in GeoNames: https://www.geonames.org/1035025"
+  },
+  {
+    "id": 1085826,
+    "name": "Chimbonila",
+    "country": "MZ",
+    "lat": -13.36139,
+    "lng": 35.40944,
+    "note": "Contributed in PR #3 as \"Chimbonila\" (Niassa); verified in GeoNames: https://www.geonames.org/1085826"
+  },
+  {
+    "id": 1085332,
+    "name": "Lago",
+    "country": "MZ",
+    "lat": -12.70111,
+    "lng": 34.81056,
+    "note": "Contributed in PR #3 as \"Lago\" (Niassa); verified in GeoNames: https://www.geonames.org/1085332"
+  },
+  {
+    "id": 1036228,
+    "name": "Muembe",
+    "country": "MZ",
+    "lat": -13.08722,
+    "lng": 35.6425,
+    "note": "Contributed in PR #3 as \"Muembe\" (Niassa); verified in GeoNames: https://www.geonames.org/1036228"
+  },
+  {
+    "id": 7874598,
+    "name": "Cheringoma.",
+    "country": "MZ",
+    "lat": -18.53493,
+    "lng": 35.30272,
+    "note": "Contributed in PR #3 as \"Cheringoma\" (Sofala); verified in GeoNames: https://www.geonames.org/7874598"
+  },
+  {
+    "id": 1042712,
+    "name": "Machanga",
+    "country": "MZ",
+    "lat": -20.9725,
+    "lng": 35.00861,
+    "note": "Contributed in PR #3 as \"Machanga\" (Sofala); verified in GeoNames: https://www.geonames.org/1042712"
+  },
+  {
+    "id": 1036687,
+    "name": "Muanza",
+    "country": "MZ",
+    "lat": -18.89722,
+    "lng": 34.79278,
+    "note": "Contributed in PR #3 as \"Muanza\" (Sofala); verified in GeoNames: https://www.geonames.org/1036687"
+  },
+  {
+    "id": 1050349,
+    "name": "Changara",
+    "country": "MZ",
+    "lat": -16.83639,
+    "lng": 33.27389,
+    "note": "Contributed in PR #3 as \"Changara\" (Tete); verified in GeoNames: https://www.geonames.org/1050349"
+  },
+  {
+    "id": 1026101,
+    "name": "Tembué",
+    "country": "MZ",
+    "lat": -14.7925,
+    "lng": 32.83611,
+    "note": "Contributed in PR #3 as \"Chifunde\" (Tete); verified in GeoNames: https://www.geonames.org/1026101"
+  },
+  {
+    "id": 1048466,
+    "name": "Aldeia Chiuta",
+    "country": "MZ",
+    "lat": -15.56222,
+    "lng": 33.28972,
+    "note": "Contributed in PR #3 as \"Chiuta\" (Tete); verified in GeoNames: https://www.geonames.org/1048466"
+  },
+  {
+    "id": 1093042,
+    "name": "Doa",
+    "country": "MZ",
+    "lat": -16.64528,
+    "lng": 34.68694,
+    "note": "Contributed in PR #3 as \"Doa\" (Tete); verified in GeoNames: https://www.geonames.org/1093042"
+  },
+  {
+    "id": 1041914,
+    "name": "Mágoè",
+    "country": "MZ",
+    "lat": -15.80611,
+    "lng": 31.75083,
+    "note": "Contributed in PR #3 as \"Magoe\" (Tete); verified in GeoNames: https://www.geonames.org/1041914"
+  },
+  {
+    "id": 1091024,
+    "name": "Tsangano",
+    "country": "MZ",
+    "lat": -15.16111,
+    "lng": 34.55944,
+    "note": "Contributed in PR #3 as \"Tsangano\" (Tete); verified in GeoNames: https://www.geonames.org/1091024"
+  },
+  {
+    "id": 1024703,
+    "name": "Maganja",
+    "country": "MZ",
+    "lat": -17.31197,
+    "lng": 37.50784,
+    "population": 17900,
+    "note": "Contributed in PR #3 as \"Maganja da Costa\" (Zambezia); verified in GeoNames: https://www.geonames.org/1024703"
+  },
+  {
+    "id": 1029901,
+    "name": "Nicoadala",
+    "country": "MZ",
+    "lat": -17.60806,
+    "lng": 36.81972,
+    "note": "Contributed in PR #3 as \"Nicoadala\" (Zambezia); verified in GeoNames: https://www.geonames.org/1029901"
+  },
+  {
+    "id": 11239086,
+    "name": "Windhoek West",
+    "country": "NA",
+    "lat": -22.55972,
+    "lng": 17.07778,
+    "note": "Contributed in PR #3 as \"Windhoek West\" (Khomas); verified in GeoNames: https://www.geonames.org/11239086"
+  },
+  {
+    "id": 3357643,
+    "name": "Epupa",
+    "country": "NA",
+    "lat": -20.59972,
+    "lng": 15.61839,
+    "note": "Contributed in PR #3 as \"Epupa\" (Kunene); verified in GeoNames: https://www.geonames.org/3357643"
+  },
+  {
+    "id": 10175820,
+    "name": "Okanguati",
+    "country": "NA",
+    "lat": -17.43639,
+    "lng": 13.27324,
+    "population": 856,
+    "note": "Contributed in PR #3 as \"Okangwati\" (Kunene); verified in GeoNames: https://www.geonames.org/10175820"
+  },
+  {
+    "id": 3357683,
+    "name": "Endola",
+    "country": "NA",
+    "lat": -17.59924,
+    "lng": 15.74216,
+    "note": "Contributed in PR #3 as \"Endola\" (Ohangwena); verified in GeoNames: https://www.geonames.org/3357683"
+  },
+  {
+    "id": 3357682,
+    "name": "Engela",
+    "country": "NA",
+    "lat": -17.43434,
+    "lng": 15.88112,
+    "note": "Contributed in PR #3 as \"Engela\" (Ohangwena); verified in GeoNames: https://www.geonames.org/3357682"
+  },
+  {
+    "id": 3357653,
+    "name": "Epembe",
+    "country": "NA",
+    "lat": -17.781,
+    "lng": 16.477,
+    "note": "Contributed in PR #3 as \"Epembe\" (Ohangwena); verified in GeoNames: https://www.geonames.org/3357653"
+  },
+  {
+    "id": 3354650,
+    "name": "Ekongo",
+    "country": "NA",
+    "lat": -17.56667,
+    "lng": 17.21667,
+    "population": 2650,
+    "note": "Contributed in PR #3 as \"Okongo\" (Ohangwena); verified in GeoNames: https://www.geonames.org/3354650"
+  },
+  {
+    "id": 11238949,
+    "name": "Omafo",
+    "country": "NA",
+    "lat": -17.47234,
+    "lng": 15.89808,
+    "note": "Contributed in PR #3 as \"Omafo\" (Ohangwena); verified in GeoNames: https://www.geonames.org/11238949"
+  },
+  {
+    "id": 877157,
+    "name": "Kongola",
+    "country": "NA",
+    "lat": -17.78877,
+    "lng": 23.39344,
+    "note": "Contributed in PR #3 as \"Kongola\" (Zambezi); verified in GeoNames: https://www.geonames.org/877157"
+  },
+  {
+    "id": 876952,
+    "name": "Ngoma",
+    "country": "NA",
+    "lat": -17.91659,
+    "lng": 24.71038,
+    "note": "Contributed in PR #3 as \"Ngoma\" (Zambezi); verified in GeoNames: https://www.geonames.org/876952"
+  },
+  {
+    "id": 876878,
+    "name": "Sangwali",
+    "country": "NA",
+    "lat": -18.25772,
+    "lng": 23.64384,
+    "note": "Contributed in PR #3 as \"Sangwali\" (Zambezi); verified in GeoNames: https://www.geonames.org/876878"
+  },
+  {
+    "id": 876872,
+    "name": "Luhonono",
+    "country": "NA",
+    "lat": -17.55,
+    "lng": 24.83333,
+    "note": "Contributed in PR #3 as \"Schuckmannsburg\" (Zambezi); verified in GeoNames: https://www.geonames.org/876872"
+  },
+  {
+    "id": 2423893,
+    "name": "Babila",
+    "country": "GN",
+    "lat": 10.65,
+    "lng": -9.68333,
+    "note": "Contributed in PR #3 as \"Babila\" (Kouroussa); verified in GeoNames: https://www.geonames.org/2423893"
+  },
+  {
+    "id": 2423712,
+    "name": "Balato",
+    "country": "GN",
+    "lat": 10.71667,
+    "lng": -9.56667,
+    "note": "Contributed in PR #3 as \"Balato\" (Kouroussa); verified in GeoNames: https://www.geonames.org/2423712"
+  },
+  {
+    "id": 2419513,
+    "name": "Kiniéro",
+    "country": "GN",
+    "lat": 10.4,
+    "lng": -9.75,
+    "note": "Contributed in PR #3 as \"Kiniéro\" (Kouroussa); verified in GeoNames: https://www.geonames.org/2419513"
+  },
+  {
+    "id": 2418651,
+    "name": "Koumana",
+    "country": "GN",
+    "lat": 10.68333,
+    "lng": -9.66667,
+    "note": "Contributed in PR #3 as \"Koumana\" (Kouroussa); verified in GeoNames: https://www.geonames.org/2418651"
+  },
+  {
+    "id": 2423570,
+    "name": "Banankoro",
+    "country": "GN",
+    "lat": 9.18333,
+    "lng": -9.3,
+    "note": "Contributed in PR #3 as \"Banankoro\" (Kérouané); verified in GeoNames: https://www.geonames.org/2423570"
+  },
+  {
+    "id": 2418124,
+    "name": "Linko",
+    "country": "GN",
+    "lat": 9.38333,
+    "lng": -8.81667,
+    "note": "Contributed in PR #3 as \"Linko\" (Kérouané); verified in GeoNames: https://www.geonames.org/2418124"
+  },
+  {
+    "id": 2415786,
+    "name": "Sérédou",
+    "country": "GN",
+    "lat": 8.38222,
+    "lng": -9.29972,
+    "note": "Contributed in PR #3 as \"Sérédou\" (Macenta); verified in GeoNames: https://www.geonames.org/2415786"
+  },
+  {
+    "id": 2418587,
+    "name": "Koundian",
+    "country": "GN",
+    "lat": 10.91667,
+    "lng": -8.9,
+    "note": "Contributed in PR #3 as \"Koundian\" (Mandiana); verified in GeoNames: https://www.geonames.org/2418587"
+  },
+  {
+    "id": 13430829,
+    "name": "Kalokol",
+    "country": "KE",
+    "lat": 3.53523,
+    "lng": 35.86083,
+    "note": "Contributed in PR #3 as \"Kalokol\" (Turkana); verified in GeoNames: https://www.geonames.org/13430829"
+  },
+  {
+    "id": 195378,
+    "name": "Kaimosi",
+    "country": "KE",
+    "lat": 0.1266,
+    "lng": 34.84658,
+    "note": "Contributed in PR #3 as \"Kaimosi\" (Vihiga); verified in GeoNames: https://www.geonames.org/195378"
+  },
+  {
+    "id": 1043079,
+    "name": "Mabalane",
+    "country": "MZ",
+    "lat": -23.84639,
+    "lng": 32.58778,
+    "note": "Contributed in PR #3 as \"Mabalane\" (Gaza); verified in GeoNames: https://www.geonames.org/1043079"
+  },
+  {
+    "id": 1042669,
+    "name": "Machava",
+    "country": "MZ",
+    "lat": -25.89861,
+    "lng": 32.48611,
+    "note": "Contributed in PR #3 as \"Machava\" (Maputo Province); verified in GeoNames: https://www.geonames.org/1042669"
+  },
+  {
+    "id": 1044991,
+    "name": "Mucupia",
+    "country": "MZ",
+    "lat": -18.03528,
+    "lng": 36.81861,
+    "note": "Contributed in PR #3 as \"Inhassunge\" (Zambezia); verified in GeoNames: https://www.geonames.org/1044991"
   }
 ]

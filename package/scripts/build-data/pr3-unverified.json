@@ -1,0 +1,937 @@
+{
+ "note": "Places contributed in PR #3 (names only) that could not be verified in GeoNames or matched uniquely. Add them to cities.additions.json once a source with coordinates is found.",
+ "not_found": [
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Adamupe"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Bakotido"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Bunkpa"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Dachedo"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Dagbambia"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Kinkilin"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Kinkilin-Nkwanta"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Kpambu"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Kpolo"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Kuwani"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Lamsa"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Mabung"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Mariche"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Matilapor"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Mbawpe"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Naamu"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Nikata"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Sispe"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Upando"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Yahaya yile"
+  },
+  {
+   "country": "GH",
+   "state": "Savannah",
+   "name": "Yakubupe"
+  },
+  {
+   "country": "GH",
+   "state": "Western North",
+   "name": "Karimenga"
+  },
+  {
+   "country": "GN",
+   "state": "Boffa",
+   "name": "Tamita"
+  },
+  {
+   "country": "GN",
+   "state": "Boffa",
+   "name": "Tougnifily"
+  },
+  {
+   "country": "GN",
+   "state": "Boké",
+   "name": "Bintimodiya"
+  },
+  {
+   "country": "GN",
+   "state": "Boké",
+   "name": "Malapouyah"
+  },
+  {
+   "country": "GN",
+   "state": "Coyah",
+   "name": "Kouriah"
+  },
+  {
+   "country": "GN",
+   "state": "Dabola",
+   "name": "Arfamoussaya"
+  },
+  {
+   "country": "GN",
+   "state": "Dabola",
+   "name": "Kankama"
+  },
+  {
+   "country": "GN",
+   "state": "Dabola",
+   "name": "Kindoyé"
+  },
+  {
+   "country": "GN",
+   "state": "Dabola",
+   "name": "N'Déma"
+  },
+  {
+   "country": "GN",
+   "state": "Dalaba",
+   "name": "Kégnéko"
+  },
+  {
+   "country": "GN",
+   "state": "Dalaba",
+   "name": "Mitty"
+  },
+  {
+   "country": "GN",
+   "state": "Dalaba",
+   "name": "Tountouroun"
+  },
+  {
+   "country": "GN",
+   "state": "Dinguiraye",
+   "name": "Gagnakaly"
+  },
+  {
+   "country": "GN",
+   "state": "Dubréka",
+   "name": "Badi"
+  },
+  {
+   "country": "GN",
+   "state": "Faranah",
+   "name": "Arfamoussaya"
+  },
+  {
+   "country": "GN",
+   "state": "Faranah",
+   "name": "Passayah"
+  },
+  {
+   "country": "GN",
+   "state": "Faranah",
+   "name": "Sandéniah"
+  },
+  {
+   "country": "GN",
+   "state": "Faranah",
+   "name": "Songoyah"
+  },
+  {
+   "country": "GN",
+   "state": "Forécariah",
+   "name": "Alassoya"
+  },
+  {
+   "country": "GN",
+   "state": "Forécariah",
+   "name": "Farmoriah"
+  },
+  {
+   "country": "GN",
+   "state": "Forécariah",
+   "name": "Kaback"
+  },
+  {
+   "country": "GN",
+   "state": "Fria",
+   "name": "Baguinet"
+  },
+  {
+   "country": "GN",
+   "state": "Fria",
+   "name": "Banguigny"
+  },
+  {
+   "country": "GN",
+   "state": "Gaoual",
+   "name": "Kakony"
+  },
+  {
+   "country": "GN",
+   "state": "Gaoual",
+   "name": "Kounsitel"
+  },
+  {
+   "country": "GN",
+   "state": "Gaoual",
+   "name": "Malanta"
+  },
+  {
+   "country": "GN",
+   "state": "Gaoual",
+   "name": "Wendou M'Bour"
+  },
+  {
+   "country": "GN",
+   "state": "Guéckédou",
+   "name": "Fangamadou"
+  },
+  {
+   "country": "GN",
+   "state": "Guéckédou",
+   "name": "Ouéndé-Kénéma"
+  },
+  {
+   "country": "GN",
+   "state": "Guéckédou",
+   "name": "Tekoulo"
+  },
+  {
+   "country": "GN",
+   "state": "Guéckédou",
+   "name": "Termessadou-Dibo"
+  },
+  {
+   "country": "GN",
+   "state": "Kissidougou",
+   "name": "Albadariah"
+  },
+  {
+   "country": "GN",
+   "state": "Kissidougou",
+   "name": "Fermessadou-Pombo"
+  },
+  {
+   "country": "GN",
+   "state": "Kissidougou",
+   "name": "Gbangbadou"
+  },
+  {
+   "country": "GN",
+   "state": "Kissidougou",
+   "name": "Kondiadou"
+  },
+  {
+   "country": "GN",
+   "state": "Kissidougou",
+   "name": "Manfran"
+  },
+  {
+   "country": "GN",
+   "state": "Kouroussa",
+   "name": "Banfélé"
+  },
+  {
+   "country": "GN",
+   "state": "Kouroussa",
+   "name": "Komola-Koura"
+  },
+  {
+   "country": "GN",
+   "state": "Kérouané",
+   "name": "Komodou"
+  },
+  {
+   "country": "GN",
+   "state": "Kérouané",
+   "name": "Kounsankoro"
+  },
+  {
+   "country": "GN",
+   "state": "Kérouané",
+   "name": "Sibiribaro"
+  },
+  {
+   "country": "GN",
+   "state": "Labé",
+   "name": "Dougountouny"
+  },
+  {
+   "country": "GN",
+   "state": "Labé",
+   "name": "Matakaou"
+  },
+  {
+   "country": "GN",
+   "state": "Lola",
+   "name": "Tounkarata"
+  },
+  {
+   "country": "GN",
+   "state": "Lélouma",
+   "name": "Dougountouny"
+  },
+  {
+   "country": "GN",
+   "state": "Macenta",
+   "name": "Balizia"
+  },
+  {
+   "country": "GN",
+   "state": "Macenta",
+   "name": "Bonkomadou"
+  },
+  {
+   "country": "GN",
+   "state": "Mali",
+   "name": "Dougountouny"
+  },
+  {
+   "country": "GN",
+   "state": "Mandiana",
+   "name": "Kiniéran"
+  },
+  {
+   "country": "GN",
+   "state": "Mandiana",
+   "name": "Morodou"
+  },
+  {
+   "country": "GN",
+   "state": "Pita",
+   "name": "Ley-Miro"
+  },
+  {
+   "country": "GN",
+   "state": "Pita",
+   "name": "Sangaréah"
+  },
+  {
+   "country": "GN",
+   "state": "Siguiri",
+   "name": "Kourémalé"
+  },
+  {
+   "country": "GN",
+   "state": "Tougué",
+   "name": "Kollet"
+  },
+  {
+   "country": "GN",
+   "state": "Yomou",
+   "name": "Bheeta"
+  },
+  {
+   "country": "GN",
+   "state": "Yomou",
+   "name": "Bignamou"
+  },
+  {
+   "country": "GW",
+   "state": "Bolama",
+   "name": "Uno"
+  },
+  {
+   "country": "GW",
+   "state": "Tombali",
+   "name": "Komo"
+  },
+  {
+   "country": "KE",
+   "state": "Bomet",
+   "name": "Chepchabas"
+  },
+  {
+   "country": "KE",
+   "state": "Bomet",
+   "name": "Kipreres"
+  },
+  {
+   "country": "KE",
+   "state": "Bomet",
+   "name": "Nyangores"
+  },
+  {
+   "country": "KE",
+   "state": "Bungoma",
+   "name": "Bumula"
+  },
+  {
+   "country": "KE",
+   "state": "Bungoma",
+   "name": "Kamukuywa"
+  },
+  {
+   "country": "KE",
+   "state": "Bungoma",
+   "name": "Naitiri"
+  },
+  {
+   "country": "KE",
+   "state": "Busia",
+   "name": "Budalang'i"
+  },
+  {
+   "country": "KE",
+   "state": "Embu",
+   "name": "Mbeere"
+  },
+  {
+   "country": "KE",
+   "state": "Garissa",
+   "name": "Hulugho"
+  },
+  {
+   "country": "KE",
+   "state": "Garissa",
+   "name": "Modogashe"
+  },
+  {
+   "country": "KE",
+   "state": "Homa Bay",
+   "name": "Rodi Kopany"
+  },
+  {
+   "country": "KE",
+   "state": "Isiolo",
+   "name": "Garbatulla"
+  },
+  {
+   "country": "KE",
+   "state": "Isiolo",
+   "name": "Oldonyiro"
+  },
+  {
+   "country": "KE",
+   "state": "Kakamega",
+   "name": "Ikolomani"
+  },
+  {
+   "country": "KE",
+   "state": "Kakamega",
+   "name": "Likuyani"
+  },
+  {
+   "country": "KE",
+   "state": "Kakamega",
+   "name": "Lumakanda"
+  },
+  {
+   "country": "KE",
+   "state": "Lamu",
+   "name": "Pate Island"
+  },
+  {
+   "country": "KE",
+   "state": "Machakos",
+   "name": "Mavoko"
+  },
+  {
+   "country": "KE",
+   "state": "Mandera",
+   "name": "Rhamu"
+  },
+  {
+   "country": "KE",
+   "state": "Meru",
+   "name": "Laare"
+  },
+  {
+   "country": "KE",
+   "state": "Migori",
+   "name": "Muhuru Bay"
+  },
+  {
+   "country": "KE",
+   "state": "Nairobi City",
+   "name": "Donholm"
+  },
+  {
+   "country": "KE",
+   "state": "Narok",
+   "name": "Emurua Dikirr"
+  },
+  {
+   "country": "KE",
+   "state": "Nyandarua",
+   "name": "Mirangine"
+  },
+  {
+   "country": "KE",
+   "state": "Tana River",
+   "name": "Madogo"
+  },
+  {
+   "country": "KE",
+   "state": "Trans-Nzoia",
+   "name": "Kachibora"
+  },
+  {
+   "country": "KE",
+   "state": "Trans-Nzoia",
+   "name": "Maili Saba"
+  },
+  {
+   "country": "KE",
+   "state": "Vihiga",
+   "name": "Hamisi"
+  },
+  {
+   "country": "KE",
+   "state": "Wajir",
+   "name": "Griftu"
+  },
+  {
+   "country": "MA",
+   "state": "Dakhla-Oued Ed-Dahab",
+   "name": "Bir Anzarane"
+  },
+  {
+   "country": "MA",
+   "state": "Dakhla-Oued Ed-Dahab",
+   "name": "Bir Gandouz"
+  },
+  {
+   "country": "MA",
+   "state": "Dakhla-Oued Ed-Dahab",
+   "name": "Guerguerat"
+  },
+  {
+   "country": "MA",
+   "state": "Dakhla-Oued Ed-Dahab",
+   "name": "Mliliha"
+  },
+  {
+   "country": "MA",
+   "state": "Dakhla-Oued Ed-Dahab",
+   "name": "Tichla"
+  },
+  {
+   "country": "MA",
+   "state": "Guelmim-Oued Noun",
+   "name": "Bouizakarne"
+  },
+  {
+   "country": "MA",
+   "state": "Guelmim-Oued Noun",
+   "name": "Taghjijt"
+  },
+  {
+   "country": "MA",
+   "state": "Laâyoune-Sakia El Hamra",
+   "name": "Akhfenir"
+  },
+  {
+   "country": "MA",
+   "state": "Laâyoune-Sakia El Hamra",
+   "name": "Hagounia"
+  },
+  {
+   "country": "MA",
+   "state": "Laâyoune-Sakia El Hamra",
+   "name": "Lemsid"
+  },
+  {
+   "country": "MA",
+   "state": "Marrakech-Safi",
+   "name": "Kelaa des Sraghna"
+  },
+  {
+   "country": "MA",
+   "state": "Oriental",
+   "name": "Al Aroui"
+  },
+  {
+   "country": "MA",
+   "state": "Souss-Massa",
+   "name": "Drarga"
+  },
+  {
+   "country": "MZ",
+   "state": "Inhambane",
+   "name": "Govuro"
+  },
+  {
+   "country": "MZ",
+   "state": "Manica",
+   "name": "Mossurize"
+  },
+  {
+   "country": "MZ",
+   "state": "Maputo City",
+   "name": "KaMavota"
+  },
+  {
+   "country": "MZ",
+   "state": "Maputo City",
+   "name": "KaMaxaquene"
+  },
+  {
+   "country": "MZ",
+   "state": "Maputo City",
+   "name": "KaMpfumu"
+  },
+  {
+   "country": "MZ",
+   "state": "Maputo City",
+   "name": "KaMubukwana"
+  },
+  {
+   "country": "MZ",
+   "state": "Maputo City",
+   "name": "KaNyaka (Inhaca)"
+  },
+  {
+   "country": "MZ",
+   "state": "Maputo City",
+   "name": "KaTembe"
+  },
+  {
+   "country": "MZ",
+   "state": "Maputo City",
+   "name": "Nlhamankulu"
+  },
+  {
+   "country": "MZ",
+   "state": "Maputo Province",
+   "name": "Katembe"
+  },
+  {
+   "country": "MZ",
+   "state": "Maputo Province",
+   "name": "Matutuíne"
+  },
+  {
+   "country": "MZ",
+   "state": "Nampula",
+   "name": "Mogovolas"
+  },
+  {
+   "country": "MZ",
+   "state": "Niassa",
+   "name": "Majune"
+  },
+  {
+   "country": "MZ",
+   "state": "Tete",
+   "name": "Angónia (Ulongué)"
+  },
+  {
+   "country": "MZ",
+   "state": "Tete",
+   "name": "Marávia"
+  },
+  {
+   "country": "MZ",
+   "state": "Zambezia",
+   "name": "Ile"
+  },
+  {
+   "country": "NA",
+   "state": "Khomas",
+   "name": "John Pandeni"
+  },
+  {
+   "country": "NA",
+   "state": "Khomas",
+   "name": "Katutura Central"
+  },
+  {
+   "country": "NA",
+   "state": "Khomas",
+   "name": "Katutura East"
+  },
+  {
+   "country": "NA",
+   "state": "Khomas",
+   "name": "Khomasdal North"
+  },
+  {
+   "country": "NA",
+   "state": "Khomas",
+   "name": "Moses //Garoëb"
+  },
+  {
+   "country": "NA",
+   "state": "Khomas",
+   "name": "Samora Machel"
+  },
+  {
+   "country": "NA",
+   "state": "Khomas",
+   "name": "Tobias Hainyeko"
+  },
+  {
+   "country": "NA",
+   "state": "Khomas",
+   "name": "Windhoek East"
+  },
+  {
+   "country": "NA",
+   "state": "Khomas",
+   "name": "Windhoek Rural"
+  },
+  {
+   "country": "NA",
+   "state": "Kunene",
+   "name": "Palmwag"
+  },
+  {
+   "country": "NA",
+   "state": "Zambezi",
+   "name": "Impalila"
+  }
+ ],
+ "ambiguous": [
+  {
+   "country": "GN",
+   "state": "Boké",
+   "name": "Tanéné"
+  },
+  {
+   "country": "GN",
+   "state": "Dalaba",
+   "name": "Koba"
+  },
+  {
+   "country": "GN",
+   "state": "Dalaba",
+   "name": "Kouratongo"
+  },
+  {
+   "country": "GN",
+   "state": "Dalaba",
+   "name": "Madina"
+  },
+  {
+   "country": "GN",
+   "state": "Dubréka",
+   "name": "Khorira"
+  },
+  {
+   "country": "GN",
+   "state": "Dubréka",
+   "name": "Ouassou"
+  },
+  {
+   "country": "GN",
+   "state": "Dubréka",
+   "name": "Tanènè"
+  },
+  {
+   "country": "GN",
+   "state": "Forécariah",
+   "name": "Tanènè"
+  },
+  {
+   "country": "GN",
+   "state": "Guéckédou",
+   "name": "Kassadou"
+  },
+  {
+   "country": "GN",
+   "state": "Guéckédou",
+   "name": "Koundou"
+  },
+  {
+   "country": "GN",
+   "state": "Kindia",
+   "name": "Mambia"
+  },
+  {
+   "country": "GN",
+   "state": "Kindia",
+   "name": "Samaya"
+  },
+  {
+   "country": "GN",
+   "state": "Kindia",
+   "name": "Souguéta"
+  },
+  {
+   "country": "GN",
+   "state": "Macenta",
+   "name": "Kéoulenta"
+  },
+  {
+   "country": "GN",
+   "state": "Télimélé",
+   "name": "Koba"
+  },
+  {
+   "country": "GN",
+   "state": "Télimélé",
+   "name": "Missira"
+  },
+  {
+   "country": "GW",
+   "state": "Gabú",
+   "name": "Canquelifá"
+  },
+  {
+   "country": "KE",
+   "state": "Bomet",
+   "name": "Boito"
+  },
+  {
+   "country": "KE",
+   "state": "Busia",
+   "name": "Butula"
+  },
+  {
+   "country": "KE",
+   "state": "Kakamega",
+   "name": "Lugari"
+  },
+  {
+   "country": "KE",
+   "state": "Kisii",
+   "name": "Etago"
+  },
+  {
+   "country": "KE",
+   "state": "Kisumu",
+   "name": "Kombewa"
+  },
+  {
+   "country": "KE",
+   "state": "Nairobi City",
+   "name": "Dandora"
+  },
+  {
+   "country": "KE",
+   "state": "Nairobi City",
+   "name": "Embakasi"
+  },
+  {
+   "country": "KE",
+   "state": "Nairobi City",
+   "name": "Umoja"
+  },
+  {
+   "country": "KE",
+   "state": "Nandi",
+   "name": "Kabiyet"
+  },
+  {
+   "country": "KE",
+   "state": "Nyamira",
+   "name": "Manga"
+  },
+  {
+   "country": "MA",
+   "state": "Dakhla-Oued Ed-Dahab",
+   "name": "El Argoub"
+  },
+  {
+   "country": "MA",
+   "state": "Souss-Massa",
+   "name": "Biougra"
+  },
+  {
+   "country": "MZ",
+   "state": "Cabo Delgado",
+   "name": "Muidumbe"
+  },
+  {
+   "country": "MZ",
+   "state": "Gaza",
+   "name": "Massingir"
+  },
+  {
+   "country": "MZ",
+   "state": "Inhambane",
+   "name": "Funhalouro"
+  },
+  {
+   "country": "MZ",
+   "state": "Inhambane",
+   "name": "Jangamo"
+  },
+  {
+   "country": "MZ",
+   "state": "Inhambane",
+   "name": "Mabote"
+  },
+  {
+   "country": "MZ",
+   "state": "Manica",
+   "name": "Machaze"
+  },
+  {
+   "country": "MZ",
+   "state": "Niassa",
+   "name": "Mecanhelas"
+  },
+  {
+   "country": "NA",
+   "state": "Ohangwena",
+   "name": "Ondobe"
+  }
+ ]
+}
