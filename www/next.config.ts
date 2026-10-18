@@ -1,10 +1,9 @@
 import nextra from "nextra";
 
 const withNextra = nextra({
-    search: true,
-    defaultShowCopyCode: true,
+  defaultShowCopyCode: true,
 });
 
 export default withNextra({
-    pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 });

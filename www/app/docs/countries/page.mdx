@@ -3,21 +3,35 @@ title: Countries
 ---
 
 import { Steps, Tabs, Tab, Callout } from 'nextra/components'
+import { T } from '../../components/locale_provider'
  
-# Countries Data
+# <T k="docs.countries.title" />
 
 <Steps>
-### Get All Countries
+### <T k="docs.countries.getAll" /> [#get-all-countries]
 
-This gives you an array of all countries.
+<T k="docs.countries.getAllDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="countries.ts" showLineNumbers copy
     import { Countries } from 'countries-geo';  
 
     console.log(Countries.getAll); 
-    // Logs all Countries (e.g., [{ iso: "GH", name: "Ghana" }, ...])
+    // Logs all countries with enhanced data:
+    // [{
+    //   iso: "GH", name: "Ghana",           // Legacy fields
+    //   iso2: "GH", iso3: "GHA",            // Enhanced ISO codes
+    //   ns: {                               // Multi-language names
+    //     en: "Ghana",
+    //     fr: "Ghana",
+    //     es: "Ghana"
+    //   },
+    //   mtd: {                               // Metadata
+    //     telc: "+233",                     // Telephone code
+    //     coor: { lat: 8.1, lng: -1.0 }     // Coordinates
+    //   }
+    // }, ...]
     ```
   </Tabs.Tab>
   
@@ -26,25 +40,25 @@ This gives you an array of all countries.
     let Countries = require('countries-geo').Countries;
 
     console.log(Countries.getAll)
-    // Logs all Countries (e.g., [{ iso: "GH", name: "Ghana" }, ...])
+    // Logs all countries with enhanced data
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by name.
+> <T k="docs.common.sortedByName" />
  
-### Get All Countries sorted by isoCode
-This gives you an array of all countries specifically sorted by isoCode.
+### <T k="docs.countries.sortByIso" /> [#get-all-countries-sorted-by-isocode]
+<T k="docs.countries.sortByIsoDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="countries.ts" showLineNumbers copy
     import { Countries } from 'countries-geo';  
 
     console.log(Countries.sortByIsoCode); 
-    // Logs all Countries (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    // Logs all countries sorted by ISO2 code
     ```
   </Tabs.Tab>
   
@@ -53,25 +67,25 @@ This gives you an array of all countries specifically sorted by isoCode.
     let Countries = require('countries-geo').Countries;
 
     console.log(Countries.sortByIsoCode)
-    // Logs all Countries (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    // Logs all countries sorted by ISO2 code
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by iso.
+> <T k="docs.common.sortedByIso" />
 
-### Get Countries by Continent
-This gives you an array of all countries filtered by a Continent isoCode.
+### <T k="docs.countries.byContinent" /> [#get-countries-by-continent]
+<T k="docs.countries.byContinentDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="countries.ts" showLineNumbers copy
     import { Countries } from 'countries-geo';  
 
     console.log(Countries.getByContinent('AF')); 
-    // Logs all Countries (e.g., [{ iso: "GH", name: "Ghana" }, ...])
+    // Logs all African countries with enhanced data
     ```
   </Tabs.Tab>
   
@@ -80,12 +94,36 @@ This gives you an array of all countries filtered by a Continent isoCode.
     let Countries = require('countries-geo').Countries;
 
     console.log(Countries.getByContinent('AF'))
-    // Logs all Countries (e.g., [{ iso: "GH", name: "Ghana" }, ...])
+    // Logs all African countries with enhanced data
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by name.
+> <T k="docs.common.sortedByName" />
+
+### <T k="docs.common.enhancedFeatures" /> [#access-enhanced-features]
+
+<T k="docs.countries.enhancedDesc" />
+
+```ts filename="enhanced-countries.ts" showLineNumbers copy
+import { Countries } from 'countries-geo';
+
+const country = Countries.getAll[0];
+
+// Access ISO3 code
+console.log(country.iso3); // "GHA"
+
+// Access telephone code
+console.log(country.mtd?.telc); // "+233"
+
+// Access coordinates
+console.log(country.mtd?.coor); // { lat: 8.1, lng: -1.0 }
+
+// Access multi-language names
+console.log(country.ns.fr); // "Ghana"
+console.log(country.ns.es); // "Ghana"
+```
+
 </Steps>

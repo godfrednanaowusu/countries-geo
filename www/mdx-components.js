@@ -1,5 +1,2 @@
-import { useMDXComponents as getThemeComponents } from 'nextra-theme-docs'
-
-export function useMDXComponents(components = {}) {
-    return getThemeComponents(components)
-}
+// Turbopack resolves the MDX import source to this file; the implementation lives in mdx-components.tsx
+export { useMDXComponents } from './mdx-components.tsx'

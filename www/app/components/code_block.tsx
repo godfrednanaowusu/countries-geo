@@ -2,7 +2,12 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 // import { tomorrow } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
-export default function CodeBlock ({ code, language = 'ts' })  {
+interface CodeBlockProps {
+  code: string;
+  language?: string;
+}
+
+export default function CodeBlock ({ code, language = 'ts' }: CodeBlockProps)  {
   const handleCopy = () => {
     navigator.clipboard.writeText(code);
     alert('Copied!');

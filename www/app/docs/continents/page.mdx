@@ -3,21 +3,34 @@ title: Continents
 ---
 
 import { Steps, Tabs, Tab, Callout } from 'nextra/components'
+import { T } from '../../components/locale_provider'
  
-# Continents Data
+# <T k="docs.continents.title" />
 
 <Steps>
-### Get All Continents
+### <T k="docs.continents.getAll" /> [#get-all-continents]
 
-This gives you an array of all contients.
+<T k="docs.continents.getAllDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="continents.ts" showLineNumbers copy
     import { Continents } from 'countries-geo';  
 
     console.log(Continents.getAll); 
-    // Logs all continents (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    // Logs all continents with enhanced data:
+    // [{
+    //   iso: "AF", name: "Africa",           // Legacy fields
+    //   iso2: "AF", iso3: "AFR",            // Enhanced ISO codes
+    //   ns: {                               // Multi-language names
+    //     en: "Africa",
+    //     fr: "Afrique",
+    //     es: "África"
+    //   },
+    //   mtd: {                               // Metadata
+    //     coor: { lat: 0.0, lng: 20.0 }      // Coordinates
+    //   }
+    // }, ...]
     ```
   </Tabs.Tab>
   
@@ -26,25 +39,25 @@ This gives you an array of all contients.
     let Continents = require('countries-geo').Continents;
 
     console.log(Continents.getAll)
-    // Logs all continents (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    // Logs all continents with enhanced data
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by name.
+> <T k="docs.common.sortedByName" />
  
-### Get All Continents sorted by isoCode
-This gives you an array of all contients specifically sorted by isoCode.
+### <T k="docs.continents.sortByIso" /> [#get-all-continents-sorted-by-isocode]
+<T k="docs.continents.sortByIsoDesc" />
 
-<Tabs items={['ES6 Module', 'AMD Module']}>
+<Tabs items={[<T k="docs.common.es6" />, <T k="docs.common.amd" />]}>
   <Tabs.Tab>
     ```ts filename="continents.ts" showLineNumbers copy
     import { Continents } from 'countries-geo';  
 
     console.log(Continents.sortByIsoCode); 
-    // Logs all continents (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    // Logs all continents sorted by ISO2 code
     ```
   </Tabs.Tab>
   
@@ -53,12 +66,33 @@ This gives you an array of all contients specifically sorted by isoCode.
     let Continents = require('countries-geo').Continents;
 
     console.log(Continents.sortByIsoCode)
-    // Logs all continents (e.g., [{ iso: "AF", name: "Africa" }, ...])
+    // Logs all continents sorted by ISO2 code
     ```
 
   </Tabs.Tab>
   
 </Tabs>
 
-> By default this is sorted by iso.
+> <T k="docs.common.sortedByIso" />
+
+### <T k="docs.common.enhancedFeatures" /> [#access-enhanced-features]
+
+<T k="docs.continents.enhancedDesc" />
+
+```ts filename="enhanced-continents.ts" showLineNumbers copy
+import { Continents } from 'countries-geo';
+
+const continent = Continents.getAll[0];
+
+// Access ISO3 code
+console.log(continent.iso3); // "AFR"
+
+// Access coordinates
+console.log(continent.mtd?.coor); // { lat: 0.0, lng: 20.0 }
+
+// Access multi-language names
+console.log(continent.ns.fr); // "Afrique"
+console.log(continent.ns.es); // "África"
+```
+
 </Steps>

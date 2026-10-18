@@ -4,11 +4,12 @@ title: Introduction
 
 import { Steps, Tabs, Tab, Callout, Code } from 'nextra/components'
 import UsageSample  from '../components/usage_sample'
+import { T } from '../components/locale_provider'
 
 
 # Countries Geo
 
-Welcome to the **Countries Geo** documentation, your one-stop solution for accessing continents, countries, states and cities information.
+<T k="docs.intro.welcome" />
 
 ---
 
@@ -16,7 +17,7 @@ Welcome to the **Countries Geo** documentation, your one-stop solution for acces
 
 ---
 
-## Installation
+## <T k="docs.intro.installation" /> [#installation]
 <Tabs items={['yarn', 'npm', 'pnpm', 'bun']}>
 <Tabs.Tab>
 ```sh filename="shell" showLineNumbers copy
@@ -41,50 +42,80 @@ bun add countries-geo
 </Tabs.Tab>
 </Tabs>
 
-## Available Info
+## <T k="docs.intro.availableInfo" /> [#available-info]
 
-Explore the different areas you can access:
+<T k="docs.intro.availableInfoDesc" />
 
-| Feature                               | Description                                                                                                                                                                                                                                                                                         |
-| --------------------------------------| ----------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                                      |
-| [Continent](/docs/continents)         | Continents are the largest landmasses on Earth, typically divided into seven regions: Africa, Antarctica, Asia, Europe, North America, South America, and Australia. These vast areas are distinguished by geographical boundaries, cultural differences, and unique ecosystems.                    |
-| [Countries](/docs/countries)          | Countries are sovereign political entities with defined borders, governments, and populations. Each country has its own laws, currency, and identity, such as the United States, Brazil, or Japan.                                                                                                  |
-| [States](/docs/states)                | States/Regions are subdivisions within a country that help with administrative and political organization. For example, the U.S. has 50 states, India has 28 states, and Germany has 16 federal states.                                                                                             |
-| [Cities](/docs/cities)                | Cities/Towns are populated urban or semi-urban areas within a country, serving as centers for commerce, culture, and governance.                                                                                                                                                                    |
+| <T k="docs.intro.feature" /> | <T k="docs.intro.description" /> |
+| --- | --- |
+| [<T k="docs.intro.continent" />](/docs/continents) | <T k="docs.intro.continentDesc" /> **<T k="docs.intro.continentNew" />** |
+| [<T k="docs.intro.countries" />](/docs/countries) | <T k="docs.intro.countriesDesc" /> **<T k="docs.intro.countriesNew" />** |
+| [<T k="docs.intro.states" />](/docs/states) | <T k="docs.intro.statesDesc" /> **<T k="docs.intro.statesNew" />** |
+| [<T k="docs.intro.cities" />](/docs/cities) | <T k="docs.intro.citiesDesc" /> **<T k="docs.intro.citiesNew" />** |
 
 
-## Why Choose Countries Geo?
+## <T k="docs.intro.whyChoose" /> [#why-choose-countries-geo]
 
-- **Comprehensive Documentation**: Detailed guides and reference material to help you integrate with our services effortlessly.
-- **Scalability**: Build applications that scale with your business, from small projects to large enterprise solutions.
-- **Security**: Rest assured with our robust security protocols, ensuring your integrations and data are always protected.
+- **<T k="docs.intro.why.dataLabel" />**: <T k="docs.intro.why.dataText" />
+- **<T k="docs.intro.why.docsLabel" />**: <T k="docs.intro.why.docsText" />
+- **<T k="docs.intro.why.scaleLabel" />**: <T k="docs.intro.why.scaleText" />
+- **<T k="docs.intro.why.securityLabel" />**: <T k="docs.intro.why.securityText" />
 
-Whether you're a seasoned developer or just starting out, this is designed to provide a clear understanding of how to use this utility tool.
+## <T k="docs.intro.newFeatures" /> [#new-features]
 
-## FAQ
+### <T k="docs.intro.enhancedStructure" /> [#enhanced-data-structure]
+<T k="docs.intro.allInclude" />
 
-The Countries Geo FAQ is a collection of useful questions and answers about the
-project. If you have a question that isn't answered here, please
-[open a discussion](https://github.com/godfrednanaowusu/countries-geo/discussions).
+- **<T k="docs.intro.include.isoLabel" />**: <T k="docs.intro.include.isoText" />
+- **<T k="docs.intro.include.telLabel" />**: <T k="docs.intro.include.telText" />
+- **<T k="docs.intro.include.coorLabel" />**: <T k="docs.intro.include.coorText" />
+- **<T k="docs.intro.include.namesLabel" />**: <T k="docs.intro.include.namesText" />
+
+### <T k="docs.intro.backwardCompat" /> [#backward-compatibility]
+<T k="docs.intro.backwardCompatDesc" />
+
+```ts filename="enhanced-data.ts" showLineNumbers copy
+import { Countries } from 'countries-geo';
+
+// Legacy format (still works)
+console.log(Countries.getAll[0]); 
+// { iso: "GH", name: "Ghana" }
+
+// Enhanced format
+console.log(Countries.getAll[0]); 
+// { 
+//   iso: "GH", name: "Ghana",           // Legacy fields
+//   iso2: "GH", iso3: "GHA",            // Enhanced ISO codes
+//   ns: { en: "Ghana", fr: "Ghana" },  // Multi-language names
+//   mtd: {                              // Metadata
+//     telc: "+233",                     // Telephone code
+//     coor: { lat: 8.1, lng: -1.0 }    // Coordinates
+//   }
+// }
+```
+
+<T k="docs.intro.closing" />
+
+## <T k="docs.intro.faq" /> [#faq]
+
+<T k="docs.intro.faqIntro" links={{ discussions: "https://github.com/godfrednanaowusu/countries-geo/discussions" }} />
 
 <details>
-    {/* prettier-ignore */}
-    <summary>Can I use Countries Geo with my Javascript Project?</summary>
-    Countries Geo would work on any javascript project so far as its node based.
+    <summary><T k="docs.intro.q1" /></summary>
+    <T k="docs.intro.a1" />
 </details>
 
 <details>
-    <summary>Do I have to pay for this service?</summary>
-    Countries Geo is open-source and free to use for any kind of project:
+    <summary><T k="docs.intro.q2" /></summary>
+    <T k="docs.intro.a2" />
 
-    - There is currently no plan now or in the future to charge for this service.
-    - Though a channel could be provided in the future for individuals or companies that would want to support with a donation
+    - <T k="docs.intro.a2Point1" />
+    - <T k="docs.intro.a2Point2" />
 
 </details>
 
 <details>
-    {/* prettier-ignore */}
-    <summary>How do i suggest addition of a missing Data?</summary>
-    We encourage you to raise an issue with detail of the missing data for our consideration here [Issues](https://github.com/godfrednanaowusu/countries-geo/issues)
+    <summary><T k="docs.intro.q3" /></summary>
+    <T k="docs.intro.a3" links={{ report: "https://github.com/godfrednanaowusu/countries-geo/issues/new?template=missing-place.yml" }} />
 
 </details>

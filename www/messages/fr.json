@@ -1,0 +1,247 @@
+{
+  "banner": {
+    "released": "La version {version} est disponible 🎉"
+  },
+  "nav": {
+    "documentation": "Documentation",
+    "donate": "Faire un don",
+    "language": "Langue"
+  },
+  "footer": {
+    "madeBy": "Créé par"
+  },
+  "search": {
+    "placeholder": "Rechercher dans la documentation…",
+    "emptyResult": "Aucun résultat.",
+    "errorText": "Impossible de charger l’index de recherche.",
+    "loading": "Chargement…"
+  },
+  "toc": {
+    "title": "Sur cette page",
+    "backToTop": "Retour en haut"
+  },
+  "docsNav": {
+    "introduction": "Introduction",
+    "continents": "Continents",
+    "countries": "Pays",
+    "states": "États",
+    "cities": "Villes",
+    "roadmap": "Feuille de route"
+  },
+  "home": {
+    "title": "Un utilitaire pour accéder aux <hl>Continents</hl>, <hl>Pays</hl>, <hl>États</hl> et <hl>Villes</hl>.",
+    "subtitle": "Cet utilitaire fournit des fonctions simples pour accéder facilement aux continents, pays, états et villes.",
+    "learnMore": "En savoir plus",
+    "getPackage": "Obtenir le paquet",
+    "explore": "Explorer",
+    "continents": {
+      "title": "Continents",
+      "description": "{count, number} continents avec codes ISO, coordonnées du centre et fuseaux horaires."
+    },
+    "countries": {
+      "title": "Pays",
+      "description": "{count, number} pays avec codes ISO 3166, indicatifs téléphoniques, coordonnées et fuseaux horaires."
+    },
+    "states": {
+      "title": "États",
+      "description": "{count, number} états et provinces avec codes ISO 3166-2, types et fuseaux horaires."
+    },
+    "cities": {
+      "title": "Villes",
+      "description": "{count, number} villes avec coordonnées et fuseaux horaires, chargées par pays à la demande."
+    },
+    "copy": "Copier",
+    "copied": "Copié",
+    "stats": {
+      "continents": "Continents",
+      "countries": "Pays",
+      "states": "États et provinces",
+      "cities": "Villes",
+      "languages": "Langues",
+      "timezones": "Fuseaux horaires"
+    },
+    "example": {
+      "title": "Essayez",
+      "description": "Recherchez n’importe quel pays par son code ISO. Les noms sont renvoyés dans la langue que vous chargez.",
+      "output": "Résultat"
+    }
+  },
+  "usage": {
+    "dataLanguage": "Langue des données",
+    "search": "Rechercher",
+    "selectContinent": "Choisir un continent",
+    "allContinents": "Tous les continents",
+    "selectCountry": "Choisir un pays",
+    "allCountries": "Tous les pays",
+    "selectState": "Choisir un état",
+    "allStates": "Tous les états",
+    "selectCity": "Choisir une ville",
+    "allCities": "Toutes les villes",
+    "report": "Un lieu introuvable ? Signalez-le"
+  },
+  "notFound": {
+    "description": "Désolé, la page que vous recherchez est introuvable.",
+    "title": "Page introuvable",
+    "goHome": "Retour à l’accueil"
+  },
+  "page": {
+    "feedback": "Une question ? Donnez-nous votre avis",
+    "editPage": "Modifier cette page",
+    "lastUpdated": "Dernière mise à jour le"
+  },
+  "docs": {
+    "common": {
+      "es6": "Module ES6",
+      "amd": "Module AMD",
+      "sortedByName": "Par défaut, le résultat est trié par nom.",
+      "sortedByIso": "Par défaut, le résultat est trié par code iso.",
+      "enhancedFeatures": "Accéder aux fonctionnalités enrichies"
+    },
+    "intro": {
+      "welcome": "Bienvenue dans la documentation de <b>Countries Geo</b>, votre solution tout-en-un pour accéder aux informations sur les continents, pays, états et villes.",
+      "installation": "Installation",
+      "availableInfo": "Informations disponibles",
+      "availableInfoDesc": "Découvrez les différents domaines accessibles avec des données enrichies, notamment les codes ISO2/ISO3, les indicatifs téléphoniques, les coordonnées et le support multilingue :",
+      "feature": "Fonctionnalité",
+      "description": "Description",
+      "continent": "Continent",
+      "continentDesc": "Les continents sont les plus grandes masses terrestres de la planète, généralement divisées en sept régions : l’Afrique, l’Antarctique, l’Asie, l’Europe, l’Amérique du Nord, l’Amérique du Sud et l’Australie. Ces vastes zones se distinguent par leurs frontières géographiques, leurs différences culturelles et leurs écosystèmes uniques.",
+      "continentNew": "Inclut désormais les codes ISO2/ISO3, les coordonnées et les noms multilingues.",
+      "countries": "Pays",
+      "countriesDesc": "Les pays sont des entités politiques souveraines dotées de frontières, d’un gouvernement et d’une population définis. Chaque pays possède ses propres lois, sa monnaie et son identité, comme les États-Unis, le Brésil ou le Japon.",
+      "countriesNew": "Inclut désormais les codes ISO2/ISO3, les indicatifs téléphoniques, les coordonnées et les noms multilingues.",
+      "states": "États",
+      "statesDesc": "Les états/régions sont des subdivisions d’un pays qui facilitent son organisation administrative et politique. Par exemple, les États-Unis comptent 50 états, l’Inde 28 états et l’Allemagne 16 Länder.",
+      "statesNew": "Inclut désormais les coordonnées et les noms multilingues.",
+      "cities": "Villes",
+      "citiesDesc": "Les villes/localités sont des zones urbaines ou semi-urbaines peuplées d’un pays, qui servent de centres pour le commerce, la culture et l’administration.",
+      "citiesNew": "Inclut désormais les coordonnées et les noms multilingues.",
+      "whyChoose": "Pourquoi choisir Countries Geo ?",
+      "why": {
+        "dataLabel": "Structure de données enrichie",
+        "dataText": "Codes ISO2/ISO3, indicatifs téléphoniques, coordonnées et noms multilingues pour des données géographiques complètes",
+        "docsLabel": "Documentation complète",
+        "docsText": "Des guides détaillés et une documentation de référence pour vous aider à intégrer nos services sans effort.",
+        "scaleLabel": "Évolutivité",
+        "scaleText": "Créez des applications qui évoluent avec votre activité, des petits projets aux grandes solutions d’entreprise.",
+        "securityLabel": "Sécurité",
+        "securityText": "Soyez rassuré grâce à nos protocoles de sécurité robustes, qui garantissent que vos intégrations et vos données sont toujours protégées."
+      },
+      "newFeatures": "Nouvelles fonctionnalités",
+      "enhancedStructure": "Structure de données enrichie",
+      "allInclude": "Toutes les entités géographiques incluent désormais :",
+      "include": {
+        "isoLabel": "Codes ISO2/ISO3",
+        "isoText": "Codes internationaux standard pour une meilleure compatibilité",
+        "telLabel": "Indicatifs téléphoniques",
+        "telText": "Indicatifs d’appel internationaux des pays",
+        "coorLabel": "Coordonnées",
+        "coorText": "Latitude et longitude pour une localisation géographique précise",
+        "namesLabel": "Noms multilingues",
+        "namesText": "Prise en charge des noms en plusieurs langues"
+      },
+      "backwardCompat": "Rétrocompatibilité",
+      "backwardCompatDesc": "La bibliothèque reste entièrement rétrocompatible tout en donnant accès aux fonctionnalités enrichies :",
+      "closing": "Que vous soyez un développeur chevronné ou débutant, cette documentation vise à vous permettre de bien comprendre comment utiliser cet utilitaire.",
+      "faq": "FAQ",
+      "faqIntro": "La FAQ de Countries Geo rassemble des questions et réponses utiles sur le projet. Si votre question n’y trouve pas de réponse, veuillez <discussions>ouvrir une discussion</discussions>.",
+      "q1": "Puis-je utiliser Countries Geo dans mon projet Javascript ?",
+      "a1": "Countries Geo fonctionne avec n’importe quel projet javascript, tant qu’il repose sur node.",
+      "q2": "Ce service est-il payant ?",
+      "a2": "Countries Geo est open source et gratuit pour tout type de projet :",
+      "a2Point1": "Il n’est pas prévu, ni aujourd’hui ni à l’avenir, de rendre ce service payant.",
+      "a2Point2": "Un moyen pourrait toutefois être proposé à l’avenir aux particuliers ou aux entreprises qui souhaiteraient nous soutenir par un don",
+      "q3": "Comment suggérer l’ajout de données manquantes ?",
+      "a3": "Utilisez le <report>formulaire de lieu manquant ou erroné</report> sur GitHub. Un lien GeoNames ou Wikidata nous aide à vérifier et ajouter le lieu rapidement."
+    },
+    "continents": {
+      "title": "Données des continents",
+      "getAll": "Obtenir tous les continents",
+      "getAllDesc": "Renvoie un tableau de tous les continents avec des données enrichies, notamment les codes ISO2/ISO3, les coordonnées et les noms multilingues.",
+      "sortByIso": "Obtenir tous les continents triés par isoCode",
+      "sortByIsoDesc": "Renvoie un tableau de tous les continents triés par isoCode.",
+      "enhancedDesc": "Vous pouvez accéder aux fonctionnalités enrichies comme les codes ISO3, les coordonnées et les noms multilingues :"
+    },
+    "countries": {
+      "title": "Données des pays",
+      "getAll": "Obtenir tous les pays",
+      "getAllDesc": "Renvoie un tableau de tous les pays avec des données enrichies, notamment les codes ISO2/ISO3, les indicatifs téléphoniques, les coordonnées et les noms multilingues.",
+      "sortByIso": "Obtenir tous les pays triés par isoCode",
+      "sortByIsoDesc": "Renvoie un tableau de tous les pays triés par isoCode.",
+      "enhancedDesc": "Vous pouvez accéder aux fonctionnalités enrichies comme les codes ISO3, les indicatifs téléphoniques, les coordonnées et les noms multilingues :",
+      "byContinent": "Obtenir les pays par continent",
+      "byContinentDesc": "Renvoie un tableau de tous les pays filtrés par l’isoCode d’un continent."
+    },
+    "states": {
+      "title": "Données des états",
+      "getAll": "Obtenir tous les états",
+      "getAllDesc": "Renvoie un tableau de tous les états avec des données enrichies, notamment les coordonnées et les noms multilingues.",
+      "sortByIso": "Obtenir tous les états triés par isoCode",
+      "sortByIsoDesc": "Renvoie un tableau de tous les états triés par isoCode.",
+      "enhancedDesc": "Vous pouvez accéder aux fonctionnalités enrichies comme les coordonnées et les noms multilingues :",
+      "byCountry": "Obtenir les états par pays",
+      "byCountryDesc": "Renvoie un tableau de tous les états filtrés par l’isoCode d’un pays.",
+      "byContinent": "Obtenir les états par continent",
+      "byContinentDesc": "Renvoie un tableau de tous les états filtrés par l’isoCode d’un continent."
+    },
+    "cities": {
+      "title": "Données des villes",
+      "getAll": "Obtenir toutes les villes",
+      "getAllDesc": "Renvoie un tableau de toutes les villes avec des données enrichies, notamment les coordonnées et les noms multilingues.",
+      "sortByIso": "Obtenir toutes les villes triées par isoCode",
+      "sortByIsoDesc": "Renvoie un tableau de toutes les villes triées par isoCode.",
+      "enhancedDesc": "Vous pouvez accéder aux fonctionnalités enrichies comme les coordonnées et les noms multilingues :",
+      "byState": "Obtenir les villes par état",
+      "byStateDesc": "Renvoie un tableau de toutes les villes filtrées par l’isoCode d’un état.",
+      "byCountry": "Obtenir les villes par pays",
+      "byCountryDesc": "Renvoie un tableau de toutes les villes filtrées par l’isoCode d’un pays.",
+      "byContinent": "Obtenir les villes par continent",
+      "byContinentDesc": "Renvoie un tableau de toutes les villes filtrées par l’isoCode d’un continent."
+    },
+    "roadmap": {
+      "title": "Notre feuille de route",
+      "search": "Recherche par nom",
+      "searchDesc": "Trouver continents, pays, états et villes par leur nom, sans tenir compte des accents ni de la casse, dans toute langue chargée.",
+      "currencies": "Devises et langues",
+      "currenciesDesc": "Ajouter pour chaque pays ses devises ISO 4217 et ses langues officielles ISO 639.",
+      "flags": "Drapeaux",
+      "flagsDesc": "Fournir un émoji de drapeau pour chaque pays, avec des drapeaux SVG en import séparé optionnel.",
+      "borders": "Pays voisins",
+      "bordersDesc": "Lister les pays qui partagent une frontière terrestre avec un pays donné.",
+      "nearestCity": "Ville la plus proche",
+      "nearestCityDesc": "Trouver la ville la plus proche d’une latitude et d’une longitude, grâce aux coordonnées déjà présentes dans les données.",
+      "population": "Population et superficie",
+      "populationDesc": "Ajouter la population des pays et des villes, ainsi que la superficie des pays.",
+      "cityNames": "Plus de traductions de villes",
+      "cityNamesDesc": "Traduire davantage de noms de villes, la couverture variant actuellement selon la langue et le pays."
+    }
+  },
+  "code": {
+    "logsAllCitiesWithEnhancedData": "Affiche toutes les villes avec données enrichies",
+    "legacyFields": "Champs hérités",
+    "multilanguageNames": "Noms multilingues",
+    "metadata": "Métadonnées",
+    "coordinates": "Coordonnées",
+    "logsAllCitiesSortedByIsoCode": "Affiche toutes les villes triées par code ISO",
+    "logsAllCitiesInGreaterAccraWithEnhancedData": "Affiche toutes les villes du Grand Accra avec données enrichies",
+    "logsAllGhanaianCitiesWithEnhancedData": "Affiche toutes les villes ghanéennes avec données enrichies",
+    "logsAllAfricanCitiesWithEnhancedData": "Affiche toutes les villes africaines avec données enrichies",
+    "accessCoordinates": "Accéder aux coordonnées",
+    "accessMultilanguageNames": "Accéder aux noms multilingues",
+    "logsAllContinentsWithEnhancedData": "Affiche tous les continents avec données enrichies",
+    "enhancedIsoCodes": "Codes ISO enrichis",
+    "logsAllContinentsSortedByIso2Code": "Affiche tous les continents triés par code ISO2",
+    "accessIso3Code": "Accéder au code ISO3",
+    "logsAllCountriesWithEnhancedData": "Affiche tous les pays avec données enrichies",
+    "telephoneCode": "Indicatif téléphonique",
+    "logsAllCountriesSortedByIso2Code": "Affiche tous les pays triés par code ISO2",
+    "logsAllAfricanCountriesWithEnhancedData": "Affiche tous les pays africains avec données enrichies",
+    "accessTelephoneCode": "Accéder à l'indicatif téléphonique",
+    "legacyFormatStillWorks": "Format hérité (toujours fonctionnel)",
+    "enhancedFormat": "Format enrichi",
+    "logsAllStatesWithEnhancedData": "Affiche tous les États avec données enrichies",
+    "logsAllStatesSortedByIsoCode": "Affiche tous les États triés par code ISO",
+    "logsAllGhanaianStatesWithEnhancedData": "Affiche tous les États ghanéens avec données enrichies",
+    "logsAllAfricanStatesWithEnhancedData": "Affiche tous les États africains avec données enrichies"
+  }
+}
