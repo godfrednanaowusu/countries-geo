@@ -1,0 +1,1507 @@
+{
+ "standards": {
+  "countries": 246,
+  "country_code_errors": [],
+  "iso3166_1_not_included": [],
+  "states": 3728,
+  "state_codes_not_in_iso3166_2": [],
+  "timezones": 418,
+  "invalid_timezones": [],
+  "cities_with_zone_outside_country_zone_tab": 67,
+  "cities_with_zone_outside_country_zone_tab_examples": [
+   [
+    "PS:Asia/Jerusalem",
+    41
+   ],
+   [
+    "SO:Africa/Addis_Ababa",
+    3
+   ],
+   [
+    "CN:Asia/Yakutsk",
+    2
+   ],
+   [
+    "CU:America/New_York",
+    2
+   ],
+   [
+    "IN:Asia/Karachi",
+    2
+   ],
+   [
+    "BN:Asia/Pontianak",
+    1
+   ],
+   [
+    "CA:America/Detroit",
+    1
+   ],
+   [
+    "CI:Africa/Accra",
+    1
+   ],
+   [
+    "CY:Europe/Athens",
+    1
+   ],
+   [
+    "EH:Africa/Casablanca",
+    1
+   ],
+   [
+    "GB:Asia/Famagusta",
+    1
+   ],
+   [
+    "GB:Asia/Nicosia",
+    1
+   ]
+  ],
+  "duplicate_city_ids": 0,
+  "duplicate_state_codes": 0
+ },
+ "country_centres": {
+  "with_polygon": 246,
+  "inside_own_polygon": 246,
+  "inside_rate": "100.00%",
+  "outside": [],
+  "vs_naturalearth_label_km": {
+   "n": 235,
+   "median": 31.31,
+   "p90": 223.08,
+   "p95": 401.28,
+   "max": 3638.4
+  },
+  "vs_naturalearth_label_relative_to_size": {
+   "n": 235,
+   "median": 0.11,
+   "p90": 0.98,
+   "p95": 3.72,
+   "max": 686.33
+  },
+  "vs_naturalearth_label_largest": [
+   [
+    3638,
+    686.33,
+    "UM"
+   ],
+   [
+    1620,
+    52.43,
+    "KI"
+   ],
+   [
+    168,
+    23.89,
+    "IO"
+   ],
+   [
+    105,
+    21.75,
+    "TV"
+   ],
+   [
+    241,
+    20.36,
+    "WF"
+   ],
+   [
+    398,
+    19.03,
+    "SC"
+   ],
+   [
+    220,
+    15.9,
+    "CK"
+   ],
+   [
+    555,
+    9.59,
+    "PF"
+   ],
+   [
+    171,
+    6.78,
+    "FM"
+   ],
+   [
+    162,
+    6.6,
+    "TO"
+   ]
+  ],
+  "vs_wikidata_km": {
+   "n": 246,
+   "median": 33.03,
+   "p90": 187.75,
+   "p95": 370.8,
+   "max": 3640.03
+  },
+  "vs_wikidata_relative_to_size": {
+   "n": 246,
+   "median": 0.13,
+   "p90": 1.08,
+   "p95": 4.45,
+   "max": 686.64
+  },
+  "vs_wikidata_largest": [
+   [
+    3640,
+    686.64,
+    "UM"
+   ],
+   [
+    1837,
+    59.49,
+    "KI"
+   ],
+   [
+    73,
+    35.32,
+    "TK"
+   ],
+   [
+    197,
+    30.11,
+    "PN"
+   ],
+   [
+    354,
+    27.48,
+    "MH"
+   ],
+   [
+    174,
+    24.76,
+    "IO"
+   ],
+   [
+    239,
+    20.2,
+    "WF"
+   ],
+   [
+    221,
+    15.98,
+    "CK"
+   ],
+   [
+    76,
+    15.9,
+    "TV"
+   ],
+   [
+    555,
+    9.58,
+    "PF"
+   ]
+  ],
+  "methods": {
+   "centroid": 197,
+   "nearest-part-centroid": 40,
+   "pole-of-inaccessibility": 9
+  }
+ },
+ "state_centres": {
+  "with_polygon": 3665,
+  "inside_own_polygon": 3665,
+  "inside_rate": "100.00%",
+  "outside": [],
+  "vs_naturalearth_label_km": {
+   "n": 3037,
+   "median": 7.16,
+   "p90": 44.54,
+   "p95": 75.69,
+   "max": 1306.21
+  },
+  "vs_naturalearth_label_relative_to_size": {
+   "n": 3037,
+   "median": 0.1,
+   "p90": 0.37,
+   "p95": 0.69,
+   "max": 33.4
+  },
+  "vs_naturalearth_label_largest": [
+   [
+    35,
+    33.4,
+    "MV-27"
+   ],
+   [
+    271,
+    29.61,
+    "MH-T"
+   ],
+   [
+    206,
+    27.51,
+    "TO-03"
+   ],
+   [
+    36,
+    26.68,
+    "MV-00"
+   ],
+   [
+    25,
+    23.42,
+    "MV-12"
+   ],
+   [
+    19,
+    15.52,
+    "MV-02"
+   ],
+   [
+    71,
+    13.34,
+    "PW-050"
+   ],
+   [
+    75,
+    12.83,
+    "IN-LD"
+   ],
+   [
+    67,
+    10.47,
+    "SC-15"
+   ],
+   [
+    19,
+    10.2,
+    "MV-25"
+   ]
+  ],
+  "vs_wikidata_km": {
+   "n": 3694,
+   "median": 10.39,
+   "p90": 57.88,
+   "p95": 87.86,
+   "max": 1711.93
+  },
+  "vs_wikidata_relative_to_size": {
+   "n": 3647,
+   "median": 0.19,
+   "p90": 0.56,
+   "p95": 0.75,
+   "max": 246.41
+  },
+  "vs_wikidata_largest": [
+   [
+    1712,
+    246.41,
+    "KI-P"
+   ],
+   [
+    65,
+    52.84,
+    "MV-02"
+   ],
+   [
+    257,
+    36.74,
+    "CO-SAP"
+   ],
+   [
+    35,
+    33.31,
+    "MV-27"
+   ],
+   [
+    204,
+    27.16,
+    "TO-03"
+   ],
+   [
+    27,
+    25.35,
+    "MV-12"
+   ],
+   [
+    209,
+    23.07,
+    "MH-L"
+   ],
+   [
+    29,
+    23.06,
+    "MV-20"
+   ],
+   [
+    205,
+    22.42,
+    "MH-T"
+   ],
+   [
+    76,
+    20.88,
+    "PW-100"
+   ]
+  ],
+  "methods": {
+   "centroid": 3395,
+   "nearest-part-centroid": 92,
+   "pole-of-inaccessibility": 57,
+   "voronoi-approx": 121,
+   "wikidata-point": 47,
+   "country-centre": 16
+  },
+  "approximate": [
+   "CI-AB",
+   "KG-GO",
+   "KZ-75",
+   "MC-CL",
+   "MC-CO",
+   "MC-FO",
+   "MC-GA",
+   "MC-JE",
+   "MC-LA",
+   "MC-MA",
+   "MC-MC",
+   "MC-MG",
+   "MC-MO",
+   "MC-MU",
+   "MC-PH",
+   "MC-SD",
+   "MC-SO",
+   "MC-SP",
+   "MC-SR",
+   "MC-VR",
+   "MR-14",
+   "MZ-MPM",
+   "PA-NT",
+   "PS-BTH",
+   "PS-DEB",
+   "PS-HBN",
+   "PS-JEM",
+   "PS-JEN",
+   "PS-JRH",
+   "PS-KYS",
+   "PS-NBS",
+   "PS-NGZ",
+   "PS-QQA",
+   "PS-RBH",
+   "PS-RFH",
+   "PS-SLT",
+   "PS-TBS",
+   "PS-TKM",
+   "SC-26",
+   "SC-27",
+   "SI-088",
+   "ST-01",
+   "ST-02",
+   "ST-03",
+   "ST-04",
+   "ST-05",
+   "ST-06",
+   "TH-S",
+   "UG-126",
+   "UG-235",
+   "UG-236",
+   "UG-237",
+   "UG-333",
+   "UG-334",
+   "UG-335",
+   "UG-336",
+   "UG-337",
+   "UG-431",
+   "UG-432",
+   "UG-433",
+   "UG-434",
+   "UG-435",
+   "UM-89"
+  ]
+ },
+ "continent_centres": [
+  {
+   "continent": "AF",
+   "lat": 6.431,
+   "lng": 18.678,
+   "inside_country": "CF"
+  },
+  {
+   "continent": "AQ",
+   "lat": -85.059,
+   "lng": 81.663,
+   "inside_country": "AQ"
+  },
+  {
+   "continent": "AS",
+   "lat": 43.387,
+   "lng": 90.254,
+   "inside_country": "CN"
+  },
+  {
+   "continent": "EU",
+   "lat": 54.928,
+   "lng": 24.97,
+   "inside_country": "LT"
+  },
+  {
+   "continent": "NA",
+   "lat": 52.011,
+   "lng": -97.921,
+   "inside_country": "CA"
+  },
+  {
+   "continent": "OC",
+   "lat": -25.28,
+   "lng": 136.27,
+   "inside_country": "AU"
+  },
+  {
+   "continent": "SA",
+   "lat": -13.991,
+   "lng": -60.375,
+   "inside_country": "BR"
+  }
+ ],
+ "city_coordinates": {
+  "cities": 231129,
+  "vs_wikidata_same_entity_km": {
+   "n": 38492,
+   "median": 0.32,
+   "p90": 1.55,
+   "p95": 2.3,
+   "max": 1553.93
+  },
+  "within_1km_of_wikidata": "80.96%",
+  "within_5km_of_wikidata": "98.52%",
+  "within_10km_of_wikidata": "99.50%",
+  "largest_differences": [
+   [
+    1553.9,
+    "Liuhao",
+    "CN",
+    "Q10893367"
+   ],
+   [
+    1425.7,
+    "Bailu",
+    "CN",
+    "Q31851706"
+   ],
+   [
+    1163.8,
+    "Punta de Piedras",
+    "CO",
+    "Q3410874"
+   ],
+   [
+    408.9,
+    "Gökçesu",
+    "TR",
+    "Q2671116"
+   ],
+   [
+    243.7,
+    "Stegen",
+    "DE",
+    "Q1923887"
+   ],
+   [
+    219.3,
+    "Mahlabatini",
+    "ZA",
+    "Q6395826"
+   ],
+   [
+    186.8,
+    "Waipawa",
+    "NZ",
+    "Q1292354"
+   ],
+   [
+    183.1,
+    "Tumxuk",
+    "CN",
+    "Q989606"
+   ],
+   [
+    179.8,
+    "Al Jubayl",
+    "SA",
+    "Q12185424"
+   ],
+   [
+    168.4,
+    "Zhetang",
+    "CN",
+    "Q11048374"
+   ],
+   [
+    156.2,
+    "Xinchang",
+    "CN",
+    "Q11081857"
+   ],
+   [
+    139.3,
+    "Ndom",
+    "CM",
+    "Q12698776"
+   ],
+   [
+    135.9,
+    "Puerto Quijarro",
+    "BO",
+    "Q2117434"
+   ],
+   [
+    127.7,
+    "Xindou",
+    "CN",
+    "Q8070082"
+   ],
+   [
+    124.9,
+    "Deerfield",
+    "US",
+    "Q2304547"
+   ]
+  ],
+  "inside_country_polygon_10km": "99.77%",
+  "outside_country_examples": [
+   [
+    "Abū Mūsá",
+    "AE"
+   ],
+   [
+    "Neft Daşları",
+    "AZ"
+   ],
+   [
+    "Haidao",
+    "CN"
+   ],
+   [
+    "Aberdeen",
+    "CN"
+   ],
+   [
+    "Aberdeen Centre",
+    "CN"
+   ],
+   [
+    "Aldrich Bay",
+    "CN"
+   ],
+   [
+    "Aldrich Garden",
+    "CN"
+   ],
+   [
+    "Ap Lei Chau Estate",
+    "CN"
+   ],
+   [
+    "Aqua Marine",
+    "CN"
+   ],
+   [
+    "Baguio Villa",
+    "CN"
+   ],
+   [
+    "Banyan Garden",
+    "CN"
+   ],
+   [
+    "Bedford Garden",
+    "CN"
+   ],
+   [
+    "Braemar Hill",
+    "CN"
+   ],
+   [
+    "Braemar Hill Mansions",
+    "CN"
+   ],
+   [
+    "Broadview Court",
+    "CN"
+   ]
+  ],
+  "inside_state_polygon_3km": "99.51%",
+  "rounding_error_bound_m": 79
+ },
+ "city_state_signals": {
+  "assignment_methods": {
+   "admin": 222090,
+   "country-without-states": 830,
+   "forced": 495,
+   "nearest": 158,
+   "polygon": 6783,
+   "polygon-override": 201,
+   "unknown": 572
+  },
+  "admin_vs_polygon_agreement": "98.86%",
+  "compared": 219640,
+  "polygon_relabels": {
+   "EC-N": "EC-T",
+   "EC-T": "EC-N",
+   "GY-CU": "GY-PM",
+   "GY-DE": "GY-ES",
+   "GY-EB": "GY-DE",
+   "GY-ES": "GY-MA",
+   "GY-MA": "GY-EB",
+   "GY-PM": "GY-CU",
+   "GY-UD": "GY-UT",
+   "GY-UT": "GY-UD",
+   "PG-WHM": "PG-WPD",
+   "PG-WPD": "PG-WHM",
+   "SI-092": "SI-149",
+   "SI-149": "SI-092",
+   "SM-03": "SM-06"
+  },
+  "admin_unit_remaps": {}
+ },
+ "city_state_vs_wikidata": {
+  "sampled": 2326,
+  "comparable": 2201,
+  "agreement": "99.09%",
+  "mismatch_examples": [
+   [
+    "Nganglam",
+    "BT",
+    "BT-45",
+    [
+     "BT-43"
+    ]
+   ],
+   [
+    "Gaborone",
+    "BW",
+    "BW-GA",
+    [
+     "BW-SE"
+    ]
+   ],
+   [
+    "Pandamatenga",
+    "BW",
+    "BW-NW",
+    [
+     "BW-CH"
+    ]
+   ],
+   [
+    "Selebi-Phikwe",
+    "BW",
+    "BW-SP",
+    [
+     "BW-CE"
+    ]
+   ],
+   [
+    "Lobatse",
+    "BW",
+    "BW-LO",
+    [
+     "BW-SE"
+    ]
+   ],
+   [
+    "Bogotá",
+    "CO",
+    "CO-DC",
+    [
+     "CO-CUN"
+    ]
+   ],
+   [
+    "Loyada",
+    "DJ",
+    "DJ-DJ",
+    [
+     "DJ-AR"
+    ]
+   ],
+   [
+    "La Libertad",
+    "EC",
+    "EC-G",
+    [
+     "EC-SE"
+    ]
+   ],
+   [
+    "At Tall al Kabīr",
+    "EG",
+    "EG-SHR",
+    [
+     "EG-IS"
+    ]
+   ],
+   [
+    "Worabe",
+    "ET",
+    "ET-SI",
+    [
+     "ET-SN"
+    ]
+   ],
+   [
+    "Gīmbīcho",
+    "ET",
+    "ET-SW",
+    [
+     "ET-SN"
+    ]
+   ],
+   [
+    "Hadero",
+    "ET",
+    "ET-SW",
+    [
+     "ET-SN"
+    ]
+   ],
+   [
+    "Duramē",
+    "ET",
+    "ET-SW",
+    [
+     "ET-SN"
+    ]
+   ],
+   [
+    "Ŏdŏngk",
+    "KH",
+    "KH-6",
+    [
+     "KH-5"
+    ]
+   ],
+   [
+    "Namp’o",
+    "KP",
+    "KP-14",
+    [
+     "KP-02"
+    ]
+   ],
+   [
+    "Zliten",
+    "LY",
+    "LY-MI",
+    [
+     "LY-MB"
+    ]
+   ],
+   [
+    "Mġarr",
+    "MT",
+    "MT-31",
+    [
+     "MT-13"
+    ]
+   ],
+   [
+    "Honiara",
+    "SB",
+    "SB-CT",
+    [
+     "SB-GU"
+    ]
+   ],
+   [
+    "Al Fūlah",
+    "SD",
+    "SD-KS",
+    [
+     "SD-GK"
+    ]
+   ],
+   [
+    "Pakwach",
+    "UG",
+    "UG-332",
+    [
+     "UG-310"
+    ]
+   ]
+  ],
+  "mismatches_by_country": [
+   [
+    "BW",
+    4
+   ],
+   [
+    "ET",
+    4
+   ],
+   [
+    "BT",
+    1
+   ],
+   [
+    "CO",
+    1
+   ],
+   [
+    "DJ",
+    1
+   ],
+   [
+    "EC",
+    1
+   ],
+   [
+    "EG",
+    1
+   ],
+   [
+    "KH",
+    1
+   ],
+   [
+    "KP",
+    1
+   ],
+   [
+    "LY",
+    1
+   ],
+   [
+    "MT",
+    1
+   ],
+   [
+    "SB",
+    1
+   ],
+   [
+    "SD",
+    1
+   ],
+   [
+    "UG",
+    1
+   ]
+  ]
+ },
+ "known_city_states": {
+  "checked": 128,
+  "correct": 128,
+  "failures": []
+ },
+ "known_city_timezones": {
+  "checked": 32,
+  "correct": 32,
+  "failures": []
+ },
+ "state_timezone_solar_check": {
+  "states": 3728,
+  "over_3_5h_from_solar_time": [
+   [
+    "KI-L",
+    "Line Islands",
+    "Pacific/Kiritimati",
+    14.0,
+    -10.5
+   ],
+   [
+    "NZ-CIT",
+    "Chatham Islands",
+    "Pacific/Chatham",
+    13.8,
+    -11.8
+   ],
+   [
+    "TO-01",
+    "ʻEua",
+    "Pacific/Tongatapu",
+    13.0,
+    -11.7
+   ],
+   [
+    "TO-02",
+    "Haʻapai",
+    "Pacific/Tongatapu",
+    13.0,
+    -11.6
+   ],
+   [
+    "TO-03",
+    "Niuas",
+    "Pacific/Tongatapu",
+    13.0,
+    -11.7
+   ],
+   [
+    "TO-04",
+    "Tongatapu",
+    "Pacific/Tongatapu",
+    13.0,
+    -11.7
+   ],
+   [
+    "TO-05",
+    "Vava‘u",
+    "Pacific/Tongatapu",
+    13.0,
+    -11.6
+   ],
+   [
+    "UM-81",
+    "Baker Island",
+    "Pacific/Kanton",
+    13.0,
+    -11.8
+   ],
+   [
+    "UM-84",
+    "Howland Island",
+    "Pacific/Kanton",
+    13.0,
+    -11.8
+   ],
+   [
+    "UM-86",
+    "Jarvis Island",
+    "Pacific/Kiritimati",
+    14.0,
+    -10.7
+   ],
+   [
+    "UM-89",
+    "Kingman Reef",
+    "Pacific/Kiritimati",
+    14.0,
+    -10.8
+   ],
+   [
+    "UM-95",
+    "Palmyra Atoll",
+    "Pacific/Kiritimati",
+    14.0,
+    -10.8
+   ],
+   [
+    "WF-AL",
+    "Alo",
+    "Pacific/Wallis",
+    12.0,
+    -11.9
+   ],
+   [
+    "WF-SG",
+    "Sigave",
+    "Pacific/Wallis",
+    12.0,
+    -11.9
+   ],
+   [
+    "WF-UV",
+    "Uvea",
+    "Pacific/Wallis",
+    12.0,
+    -11.7
+   ],
+   [
+    "WS-AA",
+    "A'ana",
+    "Pacific/Apia",
+    13.0,
+    -11.5
+   ],
+   [
+    "WS-AL",
+    "Aiga-i-le-Tai",
+    "Pacific/Apia",
+    13.0,
+    -11.5
+   ],
+   [
+    "WS-AT",
+    "Atua",
+    "Pacific/Apia",
+    13.0,
+    -11.4
+   ],
+   [
+    "WS-FA",
+    "Fa'asaleleaga",
+    "Pacific/Apia",
+    13.0,
+    -11.5
+   ],
+   [
+    "WS-GE",
+    "Gaga'emauga",
+    "Pacific/Apia",
+    13.0,
+    -11.5
+   ],
+   [
+    "WS-GI",
+    "Gaga'ifomauga",
+    "Pacific/Apia",
+    13.0,
+    -11.5
+   ],
+   [
+    "WS-PA",
+    "Palauli",
+    "Pacific/Apia",
+    13.0,
+    -11.5
+   ],
+   [
+    "WS-SA",
+    "Satupa'itea",
+    "Pacific/Apia",
+    13.0,
+    -11.5
+   ],
+   [
+    "WS-TU",
+    "Tuamasaga",
+    "Pacific/Apia",
+    13.0,
+    -11.5
+   ],
+   [
+    "WS-VF",
+    "Va'a-o-Fonoti",
+    "Pacific/Apia",
+    13.0,
+    -11.4
+   ],
+   [
+    "WS-VS",
+    "Vaisigano",
+    "Pacific/Apia",
+    13.0,
+    -11.5
+   ]
+  ]
+ },
+ "states_with_multiple_zones": 110,
+ "translations": {
+  "fr": {
+   "countries": 175,
+   "states": 1757,
+   "cities": 4390
+  },
+  "de": {
+   "countries": 150,
+   "states": 2270,
+   "cities": 5537
+  },
+  "es": {
+   "countries": 163,
+   "states": 2624,
+   "cities": 4469
+  },
+  "pt": {
+   "countries": 190,
+   "states": 1798,
+   "cities": 2622
+  },
+  "ru": {
+   "countries": 246,
+   "states": 3659,
+   "cities": 74418,
+   "expected_script_rate": "99.67%"
+  },
+  "zh": {
+   "countries": 246,
+   "states": 3647,
+   "cities": 42096,
+   "expected_script_rate": "100.00%"
+  },
+  "ja": {
+   "countries": 246,
+   "states": 3620,
+   "cities": 18654,
+   "expected_script_rate": "99.95%"
+  },
+  "ar": {
+   "countries": 246,
+   "states": 3423,
+   "cities": 22931,
+   "expected_script_rate": "99.82%"
+  },
+  "hi": {
+   "countries": 246,
+   "states": 3274,
+   "cities": 5986,
+   "expected_script_rate": "99.88%"
+  },
+  "bn": {
+   "countries": 246,
+   "states": 3142,
+   "cities": 5397,
+   "expected_script_rate": "99.78%"
+  },
+  "pa": {
+   "countries": 246,
+   "states": 404,
+   "cities": 4318,
+   "expected_script_rate": "99.24%"
+  }
+ },
+ "completeness": {
+  "states_without_cities": [
+   "AG-11",
+   "BB-03",
+   "BS-BY",
+   "BS-CS",
+   "BS-GC",
+   "BS-HT",
+   "BS-MC",
+   "BS-NE",
+   "BS-SA",
+   "BS-SO",
+   "CI-AB",
+   "ET-SN",
+   "FR-CP",
+   "HU-BC",
+   "HU-DE",
+   "HU-DU",
+   "HU-EG",
+   "HU-ER",
+   "HU-GY",
+   "HU-HV",
+   "HU-KM",
+   "HU-KV",
+   "HU-MI",
+   "HU-NK",
+   "HU-NY",
+   "HU-PS",
+   "HU-SD",
+   "HU-SF",
+   "HU-SH",
+   "HU-SK",
+   "HU-SN",
+   "HU-SS",
+   "HU-ST",
+   "HU-TB",
+   "HU-VM",
+   "HU-ZE",
+   "KG-GO",
+   "KZ-75",
+   "LC-12",
+   "MC-CL",
+   "MC-CO",
+   "MC-FO",
+   "MC-GA",
+   "MC-JE",
+   "MC-LA",
+   "MC-MA",
+   "MC-MC",
+   "MC-MG",
+   "MC-MO",
+   "MC-MU",
+   "MC-PH",
+   "MC-SD",
+   "MC-SO",
+   "MC-SP",
+   "MC-SR",
+   "MC-VR",
+   "MK-808",
+   "MK-814",
+   "MK-817",
+   "MR-14",
+   "MT-53",
+   "MV-02",
+   "MV-MLE",
+   "MZ-MPM",
+   "PA-NT",
+   "PS-BTH",
+   "PS-DEB",
+   "PS-GZA",
+   "PS-HBN",
+   "PS-JEM",
+   "PS-JEN",
+   "PS-JRH",
+   "PS-KYS",
+   "PS-NBS",
+   "PS-NGZ",
+   "PS-QQA",
+   "PS-RBH",
+   "PS-RFH",
+   "PS-SLT",
+   "PS-TBS",
+   "PS-TKM",
+   "SB-RB",
+   "SC-03",
+   "SC-04",
+   "SC-09",
+   "SC-17",
+   "SC-18",
+   "SC-19",
+   "SC-22",
+   "SC-24",
+   "SC-26",
+   "SC-27",
+   "ST-01",
+   "ST-02",
+   "ST-03",
+   "ST-04",
+   "ST-05",
+   "ST-06",
+   "TH-S",
+   "TV-NKL",
+   "TV-NMA",
+   "UG-119",
+   "UG-123",
+   "UG-126",
+   "UG-201",
+   "UG-225",
+   "UG-235",
+   "UG-236",
+   "UG-237",
+   "UG-333",
+   "UG-334",
+   "UG-335",
+   "UG-336",
+   "UG-337",
+   "UG-431",
+   "UG-432",
+   "UG-433",
+   "UG-434",
+   "UG-435",
+   "UM-67",
+   "UM-71",
+   "UM-76",
+   "UM-79",
+   "UM-81",
+   "UM-84",
+   "UM-86",
+   "UM-89",
+   "UM-95"
+  ],
+  "countries_without_cities": [
+   "AQ",
+   "BV",
+   "HM",
+   "UM"
+  ],
+  "cities_by_source": {
+   "geonames": 225508,
+   "manual": 1,
+   "wikidata": 5620
+  },
+  "lowest_cities_per_million": [
+   [
+    1.3,
+    "BD",
+    220
+   ],
+   [
+    1.6,
+    "CD",
+    175
+   ],
+   [
+    2.1,
+    "MW",
+    47
+   ],
+   [
+    2.5,
+    "SD",
+    130
+   ],
+   [
+    2.6,
+    "ET",
+    351
+   ],
+   [
+    2.7,
+    "NE",
+    76
+   ],
+   [
+    2.8,
+    "EG",
+    328
+   ],
+   [
+    2.8,
+    "SS",
+    34
+   ],
+   [
+    3.1,
+    "MZ",
+    109
+   ],
+   [
+    3.2,
+    "PK",
+    810
+   ],
+   [
+    3.8,
+    "TD",
+    79
+   ],
+   [
+    4.1,
+    "ML",
+    103
+   ],
+   [
+    4.1,
+    "NP",
+    120
+   ],
+   [
+    4.4,
+    "RW",
+    64
+   ],
+   [
+    4.4,
+    "ZW",
+    74
+   ]
+  ],
+  "thin_coverage_countries_supplemented_by_wikidata": [
+   "AE",
+   "AF",
+   "AN",
+   "BD",
+   "BF",
+   "BH",
+   "BI",
+   "BJ",
+   "CD",
+   "CM",
+   "CS",
+   "DZ",
+   "EG",
+   "ER",
+   "ET",
+   "GH",
+   "GN",
+   "IN",
+   "IQ",
+   "KE",
+   "KP",
+   "KR",
+   "KW",
+   "LK",
+   "LR",
+   "MG",
+   "ML",
+   "MW",
+   "MZ",
+   "NE",
+   "NG",
+   "NP",
+   "OM",
+   "PG",
+   "PK",
+   "QA",
+   "RW",
+   "SA",
+   "SD",
+   "SG",
+   "SO",
+   "SS",
+   "TD",
+   "TG",
+   "TZ",
+   "UG",
+   "UZ",
+   "XK",
+   "YE",
+   "ZM",
+   "ZW"
+  ]
+ },
+ "before_after": {
+  "old": {
+   "countries": 222,
+   "states": 3086,
+   "cities": 19671,
+   "states_with_valid_iso3166_2_code": "29.29%",
+   "countries_with_states": 190
+  },
+  "new": {
+   "countries": 246,
+   "states": 3728,
+   "cities": 231129,
+   "states_with_valid_iso3166_2_code": "100.00%",
+   "countries_with_states": 199
+  },
+  "old_city_coordinates_error_km": {
+   "n": 12603,
+   "median": 352.72,
+   "p90": 1016.12,
+   "p95": 1383.71,
+   "max": 5949.78
+  },
+  "old_country_coordinates_distance_to_new_centre_km": {
+   "n": 213,
+   "median": 37.99,
+   "p90": 217.85,
+   "p95": 425.29,
+   "max": 1413.96
+  }
+ },
+ "bundle": {
+  "Continents only": {
+   "initial_kb_gzip": 4.4
+  },
+  "Countries only": {
+   "initial_kb_gzip": 12.2
+  },
+  "States (+countries)": {
+   "initial_kb_gzip": 77.0
+  },
+  "Cities loader (no city data yet)": {
+   "initial_kb_gzip": 16.1
+  },
+  "Everything except city chunks": {
+   "initial_kb_gzip": 82.3
+  },
+  "city_chunk_kb_gzip": {
+   "countries": 242,
+   "median": 1.8,
+   "largest": [
+    [
+     "US",
+     246.1
+    ],
+    [
+     "MX",
+     201.1
+    ],
+    [
+     "FR",
+     178.6
+    ],
+    [
+     "CN",
+     168.5
+    ],
+    [
+     "IT",
+     130.7
+    ]
+   ],
+   "all_countries_total": 2733.7,
+   "GH": 3.0,
+   "NG": 15.4,
+   "KE": 4.6,
+   "DE": 129.0,
+   "IN": 99.2
+  },
+  "previous_release_data_json": {
+   "raw_mb": 17.5,
+   "gzip_mb": 1.52,
+   "note": "imported by every module in the previous release"
+  }
+ }
+}

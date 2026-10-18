@@ -43,3 +43,6 @@ public/sitemap*.xml
 .env
 dist
 *.tgz
+# generated
+www/public/_pagefind/
+package/package-lock.json

@@ -1,0 +1,596 @@
+[
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Boffa",
+    "stateISO": "BF"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Boké",
+    "stateISO": "BK"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Coyah",
+    "stateISO": "CO"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Dabola",
+    "stateISO": "DB"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Dalaba",
+    "stateISO": "DL"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Dinguiraye",
+    "stateISO": "DI"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Dubréka",
+    "stateISO": "DU"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Faranah",
+    "stateISO": "FA"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Forécariah",
+    "stateISO": "FO"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Fria",
+    "stateISO": "FR"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Gaoual",
+    "stateISO": "GA"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Guéckédou",
+    "stateISO": "GU"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Kankan",
+    "stateISO": "KA"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Kérouané",
+    "stateISO": "KE"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Kindia",
+    "stateISO": "KI"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Kissidougou",
+    "stateISO": "KO"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Koubia",
+    "stateISO": "KB"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Koundara",
+    "stateISO": "KD"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Kouroussa",
+    "stateISO": "KS"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Labé",
+    "stateISO": "LA"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Lélouma",
+    "stateISO": "LE"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Lola",
+    "stateISO": "LO"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Macenta",
+    "stateISO": "MAC"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Mali",
+    "stateISO": "ML"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Mamou",
+    "stateISO": "MM"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Mandiana",
+    "stateISO": "MD"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Nzérékoré",
+    "stateISO": "NZ"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Pita",
+    "stateISO": "PI"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Siguiri",
+    "stateISO": "SI"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Télimélé",
+    "stateISO": "TE"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Tougué",
+    "stateISO": "TO"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Yomou",
+    "stateISO": "YO"
+  },
+  {
+    "country": "Guinea",
+    "countryISO": "GN",
+    "state": "Conakry",
+    "stateISO": "CNK"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "countryISO": "GW",
+    "state": "Bissau",
+    "stateISO": "BS"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "countryISO": "GW",
+    "state": "Bafatá",
+    "stateISO": "BA"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "countryISO": "GW",
+    "state": "Biombo",
+    "stateISO": "BM"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "countryISO": "GW",
+    "state": "Bolama",
+    "stateISO": "BL"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "countryISO": "GW",
+    "state": "Cacheu",
+    "stateISO": "CA"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "countryISO": "GW",
+    "state": "Gabú",
+    "stateISO": "GA"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "countryISO": "GW",
+    "state": "Oio",
+    "stateISO": "OI"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "countryISO": "GW",
+    "state": "Quinara",
+    "stateISO": "QU"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "countryISO": "GW",
+    "state": "Tombali",
+    "stateISO": "TO"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Central Equatoria",
+    "stateISO": "CE"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Eastern Equatoria",
+    "stateISO": "EE"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Western Equatoria",
+    "stateISO": "WE"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Jonglei",
+    "stateISO": "JG"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Upper Nile",
+    "stateISO": "UP"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Warrap",
+    "stateISO": "WR"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Northern Bahr el Ghazal",
+    "stateISO": "NB"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Western Bahr el Ghazal",
+    "stateISO": "WB"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Lakes",
+    "stateISO": "LK"
+  },
+  {
+    "country": "South Sudan",
+    "countryISO": "SS",
+    "state": "Unity",
+    "stateISO": "UN"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "Khartoum",
+    "stateISO": "KH"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "Red Sea",
+    "stateISO": "RS"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "Northern",
+    "stateISO": "NR"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "North Darfur",
+    "stateISO": "NW"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "North Kordofan",
+    "stateISO": "ND"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "Gedaref",
+    "stateISO": "GD"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "Kassala",
+    "stateISO": "KS"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "South Kordofan",
+    "stateISO": "SK"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "South Darfur",
+    "stateISO": "SD"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "West Darfur",
+    "stateISO": "WD"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "East Darfur",
+    "stateISO": "ED"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "Central Darfur",
+    "stateISO": "CD"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "White Nile",
+    "stateISO": "WR"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "Blue Nile",
+    "stateISO": "BL"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "Sennar",
+    "stateISO": "SN"
+  },
+  {
+    "country": "Sudan",
+    "countryISO": "SD",
+    "state": "Al Jazirah",
+    "stateISO": "AN"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Arusha",
+    "stateISO": "AR"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Dar es Salaam",
+    "stateISO": "DS"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Dodoma",
+    "stateISO": "DO"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Iringa",
+    "stateISO": "IR"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Kagera",
+    "stateISO": "KA"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Kigoma",
+    "stateISO": "KI"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Kilimanjaro",
+    "stateISO": "KR"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Lindi",
+    "stateISO": "LI"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Mbeya",
+    "stateISO": "MB"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Morogoro",
+    "stateISO": "MO"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Mtwara",
+    "stateISO": "MT"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Mwanza",
+    "stateISO": "MW"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Pwani",
+    "stateISO": "PN"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Rukwa",
+    "stateISO": "RK"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Ruvuma",
+    "stateISO": "RV"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Shinyanga",
+    "stateISO": "SH"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Singida",
+    "stateISO": "SI"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Tabora",
+    "stateISO": "TB"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Tanga",
+    "stateISO": "TN"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Zanzibar",
+    "stateISO": "ZN"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Geita",
+    "stateISO": "GE"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Katavi",
+    "stateISO": "KA2"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Njombe",
+    "stateISO": "NJ"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Simiyu",
+    "stateISO": "SI2"
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "countryISO": "TZ",
+    "state": "Songwe",
+    "stateISO": "SO"
+  },
+  {
+    "country": "Zambia",
+    "countryISO": "ZM",
+    "state": "Northern Province",
+    "stateISO": "NO"
+  },
+  {
+    "country": "Zambia",
+    "countryISO": "ZM",
+    "state": "North-Western Province",
+    "stateISO": "NW"
+  },
+  {
+    "country": "Zambia",
+    "countryISO": "ZM",
+    "state": "Southern Province",
+    "stateISO": "SO"
+  },
+  {
+    "country": "Zambia",
+    "countryISO": "ZM",
+    "state": "Western Province",
+    "stateISO": "WE"
+  },
+  {
+    "country": "Zambia",
+    "countryISO": "ZM",
+    "state": "Lusaka Province",
+    "stateISO": "LI"
+  },
+  {
+    "country": "Saint Lucia",
+    "countryISO": "LC",
+    "state": "Forest Reserve",
+    "stateISO": "FO"
+  }
+]

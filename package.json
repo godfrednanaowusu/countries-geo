@@ -1,27 +1,34 @@
 {
-    "name": "countries-geo-root",
-    "version": "0.0.1",
-    "private": false,
-    "workspaces":["www/*", "package/*"],
-    "scripts": {
-      "prepare": "husky install",
-      "www": "pnpm --filter=./countries-geo/www",
-      "build": "pnpm --filter=./package/* build",
-      "install-web":"pnpm --filter countries-geo-web install",
-      "test": "jest",
-      "prepublish": "npm run build",
-      "lint": "eslint index.ts __test__ --fix"
-
-    },
-    "husky": {
-      "hooks": {
-        "pre-commit": "npm test",
-        "pre-push": "npm test"
-      }
-    },
-    "devDependencies": {
-      "husky":"latest"
-    },
-    
-    "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+  "name": "countries-geo-root",
+  "version": "0.0.1",
+  "private": false,
+  "workspaces": [
+    "www/*",
+    "package/*"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "www": "pnpm --filter=./countries-geo/www",
+    "build": "pnpm --filter=./package/* build",
+    "install-web": "pnpm --filter countries-geo-web install",
+    "test": "jest",
+    "prepublish": "npm run build",
+    "lint": "eslint index.ts __test__ --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
+  "devDependencies": {
+    "husky": "latest"
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "pnpm": {
+    "overrides": {
+      "nextra>zod": "~4.3.6",
+      "nextra-theme-docs>zod": "~4.3.6"
+    }
   }
+}
